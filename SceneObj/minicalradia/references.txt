@@ -1,4 +1,4 @@
-1839
+1913
 mesh arabian_building_detail_f
 mesh arrow_bl_a_quiver
 mesh arrow_bl_b_quiver
@@ -59,6 +59,7 @@ mesh aserai_courtyard_a_stairs_part_a
 mesh aserai_courtyard_a_top
 mesh aserai_courtyard_railing
 mesh aserai_grandbazaar_wall
+mesh aserai_grip_5
 mesh axe_craft_14_handle
 mesh axe_craft_16_head
 mesh axe_craft_17_head
@@ -92,6 +93,7 @@ mesh bd_straw_a
 mesh bd_table_c
 mesh bd_table_d
 mesh bd_table_e
+mesh bd_table_small_b
 mesh bd_wall_baskets_b
 mesh bd_wheelbarrow_a
 mesh bolt_bl_a_quiver
@@ -110,7 +112,7 @@ mesh crossbow_b
 mesh crossbow_c
 mesh crossbow_f
 mesh crossbow_g
-mesh empire_aqueduct_end
+mesh dagger_blade_3
 mesh empire_blade_4
 mesh empire_bridge_a_part_a
 mesh empire_castle_keep_a_l3_interior_stair_a
@@ -193,20 +195,29 @@ mesh heater_shield_j
 mesh heater_shield_k
 mesh khuzait_blade_7
 mesh khuzait_corner_b
+mesh khuzait_dagger_guard_6
 mesh khuzait_grip_7
 mesh khuzait_guard_4
 mesh khuzait_pommel_2
+mesh khuzait_pommel_6
 mesh kitchen_basket_b
 mesh kitchen_bottle_b
 mesh kitchen_food_bread_a
 mesh kitchen_food_bread_c_slice
 mesh kitchen_food_leek
 mesh kitchen_hook
+mesh kitchen_knife
 mesh kitchen_mug_a
 mesh kitchen_mug_b
 mesh kitchen_pitcher_a
+mesh kitchen_plate_grape
 mesh kite_shield_e
 mesh kite_shield_j
+mesh lib_book_closed_a
+mesh lib_book_closed_b
+mesh lib_book_closed_c
+mesh lib_book_open_a
+mesh lib_scroll_a
 mesh log_bench_default_d
 mesh longbow_b
 mesh longbow_d
@@ -225,6 +236,8 @@ mesh mace_head_22
 mesh mace_head_7
 mesh mace_head_9
 mesh market_apple_crate
+mesh mead_cup_wooden_c
+mesh mead_cup_wooden_c_foam
 mesh merchandise_cloth_a
 mesh merchandise_cloth_b
 mesh merchandise_fish_a
@@ -271,6 +284,8 @@ mesh sturgian_grip_13
 mesh sturgian_grip_33
 mesh sturgian_guard_1
 mesh sturgian_pommel_7
+mesh throwing_knife2
+mesh torch_table_a
 mesh vlandia_grandbazaar_big_wall_b
 mesh vlandian_blade_2
 mesh vlandian_blade_3
@@ -318,6 +333,7 @@ prefab _to_carry_kitchen_pitcher_a
 prefab _to_carry_merchandise_hides_b
 prefab altar
 prefab ambient_sound_emitter
+prefab aquila
 prefab arabian_carpet_a
 prefab arabian_carpet_b
 prefab arabian_fountain_a
@@ -412,6 +428,10 @@ prefab battania_castle_keep_wood_stake_e
 prefab battania_castle_stairs_a_l2
 prefab battania_castle_stairs_b_l2
 prefab battania_castle_stairs_c_l2
+prefab battania_castle_tower_round_a_l2
+prefab battania_castle_tower_round_a_l2_stairs1
+prefab battania_castle_tower_round_a_l2_stairs2
+prefab battania_castle_tower_round_a_l2_stairs3
 prefab battania_castle_tower_round_a_l3
 prefab battania_castle_tower_round_a_l3_stairs
 prefab battania_castle_wall_a_bend
@@ -471,6 +491,7 @@ prefab bd_chair_b_01
 prefab bd_chair_c
 prefab bd_chair_c_right
 prefab bd_chair_empire_a_pillow_a
+prefab bd_chair_empire_b_pillow_a
 prefab bd_chair_khuzait_lord_c
 prefab bd_chair_king_a
 prefab bd_chair_king_b
@@ -498,6 +519,7 @@ prefab bd_khuzait_throne_b
 prefab bd_kitchen_stove__grill
 prefab bd_kitchen_stove_vlandia
 prefab bd_ladder_a
+prefab bd_log_and_axe
 prefab bd_manure_a
 prefab bd_mill_flour_sack
 prefab bd_mill_flour_sack_desk_a
@@ -563,6 +585,7 @@ prefab bd_table_trunk_a
 prefab bd_tapestry_aserai_d
 prefab bd_tapestry_battania
 prefab bd_tapestry_imperial_a
+prefab bd_tapestry_imperial_b
 prefab bd_tapestry_imperial_c
 prefab bd_tapestry_imperial_d
 prefab bd_tapestry_khuzait
@@ -596,18 +619,30 @@ prefab candle_flame
 prefab candle_flame_01
 prefab capture_flag_a
 prefab carpet_empire_a_hang_b
+prefab carpet_empire_b
 prefab carpet_empire_d
 prefab carpet_empire_d_hang_a
 prefab carpet_empire_e
 prefab carry_book
 prefab carry_book_left
 prefab castle_plank_wall_c
+prefab cave_desert_entry_a
+prefab cave_desert_floor_a
 prefab cave_desert_floor_b
+prefab cave_desert_rock_wall_a
+prefab cave_desert_rock_wall_b
+prefab cave_desert_rock_wall_d
+prefab cave_desert_rock_wall_e
 prefab cave_desert_rock_wall_f
+prefab cave_desert_rock_wall_g
+prefab cave_entry_a
+prefab cave_floor_a
+prefab cave_interior_a
 prefab cave_rock_small_a
 prefab cave_rock_wall_a
 prefab cave_rock_wall_b
 prefab cave_rock_wall_d
+prefab cave_rock_wall_e
 prefab chair_sit_position_back
 prefab chair_sit_position_back_left
 prefab chair_sit_position_back_middle_left
@@ -668,6 +703,11 @@ prefab empire_castle_corner_c_l3_stairs2
 prefab empire_castle_corner_d_l3
 prefab empire_castle_corner_roof
 prefab empire_castle_corner_roof_6
+prefab empire_castle_corner_stairs_1_l1
+prefab empire_castle_corner_stairs_2_l1
+prefab empire_castle_corner_stairs_3_l1
+prefab empire_castle_corner_stairs_4_l1
+prefab empire_castle_gate_outer_l2
 prefab empire_castle_gatehouse_a_l2
 prefab empire_castle_gatehouse_a_l2_leftstairs
 prefab empire_castle_gatehouse_a_l2_rightstairs
@@ -680,6 +720,8 @@ prefab empire_castle_stairs_a_l2
 prefab empire_castle_stairs_a_l3
 prefab empire_castle_stairs_b_l2
 prefab empire_castle_stairs_b_l3
+prefab empire_castle_stairs_c_l1
+prefab empire_castle_tower_round_a_l1
 prefab empire_castle_tower_round_a_l3
 prefab empire_castle_tower_round_a_l3_stairs
 prefab empire_castle_wall_a_l3
@@ -697,6 +739,7 @@ prefab empire_garden_sidewalk_c_short1
 prefab empire_garden_wall_b2
 prefab empire_garden_wall_c1
 prefab empire_garden_wall_c_round2
+prefab empire_garden_wall_d1
 prefab empire_garden_wall_top_b2
 prefab empire_garden_wall_top_b_short
 prefab empire_gatehouse_b
@@ -747,6 +790,7 @@ prefab empire_keep_d_base
 prefab empire_keep_d_column_a
 prefab empire_keep_d_dome_a
 prefab empire_keep_d_interior_arch_metal
+prefab empire_keep_d_interior_flag
 prefab empire_keep_d_stair
 prefab empire_keep_d_stair_wall
 prefab empire_keep_d_window_e
@@ -754,6 +798,7 @@ prefab empire_lord_pot_brass
 prefab empire_lord_pot_h
 prefab empire_lord_pot_i
 prefab empire_market_fountain
+prefab empire_obelisk_a
 prefab empire_road_floor_a_small
 prefab empire_road_plaza_a
 prefab empire_road_sidewalk_a
@@ -781,6 +826,7 @@ prefab empire_street_tent_04
 prefab empire_street_tent_05
 prefab empire_street_tent_06
 prefab empire_tablecloth_a
+prefab empire_tower_a
 prefab empire_triumphal_arch_a
 prefab empire_village_house_b
 prefab empire_village_house_d
@@ -816,6 +862,7 @@ prefab european_castle_keep_part_b
 prefab european_castle_stairs_a_l3
 prefab european_castle_stairs_a_l3_bo
 prefab european_castle_stairs_b_l1
+prefab european_castle_stairs_b_l2
 prefab european_castle_stairs_c_l3
 prefab european_castle_tower_roof
 prefab european_castle_tower_round_a_l3
@@ -833,6 +880,7 @@ prefab european_castle_wall_gate_l3_stairs
 prefab european_castle_wall_part_a
 prefab european_church_b_
 prefab european_city_gatehouse_a
+prefab european_city_house_a
 prefab european_city_house_d
 prefab european_city_house_f
 prefab european_city_house_g
@@ -865,6 +913,8 @@ prefab fishnet_a
 prefab fishnet_b
 prefab fishnet_d
 prefab fishnet_e
+prefab flag_5
+prefab flag_rope_cloth_02
 prefab flag_stand_big
 prefab flagpole_a
 prefab flame_loop
@@ -918,6 +968,16 @@ prefab hut_c_fishing
 prefab icon_man
 prefab inner_balcony
 prefab inner_details
+prefab intro_flag
+prefab ivy_01
+prefab ivy_02
+prefab ivy_03
+prefab ivy_european_01
+prefab ivy_european_02
+prefab ivy_european_03
+prefab ivy_european_04
+prefab ivy_european_05
+prefab ivy_european_06
 prefab khuzait_arena_fence_a
 prefab khuzait_arena_fence_b
 prefab khuzait_arena_fence_door_a_open
@@ -1190,6 +1250,7 @@ prefab pb_banner_forest
 prefab pb_banner_mine
 prefab pb_banner_outlaw
 prefab pb_barn_1
+prefab pb_barn_1_large
 prefab pb_barn_door
 prefab pb_barrel_ale_market
 prefab pb_barrel_flax_market
@@ -1314,6 +1375,7 @@ prefab pb_executioner_guard
 prefab pb_executioner_handle
 prefab pb_executioner_pommel
 prefab pb_farm_3x_wood_fence
+prefab pb_farm_stone_fence
 prefab pb_farm_volumetric
 prefab pb_fine_steel_market
 prefab pb_flax_market
@@ -1406,6 +1468,7 @@ prefab pb_pine_1
 prefab pb_pine_2
 prefab pb_pine_3
 prefab pb_pine_4
+prefab pb_pine_5
 prefab pb_platesmithy
 prefab pb_pommel_zweihander
 prefab pb_portcullis_destructable
@@ -1500,6 +1563,7 @@ prefab pb_vine_1
 prefab pb_vine_2
 prefab pb_vine_3
 prefab pb_vineyard
+prefab pb_vineyard_2
 prefab pb_vlandia_armory_b
 prefab pb_vlandia_axe_2_t4
 prefab pb_vlandia_boots_b
@@ -1597,6 +1661,9 @@ prefab rock_cliff_far_b
 prefab rock_cliff_top_a
 prefab rock_cliff_top_b
 prefab rock_cliff_top_c
+prefab rock_desert_cliff_c
+prefab rock_desert_cliff_d
+prefab rock_floor_a
 prefab roof
 prefab roof_tower
 prefab scene: arabian_house_new_a_interior_a
@@ -1615,6 +1682,7 @@ prefab scene: khuzait_house_e_interior_a
 prefab scene: khuzait_house_e_interior_b
 prefab scene: khuzait_house_g_interior_a
 prefab scene: khuzait_house_g_interior_b
+prefab scene: sturgia_house_a_interior
 prefab shelf_empire_a
 prefab shield
 prefab shields_a3
@@ -1687,11 +1755,14 @@ prefab sturgia_helmet_f
 prefab sturgia_helmet_g
 prefab sturgia_helmet_i
 prefab sturgia_helmet_k
+prefab sturgia_house_a
+prefab sturgia_house_a_stair
 prefab sturgia_leather_brass_bracer
 prefab sturgia_leather_brass_shoulder
 prefab sturgia_plate_armor
 prefab sturgia_plate_boot
 prefab sturgia_plate_gauntlet
+prefab sturgia_table_a
 prefab sturgia_town_house_d1_entrance_a_stair
 prefab sturgia_town_house_g_shed_a
 prefab sturgia_town_house_g_shed_b
@@ -1715,6 +1786,7 @@ prefab tavern_aserai_panel_c
 prefab tavern_aserai_table_a
 prefab tavern_empire_table_c
 prefab tavernkeeper_knife
+prefab terrain_cliff_a4
 prefab terrain_cliff_a_small_4
 prefab throne_empire
 prefab throne_sturgia
@@ -1736,12 +1808,14 @@ prefab tower_floor2
 prefab tower_stairs
 prefab tree_acacia_a
 prefab village_tent_d
+prefab vineyard_a2
 prefab vineyard_end
 prefab vlandia_arena_decoration_cloth_b1
 prefab vlandia_arena_decoration_cloth_b4
 prefab vlandia_arena_grandstand_a
 prefab vlandia_arena_grandstand_roof_cloth_a1
 prefab vlandia_arena_grandstand_roof_cloth_a3
+prefab vlandia_arena_main_building
 prefab vlandia_arena_tower
 prefab vlandia_arena_wall_a
 prefab vlandia_bench_a
