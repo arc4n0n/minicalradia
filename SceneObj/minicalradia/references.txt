@@ -1,4 +1,4 @@
-2136
+2155
 mesh arabian_building_detail_f
 mesh arrow_bl_a_quiver
 mesh arrow_bl_b_quiver
@@ -60,6 +60,7 @@ mesh aserai_courtyard_a_top
 mesh aserai_courtyard_railing
 mesh aserai_grandbazaar_wall
 mesh aserai_grip_5
+mesh aserai_shields_d
 mesh ashes_a
 mesh axe_craft_14_handle
 mesh axe_craft_16_head
@@ -212,28 +213,21 @@ mesh foods_basket_olive_a
 mesh foods_leek_basket
 mesh foods_watermelon_b_piece
 mesh hammer_wooden
+mesh heater_shield_a
 mesh heater_shield_f
 mesh heater_shield_i
 mesh heater_shield_j
 mesh heater_shield_k
 mesh horse_d
-mesh horse_harness_a_new
-mesh horse_harness_a_new_rein
 mesh horse_harness_aserai_a_clotest
 mesh horse_harness_aserai_a_rein
 mesh horse_harness_aserai_b_rein
 mesh horse_harness_b
-mesh horse_harness_imperial_a_clotest
-mesh horse_harness_imperial_a_rein
-mesh horse_harness_imperial_c
 mesh horse_harness_khuzait_a_clotest
 mesh horse_harness_khuzait_a_rein
 mesh horse_harness_khuzait_b_clotest
 mesh horse_harness_khuzait_b_rein
 mesh horse_harness_khuzait_d
-mesh horse_harness_roman_b_new_rein
-mesh horse_harness_saxon_new
-mesh horse_harness_saxon_new_rein
 mesh iron_a
 mesh khuzait_blade_7
 mesh khuzait_corner_b
@@ -245,6 +239,7 @@ mesh khuzait_pommel_2
 mesh khuzait_pommel_6
 mesh kitchen_basket_b
 mesh kitchen_bottle_b
+mesh kitchen_bottle_c
 mesh kitchen_bowl_b
 mesh kitchen_bowl_c
 mesh kitchen_cutting_food_bread
@@ -266,6 +261,7 @@ mesh kite_shield_e
 mesh kite_shield_j
 mesh log_bench_default_d
 mesh log_tree_high_group_b
+mesh longbow_a
 mesh longbow_b
 mesh longbow_d
 mesh longbow_h
@@ -320,6 +316,7 @@ mesh pb_handle_zweihander
 mesh pb_morningstar_handle
 mesh pb_morningstar_head
 mesh pb_pommel_zweihander
+mesh peasent_scythe
 mesh peasent_sickle
 mesh pot_a
 mesh pot_b
@@ -331,6 +328,7 @@ mesh shop_prop_merchantarmory_a
 mesh shop_prop_merchantbakery_a
 mesh shop_prop_merchantbakery_b
 mesh shop_prop_merchantcarpenter_b
+mesh shop_prop_merchantcarpenter_e
 mesh shop_prop_merchantflour_b
 mesh shop_prop_merchantflour_e
 mesh shop_prop_merchantleather_b
@@ -348,6 +346,7 @@ mesh shop_prop_merchantwinery_b
 mesh spear_blade_1
 mesh spear_blade_13
 mesh spear_guard_3
+mesh spear_handle_16
 mesh spear_handle_5
 mesh spear_pommel_5
 mesh steel
@@ -363,6 +362,7 @@ mesh sturgian_pommel_7
 mesh tavern_sturgia_table_a
 mesh throwing_knife2
 mesh vlandia_grandbazaar_big_wall_b
+mesh vlandia_twohanded_sword_b
 mesh vlandian_blade_2
 mesh vlandian_blade_3
 mesh vlandian_blade_8
@@ -381,8 +381,16 @@ mesh weapon_heap_arrow_a
 mesh weapon_rack_a
 mesh wooden_platform_2_plank_b
 mesh wooden_platform_2_plank_f_column
+mesh wooden_platform_a
+mesh wooden_platform_b
+mesh wooden_platform_c
+mesh wooden_platform_fence_a
+mesh wooden_platform_fence_b
+mesh wooden_platform_plank_c
 mesh wooden_platform_plank_d
+mesh wooden_platform_plank_e
 mesh wooden_platform_plank_f_column
+mesh wooden_platform_stairs_a
 prefab 
 prefab  desert_scorpion
 prefab BASE
@@ -705,7 +713,6 @@ prefab bd_tapestry_khuzait
 prefab bd_tapestry_sturgia
 prefab bd_tapestry_vlandia
 prefab bd_trough_a
-prefab bd_wall_baskets_b
 prefab bd_wall_bucket
 prefab bd_wall_decoration_weapons_n
 prefab bd_wall_pouches
@@ -757,6 +764,8 @@ prefab cave_entry_a
 prefab cave_floor_a
 prefab cave_interior_a
 prefab cave_interior_b
+prefab cave_rock_a
+prefab cave_rock_b
 prefab cave_rock_small_a
 prefab cave_rock_wall_a
 prefab cave_rock_wall_b
@@ -886,6 +895,7 @@ prefab empire_grandbazaar_corner
 prefab empire_grandbazaar_corner_shop_door
 prefab empire_grandbazaar_entry
 prefab empire_grandbazaar_floor_a
+prefab empire_grandbazaar_gate
 prefab empire_grandbazaar_shop_a
 prefab empire_grandbazaar_shop_b
 prefab empire_grandbazaar_shop_windows_a
@@ -899,6 +909,8 @@ prefab empire_hippodrome_middle_pot_b
 prefab empire_house_a
 prefab empire_house_b
 prefab empire_house_bridge_b_roof
+prefab empire_house_c
+prefab empire_house_d
 prefab empire_house_shed_a
 prefab empire_house_shrine_a
 prefab empire_house_storage_a
@@ -1250,7 +1262,11 @@ prefab log_pine_j
 prefab lord_pillow_b
 prefab lord_pillow_c
 prefab map_icons_production_sheep_farm_a
+prefab map_mountain_rock_d
 prefab map_mountain_rock_d_snw
+prefab map_mountain_rock_e
+prefab map_rock_big_a
+prefab market_apple_crate
 prefab market_hangedMeats2
 prefab market_leek_crate
 prefab market_potteryPile2
@@ -1451,7 +1467,6 @@ prefab pb_bearded_axe_t3
 prefab pb_bed
 prefab pb_blade_zweihander
 prefab pb_board_market
-prefab pb_bolt_a
 prefab pb_botany_table
 prefab pb_bowman_healer
 prefab pb_bread_market
@@ -1496,6 +1511,7 @@ prefab pb_class_serf
 prefab pb_classes_commoners
 prefab pb_classes_doctor-healer_a
 prefab pb_classes_doctor-healer_b
+prefab pb_classes_doctor-healer_c
 prefab pb_classes_doctor-healer_d
 prefab pb_classes_doctor-healer_outlaw
 prefab pb_classes_inf_a
@@ -1546,6 +1562,7 @@ prefab pb_estoc_handle
 prefab pb_estoc_pommel
 prefab pb_etoc_blade
 prefab pb_european_castle_gate
+prefab pb_european_castle_gate_outer_l1
 prefab pb_european_castle_gate_outer_l2
 prefab pb_european_castle_gate_outer_l2_l3
 prefab pb_european_castle_wall_a_l3_destructable
@@ -1763,7 +1780,6 @@ prefab pb_vlandia_mace_3_t5
 prefab pb_vlandia_noble_sword_1_t5
 prefab pb_vlandia_noble_sword_2_t5
 prefab pb_vlandia_polearm_1_t5
-prefab pb_vlandia_ranged_a
 prefab pb_vlandia_shields_serg_c
 prefab pb_vlandia_sword_1_t2
 prefab pb_vlandia_sword_2_t3
@@ -1872,6 +1888,8 @@ prefab scene: arabian_house_new_c_interior_b
 prefab scene: arabian_house_new_c_interior_c
 prefab scene: empire_house_a_interior
 prefab scene: empire_house_b_interior
+prefab scene: empire_house_c_interior
+prefab scene: empire_house_d_interior
 prefab scene: khuzait_house_c_interior_a
 prefab scene: khuzait_house_c_interior_b
 prefab scene: khuzait_house_e_interior_a
@@ -2022,6 +2040,7 @@ prefab torch_long_a
 prefab torch_outdoors_a_burning
 prefab torch_short_a
 prefab torch_table_a
+prefab torch_table_b
 prefab tower
 prefab tower_floor
 prefab tower_floor2
@@ -2061,7 +2080,6 @@ prefab waterfall_foam_circular
 prefab waterfall_splash_2
 prefab waterfall_splash_dust
 prefab waterfall_splash_dust_planar
-prefab weapon_heap_arrow_a
 prefab weapon_heap_sword_a
 prefab window
 prefab window_wall
@@ -2097,16 +2115,22 @@ texture cliff_c_d
 texture cliff_c_h
 texture cliff_c_n
 texture cliff_c_s
+texture cliff_sand_s
 texture color_grade_empire_soft
 texture desert_floor_a
 texture desert_floor_a_h
 texture desert_floor_a_n
 texture desert_floor_a_s
 texture dry_grass
+texture dry_grass_bump
+texture dry_grass_s
 texture gravel_a_d
 texture gravel_a_h
 texture gravel_a_n
 texture gravel_a_s
+texture ground_dirt_d
+texture ground_dirt_n
+texture ground_earth
 texture ground_forest_b_d
 texture ground_forest_b_h
 texture ground_forest_b_n
@@ -2116,12 +2140,7 @@ texture ground_forest_c_h
 texture ground_forest_c_n
 texture ground_forest_c_s
 texture ground_grass_soil_a_h
-texture ground_grass_soil_a_n
-texture ground_grass_soil_a_s
-texture ground_soil_b_d
 texture ground_soil_b_h
-texture ground_soil_b_n
-texture ground_soil_b_s
 texture lens_dirt
 texture lens_star
 texture rock_cliff_a
