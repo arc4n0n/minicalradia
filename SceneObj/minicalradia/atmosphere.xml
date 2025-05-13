@@ -59,12 +59,12 @@
 		<value name="sun_size" value="0.108"/>
 		<value name="sky_noise_amount" value="0.340"/>
 		<value name="sunshafts_strength" value="1.000"/>
-		<value name="sun_color" value="1.000, 0.883, 0.605"/>
+		<value name="sun_color" value="1.000, 0.789, 0.442"/>
 		<value name="rayleigh_constant" value="0.500"/>
 	</sun>
 	<postfx>
 		<value name="brightpass_threshold" value="0.589"/>
-		<value name="min_exposure" value="-10.719"/>
+		<value name="min_exposure" value="-15.759"/>
 		<value name="max_exposure" value="-2.000"/>
 		<value name="target_exposure" value="-7.572"/>
 		<value name="bloom_strength" value="0.900"/>
