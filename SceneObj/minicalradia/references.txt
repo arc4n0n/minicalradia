@@ -1,4 +1,4 @@
-2543
+2545
 mesh arabian_building_detail_f
 mesh arabian_platform_wooden_c
 mesh arrow_bl_a_quiver
@@ -2272,6 +2272,8 @@ prefab side_cover_small
 prefab side_left
 prefab side_right
 prefab siege_barricade_c
+prefab siege_ladder_11m_spawner
+prefab siege_ladder_14m_spawner
 prefab siege_ladder_6m_spawner
 prefab siege_ladder_7m_spawner
 prefab siege_ladder_8m_spawner

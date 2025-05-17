@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<scene name="minicalradia" version="2" unique_token="{F1F4D8EF-402E-463A-B153-4BF2C4D5D25A}" revision="1747499423819" id_automatic="true">
+<scene name="minicalradia" version="2" unique_token="{F1F4D8EF-402E-463A-B153-4BF2C4D5D25A}" revision="1747505933434" id_automatic="true">
 	<flora_bounding_rect min="19.594, 18.281" max="4067.823, 4047.512"/>
 	<levels>
 		<level name="base" mask="1"/>
@@ -32329,9 +32329,9 @@
 			<transform position="3965.793, 3788.473, 37.245" rotation_euler="-1.250, 0.741, 2.142" scale="1.791, 1.791, 2.167"/>
 			<components>
 				<meta_mesh_component>
-					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4288587917"/>
-					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4288587917"/>
-					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4288587917"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4284311635"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4284311635"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4284311635"/>
 				</meta_mesh_component>
 			</components>
 		</game_entity>
@@ -33508,7 +33508,7 @@
 			<transform position="1466.803, 2183.819, 64.446" rotation_euler="0.000, 0.000, -0.923"/>
 		</game_entity>
 		<game_entity prefab="pict_houses_b">
-			<transform position="1479.043, 2159.451, 68.506" rotation_euler="0.000, 0.000, -1.391"/>
+			<transform position="1479.043, 2159.451, 68.176" rotation_euler="0.000, 0.000, -1.391"/>
 		</game_entity>
 		<game_entity prefab="pict_houses_c">
 			<transform position="1490.115, 2166.344, 68.250" rotation_euler="0.000, 0.000, -0.015"/>
@@ -37518,7 +37518,7 @@
 			</components>
 		</game_entity>
 		<game_entity prefab="pb_pine_4">
-			<transform position="3163.115, 2769.943, 35.224" rotation_euler="0.000, 0.000, 0.000"/>
+			<transform position="3163.115, 2769.943, 34.484" rotation_euler="0.000, 0.000, 0.000"/>
 		</game_entity>
 		<game_entity prefab="rock_cliff_top_a">
 			<transform position="2265.526, 1852.964, 16.883" rotation_euler="0.377, -0.002, 0.827"/>
@@ -48896,7 +48896,7 @@
 			<transform position="3194.847, 2746.588, 24.589" rotation_euler="0.000, 0.000, 0.000"/>
 		</game_entity>
 		<game_entity prefab="pb_pine_5">
-			<transform position="3150.187, 2775.201, 35.748" rotation_euler="0.000, 0.000, 0.000"/>
+			<transform position="3150.187, 2775.201, 33.678" rotation_euler="0.000, 0.000, 0.000"/>
 		</game_entity>
 		<game_entity prefab="pb_khuzait_castle_wall_d_l3_destructable">
 			<transform position="3382.602, 2039.438, 19.206" rotation_euler="0.000, 0.000, 2.003"/>
@@ -52000,6 +52000,603 @@
 		</game_entity>
 		<game_entity prefab="pb_coal_mine">
 			<transform position="2859.200, 1593.865, 41.580" rotation_euler="0.000, 0.000, 0.610"/>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="3955.915, 3776.921, 43.505" rotation_euler="1.308, 1.167, -1.342" scale="1.791, 1.791, 2.167"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4289239417"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4289239417"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4289239417"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="3954.402, 3777.404, 45.750" rotation_euler="0.135, -1.467, 1.394" scale="1.791, 1.791, 2.167"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4288915591"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4288915591"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4288915591"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="3967.240, 3793.484, 43.655" rotation_euler="-0.936, -1.168, 0.134" scale="1.791, 1.791, 2.167"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4287798146"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4287798146"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4287798146"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="3965.598, 3785.490, 50.974" rotation_euler="-0.373, 1.319, 2.852" scale="1.791, 1.791, 2.167"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4287798146"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4287798146"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4287798146"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="3965.554, 3785.356, 48.855" rotation_euler="0.346, 1.321, 3.031" scale="1.791, 1.791, 2.167"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4287798146"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4287798146"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4287798146"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="3968.728, 3796.718, 42.902" rotation_euler="-0.757, 1.245, 2.717" scale="1.791, 1.791, 2.167"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4287726696"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4287726696"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4287726696"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="3976.974, 3769.875, 38.655" rotation_euler="0.458, 1.457, -1.683" scale="1.791, 1.791, 2.167"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4288915591"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4288915591"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4288915591"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="3975.655, 3770.368, 41.311" rotation_euler="-0.370, 1.461, -1.773" scale="1.791, 1.791, 2.167"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4287204465"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4287204465"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4287204465"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="ruinous_battania_castle_stone_heap_a">
+			<transform position="3974.641, 3770.739, 43.273" rotation_euler="-1.265, 1.225, -2.065" scale="2.280, 2.280, 2.759"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="ruinous_battania_castle_stone_heap_a.23" factor="4289239417"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod5.23" factor="4289239417"/>
+					<mesh name="ruinous_battania_castle_stone_heap_a.lod7.23" factor="4289239417"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="1861.685, 987.001, 14.985" rotation_euler="0.000, 0.000, -1.709"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="1917.590, 895.315, 15.524" rotation_euler="0.000, 0.000, 0.042"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="1939.732, 958.027, 14.656" rotation_euler="0.000, 0.000, 0.729"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="2731.404, 596.891, 17.792" rotation_euler="0.000, 0.000, 1.694"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_7m_spawner">
+			<transform position="2671.144, 544.122, 19.976" rotation_euler="0.000, 0.000, -2.223"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-0.999767, -0.021591, -0.000000, 0.000000, 0.021591, -0.999767, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.049000, 4.098000, 7.060000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.172000, 3.710000, 7.057000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_6m_spawner">
+			<transform position="2665.191, 480.894, 21.147" rotation_euler="0.000, 0.000, -0.616"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.058000, 3.708000, 5.969000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.176000, 3.295000, 5.866000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_7m_spawner">
+			<transform position="2758.318, 1199.589, 9.346" rotation_euler="0.000, 0.000, 2.541"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-0.999767, -0.021591, -0.000000, 0.000000, 0.021591, -0.999767, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.049000, 4.098000, 7.060000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.172000, 3.710000, 7.057000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_6m_spawner">
+			<transform position="2710.115, 1188.429, 10.410" rotation_euler="0.000, 0.000, -2.710"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.058000, 3.708000, 5.969000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.176000, 3.295000, 5.866000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_6m_spawner">
+			<transform position="2787.217, 1180.604, 10.683" rotation_euler="0.000, 0.000, 2.548"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.058000, 3.708000, 5.969000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.176000, 3.295000, 5.866000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_7m_spawner">
+			<transform position="3590.853, 1590.413, 30.941" rotation_euler="0.000, 0.000, -1.498"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-0.999767, -0.021591, -0.000000, 0.000000, 0.021591, -0.999767, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.049000, 4.098000, 7.060000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.172000, 3.710000, 7.057000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="3637.840, 1554.953, 28.612" rotation_euler="0.000, 0.000, -0.634"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_7m_spawner">
+			<transform position="3597.568, 1658.728, 34.925" rotation_euler="0.000, 0.000, -1.444"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-0.999767, -0.021591, -0.000000, 0.000000, 0.021591, -0.999767, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.049000, 4.098000, 7.060000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.172000, 3.710000, 7.057000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="3338.413, 1969.658, 15.306" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="3323.962, 2061.253, 14.687" rotation_euler="0.000, 0.000, -2.820"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="3341.054, 2061.136, 17.123" rotation_euler="0.000, 0.000, 3.127"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="3114.098, 2690.077, 27.012" rotation_euler="0.000, 0.000, 0.033"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_14m_spawner">
+			<transform position="3189.014, 2720.438, 21.158" rotation_euler="0.000, 0.000, 1.571"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.059000, 6.120000, 13.263000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.212000, 5.855000, 13.259000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="3146.050, 2761.753, 31.283" rotation_euler="0.000, 0.000, -2.992"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="2494.523, 2020.239, 28.929" rotation_euler="0.000, 0.000, 0.800"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_14m_spawner">
+			<transform position="2418.409, 1963.239, 26.992" rotation_euler="0.000, 0.000, -0.940"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.059000, 6.120000, 13.263000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.212000, 5.855000, 13.259000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="2396.722, 2003.028, 28.848" rotation_euler="0.000, 0.000, -0.752"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_7m_spawner">
+			<transform position="2020.271, 2255.248, 27.758" rotation_euler="0.000, 0.000, 0.033"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-0.999767, -0.021591, -0.000000, 0.000000, 0.021591, -0.999767, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.049000, 4.098000, 7.060000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.172000, 3.710000, 7.057000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_6m_spawner">
+			<transform position="1969.220, 2331.690, 21.792" rotation_euler="0.000, 0.000, 2.523"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.058000, 3.708000, 5.969000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.176000, 3.295000, 5.866000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="1980.200, 2223.274, 28.586" rotation_euler="0.000, 0.000, -0.670"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="515.777, 1963.721, 20.470" rotation_euler="0.000, 0.000, 0.996"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="530.906, 2035.041, 20.818" rotation_euler="0.000, 0.000, 1.979"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="538.382, 1995.447, 20.890" rotation_euler="0.000, 0.000, 0.903"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="700.402, 2642.484, 25.673" rotation_euler="0.000, 0.000, 0.696"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="671.423, 2616.146, 25.566" rotation_euler="0.000, 0.000, 0.748"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="687.728, 2678.574, 26.253" rotation_euler="0.000, 0.000, 1.596"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_11m_spawner">
+			<transform position="1251.515, 2358.750, 76.608" rotation_euler="0.000, 0.000, 3.121"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.507000, 5.792000, 12.039000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.192000, 5.445000, 12.084000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="1319.283, 2370.969, 78.331" rotation_euler="0.000, 0.000, 3.118"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_14m_spawner">
+			<transform position="1237.617, 2311.271, 75.737" rotation_euler="0.000, 0.000, -0.810"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.059000, 6.120000, 13.263000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.212000, 5.855000, 13.259000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_6m_spawner">
+			<transform position="1470.568, 2157.153, 66.920" rotation_euler="0.000, 0.000, 2.460"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.058000, 3.708000, 5.969000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.176000, 3.295000, 5.866000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_6m_spawner">
+			<transform position="1387.005, 2176.221, 64.622" rotation_euler="0.000, 0.000, -2.730"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.058000, 3.708000, 5.969000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.176000, 3.295000, 5.866000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="1453.030, 2100.168, 66.363" rotation_euler="0.000, 0.000, 0.320"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_8m_spawner">
+			<transform position="2283.583, 2694.295, 21.519" rotation_euler="0.000, 0.000, -0.945"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.887000, 4.955000, 9.746000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.175000, 4.638000, 9.711000, 1.000000"/>
+						<variable name="distance_holder" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_7m_spawner">
+			<transform position="2343.442, 2701.617, 24.075" rotation_euler="0.000, 0.000, 1.052"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-0.999767, -0.021591, -0.000000, 0.000000, 0.021591, -0.999767, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.049000, 4.098000, 7.060000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.172000, 3.710000, 7.057000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="siege_ladder_6m_spawner">
+			<transform position="2328.597, 2752.710, 28.305" rotation_euler="0.000, 0.000, 2.586"/>
+			<scripts>
+				<script name="SiegeLadderSpawner">
+					<variables>
+						<variable name="fork_holder" value="-1.000000, 0.000593, 0.000000, 0.000000, -0.000593, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 1.058000, 3.708000, 5.969000, 1.000000"/>
+						<variable name="initial_wait_pos" value="1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.555000, -37.929001, 0.000000, 1.000000"/>
+						<variable name="use_push" value="-0.999954, 0.009593, 0.000000, 0.000000, -0.009593, -0.999954, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.176000, 3.295000, 5.866000, 1.000000"/>
+						<variable name="distance_holder" value="0.999916, 0.013000, 0.000000, 0.000000, -0.013000, 0.999916, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.217000, 0.000000, 1.000000"/>
+					</variables>
+				</script>
+			</scripts>
 		</game_entity>
 	</entities>
 	<terrain enabled="true" node_dimension_x="16" node_dimension_y="16" node_size="256.000" lod_multiplier="1.000" min_height="-0.685" max_height="95.500" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" use_dynamic_weather_effects="0" dynamic_flowmap_texture_name="" colormap_detail_level="-1" ao_intensity="4.000">
@@ -57914,7 +58511,7 @@
 					</variable>
 				</texture_levels>
 			</node>
-			<node idx="13" idy="8" occluders_enabled="true" layer_is_used_mask_summer="887" layer_is_used_mask_fall="887" layer_is_used_mask_winter="887" layer_is_used_mask_spring="887" layer_is_used_mask="true" height_complexity="0.856" min_height="15.091" max_height="64.984">
+			<node idx="13" idy="8" occluders_enabled="true" layer_is_used_mask_summer="887" layer_is_used_mask_fall="887" layer_is_used_mask_winter="887" layer_is_used_mask_spring="887" layer_is_used_mask="true" height_complexity="0.856" min_height="14.927" max_height="64.984">
 				<texture_levels>
 					<variable name="heightmap_level" value="7"/>
 					<variable name="min_heightmap_level" value="2"/>
@@ -58916,7 +59513,7 @@
 			</node>
 		</nodes>
 	</terrain>
-	<editor_data editor_camera_position="2167.084, 2401.146, 100.596" editor_camera_elevation="-0.310" editor_camera_bearing="-8.791" editor_camera_forward="-0.521, -0.752, -0.403" author="" comment=""/>
+	<editor_data editor_camera_position="2362.308, 1422.506, 110.796" editor_camera_elevation="0.499" editor_camera_bearing="19.958" editor_camera_forward="0.766, 0.630, 0.132" author="" comment=""/>
 	<camera_data near_plane="0.100" far_plane="100000.000"/>
 	<Paths>
 		<path name="zeonica_siegetower_a" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
