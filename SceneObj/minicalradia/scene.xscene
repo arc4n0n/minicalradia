@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<scene name="minicalradia" version="2" unique_token="{F1F4D8EF-402E-463A-B153-4BF2C4D5D25A}" revision="1747597359242" id_automatic="true">
+<scene name="minicalradia" version="2" unique_token="{F1F4D8EF-402E-463A-B153-4BF2C4D5D25A}" revision="1747610059839" id_automatic="true">
 	<flora_bounding_rect min="19.594, 18.281" max="4067.823, 4047.512"/>
 	<levels>
 		<level name="base" mask="1"/>
@@ -61788,6 +61788,274 @@
 			</tags>
 			<transform position="3660.859, 1455.747, 29.598" rotation_euler="0.000, 0.000, 0.869"/>
 		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="2129.867, 1406.449, 16.127" rotation_euler="0.000, 0.000, -1.590" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="zeonica_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:zeonica_ram"/>
+			</tags>
+			<transform position="2131.016, 1415.525, 16.881" rotation_euler="0.000, 0.000, -3.057"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="2835.000, 1252.491, 13.320" rotation_euler="0.000, 0.000, -1.157" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="vostrum_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:vostrum_ram"/>
+			</tags>
+			<transform position="2831.750, 1260.501, 13.320" rotation_euler="0.000, 0.000, 0.427"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="2606.309, 619.608, 15.428" rotation_euler="0.000, 0.000, 0.472"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="hubyar_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:hubyar_ram"/>
+			</tags>
+			<transform position="2614.573, 623.273, 15.300" rotation_euler="0.000, 0.000, 0.624"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="2025.198, 884.229, 13.775" rotation_euler="0.000, 0.000, -2.216"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="sanala_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:sanala_ram"/>
+			</tags>
+			<transform position="2030.854, 888.777, 13.276" rotation_euler="0.000, 0.000, -0.748"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="561.815, 1925.267, 18.420" rotation_euler="0.000, 0.000, -3.061"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="galend_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:galend_ram"/>
+			</tags>
+			<transform position="569.467, 1924.439, 18.442" rotation_euler="0.000, 0.000, -1.594"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="745.726, 2563.435, 18.961" rotation_euler="0.000, 0.000, -2.670" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="ostican_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_path:pb_ram_5"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:ostican_ram"/>
+			</tags>
+			<transform position="738.589, 2560.485, 17.520" rotation_euler="0.000, 0.000, 0.385"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="1289.289, 2453.589, 74.007" rotation_euler="0.000, 0.000, -0.104" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="dunglanys_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:dunglanys_ram"/>
+			</tags>
+			<transform position="1297.111, 2452.807, 73.380" rotation_euler="0.000, 0.000, -0.073"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="1476.910, 2233.201, 62.108" rotation_euler="0.000, 0.000, -0.808" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="marunath_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:marunath_ram"/>
+			</tags>
+			<transform position="1471.815, 2238.080, 61.135" rotation_euler="0.000, 0.000, -0.811"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="1975.907, 2156.232, 35.610" rotation_euler="0.000, 0.000, -2.688" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="epicrotea_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:epicrotea_ram"/>
+			</tags>
+			<transform position="1982.693, 2159.843, 33.796" rotation_euler="0.000, 0.000, 0.369"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="2552.920, 1974.628, 32.479" rotation_euler="0.000, 0.000, -1.469" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="saneopa_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:saneopa_ram"/>
+			</tags>
+			<transform position="2548.421, 1980.718, 33.132" rotation_euler="0.000, 0.000, 0.112"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="2364.790, 2659.966, 22.404" rotation_euler="0.000, 0.000, -1.370" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="balgard_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:balgard_ram"/>
+			</tags>
+			<transform position="2364.271, 2652.258, 22.740" rotation_euler="0.000, 0.000, -3.057"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="3168.122, 2617.714, 11.548" rotation_euler="0.000, 0.000, -2.503"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="tyal_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_path:pb_ram_5"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:tyal_ram"/>
+			</tags>
+			<transform position="3174.827, 2622.669, 10.625" rotation_euler="0.000, 0.000, 0.808"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="3326.283, 1884.228, 16.147" rotation_euler="0.000, 0.000, 2.602"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="chaikand_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:chaikand_ram"/>
+			</tags>
+			<transform position="3333.578, 1881.276, 16.052" rotation_euler="0.000, 0.000, 1.263"/>
+		</game_entity>
+		<game_entity prefab="batteringram_a_spawner">
+			<transform position="3494.930, 1584.752, 22.767" rotation_euler="0.000, 0.000, 1.669" scale="1.000, 1.000, 1.000"/>
+			<scripts>
+				<script name="BatteringRamSpawner">
+					<variables>
+						<variable name="wait_pos_ground" value="-0.999488, 0.000528, -0.031994, 0.000000, -0.000593, -0.999998, 0.002000, 0.000000, -0.031993, 0.002018, 0.999486, 0.000000, -0.496000, 8.333000, -0.033000, 1.000000"/>
+						<variable name="PathEntityName" value="odohk_ram"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="pb_battering_ram_crafting">
+			<tags>
+				<tag name="pb_craft:battering_ram"/>
+				<tag name="pb_town:5"/>
+				<tag name="pb_path:odohk_ram"/>
+			</tags>
+			<transform position="3495.023, 1593.127, 22.923" rotation_euler="0.000, 0.000, -3.057"/>
+		</game_entity>
 	</entities>
 	<terrain enabled="true" node_dimension_x="16" node_dimension_y="16" node_size="256.000" lod_multiplier="1.000" min_height="-0.685" max_height="95.500" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" use_dynamic_weather_effects="0" dynamic_flowmap_texture_name="" colormap_detail_level="-1" ao_intensity="4.000">
 		<outer_mesh>
@@ -68703,7 +68971,7 @@
 			</node>
 		</nodes>
 	</terrain>
-	<editor_data editor_camera_position="3535.969, 1550.708, 265.459" editor_camera_elevation="-1.257" editor_camera_bearing="-125.026" editor_camera_forward="0.274, 0.137, -0.952" author="" comment=""/>
+	<editor_data editor_camera_position="3489.849, 1644.138, 116.223" editor_camera_elevation="-1.029" editor_camera_bearing="-145.497" editor_camera_forward="0.095, -0.483, -0.871" author="" comment=""/>
 	<camera_data near_plane="0.100" far_plane="100000.000"/>
 	<Paths>
 		<path name="zeonica_siegetower_a" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
@@ -69395,6 +69663,340 @@
 				<point position="3649.852, 1556.641, 29.313" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.47723, 0.87878">
 					<first_tangent position="3650.743, 1557.094, 29.360"/>
 					<second_tangent position="3648.960, 1556.188, 29.266"/>
+				</point>
+			</points>
+		</path>
+		<path name="zeonica_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="2129.867, 1406.449, 16.127" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2151.961, 1406.016, 16.073"/>
+					<second_tangent position="2107.773, 1406.883, 16.180"/>
+				</point>
+				<point position="2085.694, 1407.221, 16.282" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2106.656, 1406.514, 18.952"/>
+					<second_tangent position="2064.731, 1407.928, 13.612"/>
+				</point>
+				<point position="2043.509, 1404.098, 11.034" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.76110, 0.64864">
+					<first_tangent position="2043.449, 1405.096, 11.048"/>
+					<second_tangent position="2043.568, 1403.099, 11.020"/>
+				</point>
+			</points>
+		</path>
+		<path name="vostrum_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="2835.000, 1252.491, 13.320" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2846.462, 1257.518, 13.401"/>
+					<second_tangent position="2823.538, 1247.464, 13.239"/>
+				</point>
+				<point position="2812.357, 1240.571, 12.371" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2824.870, 1248.110, 11.965"/>
+					<second_tangent position="2799.845, 1233.033, 12.777"/>
+				</point>
+				<point position="2792.481, 1220.816, 12.631" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2799.123, 1230.908, 13.473"/>
+					<second_tangent position="2785.840, 1210.724, 11.789"/>
+				</point>
+				<point position="2776.598, 1198.039, 10.508" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.95802, 0.28672">
+					<first_tangent position="2775.791, 1198.630, 10.509"/>
+					<second_tangent position="2777.404, 1197.448, 10.507"/>
+				</point>
+			</points>
+		</path>
+		<path name="hubyar_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="2606.309, 619.608, 15.428" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2598.901, 634.106, 14.265"/>
+					<second_tangent position="2613.718, 605.111, 16.591"/>
+				</point>
+				<point position="2626.817, 598.242, 16.546" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2609.504, 608.561, 17.008"/>
+					<second_tangent position="2644.130, 587.923, 16.085"/>
+				</point>
+				<point position="2654.100, 576.866, 16.974" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2642.901, 586.353, 15.394"/>
+					<second_tangent position="2665.300, 567.378, 18.554"/>
+				</point>
+				<point position="2677.469, 562.302, 18.496" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.86866, -0.49540">
+					<first_tangent position="2676.941, 561.454, 18.477"/>
+					<second_tangent position="2677.998, 563.151, 18.514"/>
+				</point>
+			</points>
+		</path>
+		<path name="sanala_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="2025.198, 884.229, 13.775" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2032.951, 878.399, 13.957"/>
+					<second_tangent position="2017.445, 890.058, 13.592"/>
+				</point>
+				<point position="2014.147, 892.143, 13.748" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2024.575, 882.482, 10.908"/>
+					<second_tangent position="2003.720, 901.803, 16.587"/>
+				</point>
+				<point position="1993.525, 915.974, 16.831" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2002.965, 906.558, 15.274"/>
+					<second_tangent position="1984.084, 925.391, 18.389"/>
+				</point>
+				<point position="1977.547, 932.292, 21.032" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1985.289, 925.006, 22.487"/>
+					<second_tangent position="1969.806, 939.579, 19.577"/>
+				</point>
+				<point position="1962.005, 948.379, 17.034" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1965.164, 945.488, 17.333"/>
+					<second_tangent position="1958.845, 951.270, 16.736"/>
+				</point>
+				<point position="1955.791, 955.266, 16.211" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1960.157, 953.772, 17.399"/>
+					<second_tangent position="1951.424, 956.761, 15.023"/>
+				</point>
+				<point position="1951.703, 960.108, 13.353" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1949.259, 957.494, 14.527"/>
+					<second_tangent position="1954.147, 962.722, 12.180"/>
+				</point>
+				<point position="1958.145, 964.343, 11.497" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.34055, 0.94023">
+					<first_tangent position="1958.746, 963.544, 11.570"/>
+					<second_tangent position="1957.544, 965.142, 11.425"/>
+				</point>
+			</points>
+		</path>
+		<path name="galend_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="561.815, 1925.267, 18.420" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="562.376, 1918.279, 18.382"/>
+					<second_tangent position="561.253, 1932.254, 18.458"/>
+				</point>
+				<point position="562.220, 1940.492, 18.765" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="561.591, 1932.088, 18.450"/>
+					<second_tangent position="562.849, 1948.896, 19.080"/>
+				</point>
+				<point position="556.407, 1957.539, 19.577" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="562.393, 1949.310, 18.843"/>
+					<second_tangent position="550.421, 1965.768, 20.312"/>
+				</point>
+				<point position="541.540, 1970.947, 20.771" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="547.116, 1967.156, 20.822"/>
+					<second_tangent position="535.963, 1974.738, 20.721"/>
+				</point>
+				<point position="530.787, 1978.129, 20.541" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.43941, 0.89828">
+					<first_tangent position="531.365, 1978.945, 20.600"/>
+					<second_tangent position="530.209, 1977.313, 20.482"/>
+				</point>
+			</points>
+		</path>
+		<path name="ostican_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="745.726, 2563.435, 18.961" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="748.944, 2557.121, 18.435"/>
+					<second_tangent position="742.508, 2569.749, 19.487"/>
+				</point>
+				<point position="736.835, 2571.081, 18.951" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="747.353, 2568.552, 19.532"/>
+					<second_tangent position="726.316, 2573.609, 18.370"/>
+				</point>
+				<point position="720.088, 2580.846, 18.866" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="725.736, 2574.053, 18.351"/>
+					<second_tangent position="714.440, 2587.639, 19.381"/>
+				</point>
+				<point position="708.448, 2597.411, 21.137" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="712.402, 2588.744, 20.173"/>
+					<second_tangent position="704.493, 2606.077, 22.100"/>
+				</point>
+				<point position="698.489, 2611.945, 22.361" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="704.473, 2605.309, 21.963"/>
+					<second_tangent position="692.505, 2618.582, 22.760"/>
+				</point>
+				<point position="687.085, 2624.616, 23.257" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.33937, 0.94065">
+					<first_tangent position="687.883, 2625.219, 23.242"/>
+					<second_tangent position="686.287, 2624.013, 23.272"/>
+				</point>
+			</points>
+		</path>
+		<path name="dunglanys_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="1289.289, 2453.589, 74.007" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1290.551, 2465.628, 74.633"/>
+					<second_tangent position="1288.027, 2441.550, 73.380"/>
+				</point>
+				<point position="1284.313, 2430.691, 73.380" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1287.933, 2443.295, 74.178"/>
+					<second_tangent position="1280.693, 2418.087, 72.582"/>
+				</point>
+				<point position="1271.570, 2402.659, 72.029" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1277.429, 2414.305, 71.451"/>
+					<second_tangent position="1265.712, 2391.014, 72.607"/>
+				</point>
+				<point position="1267.033, 2377.446, 74.535" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1266.016, 2383.830, 72.524"/>
+					<second_tangent position="1268.050, 2371.061, 76.545"/>
+				</point>
+				<point position="1271.571, 2366.703, 76.980" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.98325, -0.18227">
+					<first_tangent position="1270.629, 2366.370, 76.980"/>
+					<second_tangent position="1272.514, 2367.036, 76.980"/>
+				</point>
+			</points>
+		</path>
+		<path name="marunath_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="1476.910, 2233.201, 62.108" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1488.470, 2244.255, 62.896"/>
+					<second_tangent position="1465.350, 2222.147, 61.319"/>
+				</point>
+				<point position="1456.381, 2209.347, 61.389" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1471.433, 2231.340, 61.939"/>
+					<second_tangent position="1441.328, 2187.353, 60.840"/>
+				</point>
+				<point position="1432.887, 2173.235, 61.980" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1437.200, 2179.897, 61.959"/>
+					<second_tangent position="1428.575, 2166.573, 62.001"/>
+				</point>
+				<point position="1423.876, 2161.380, 63.250" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.93339, 0.35886">
+					<first_tangent position="1423.052, 2161.946, 62.997"/>
+					<second_tangent position="1424.700, 2160.813, 63.504"/>
+				</point>
+			</points>
+		</path>
+		<path name="epicrotea_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="1975.907, 2156.232, 35.610" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1979.271, 2149.334, 37.096"/>
+					<second_tangent position="1972.543, 2163.129, 34.123"/>
+				</point>
+				<point position="1968.087, 2168.189, 34.121" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1978.065, 2157.001, 32.774"/>
+					<second_tangent position="1958.109, 2179.378, 35.467"/>
+				</point>
+				<point position="1962.293, 2193.142, 33.426" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1958.407, 2180.805, 36.367"/>
+					<second_tangent position="1966.179, 2205.479, 30.485"/>
+				</point>
+				<point position="1960.663, 2212.803, 31.269" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1969.500, 2203.544, 29.824"/>
+					<second_tangent position="1951.826, 2222.063, 32.713"/>
+				</point>
+				<point position="1955.031, 2227.476, 30.028" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="1953.459, 2224.393, 30.620"/>
+					<second_tangent position="1956.604, 2230.559, 29.436"/>
+				</point>
+				<point position="1960.537, 2234.249, 29.866" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, -0.00000, -0.32523, 0.94564">
+					<first_tangent position="1961.313, 2233.617, 29.868"/>
+					<second_tangent position="1959.762, 2234.881, 29.864"/>
+				</point>
+			</points>
+		</path>
+		<path name="saneopa_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="2552.920, 1974.628, 32.479" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2562.323, 1975.585, 32.852"/>
+					<second_tangent position="2543.518, 1973.670, 32.107"/>
+				</point>
+				<point position="2535.715, 1972.870, 31.424" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2545.315, 1973.810, 32.766"/>
+					<second_tangent position="2526.114, 1971.930, 30.082"/>
+				</point>
+				<point position="2515.581, 1975.070, 27.109" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2523.137, 1974.480, 27.918"/>
+					<second_tangent position="2508.025, 1975.659, 26.299"/>
+				</point>
+				<point position="2500.322, 1977.994, 26.233" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2512.219, 1974.637, 26.983"/>
+					<second_tangent position="2488.425, 1981.351, 25.483"/>
+				</point>
+				<point position="2479.871, 1985.975, 25.453" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2487.427, 1981.968, 25.310"/>
+					<second_tangent position="2472.316, 1989.981, 25.596"/>
+				</point>
+				<point position="2465.973, 1995.628, 26.296" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.40433, 0.91461">
+					<first_tangent position="2466.541, 1996.451, 26.402"/>
+					<second_tangent position="2465.404, 1994.805, 26.189"/>
+				</point>
+			</points>
+		</path>
+		<path name="balgard_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="2364.790, 2659.966, 22.404" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2376.133, 2662.270, 22.432"/>
+					<second_tangent position="2353.447, 2657.663, 22.375"/>
+				</point>
+				<point position="2342.258, 2655.541, 22.224" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2354.343, 2657.223, 23.155"/>
+					<second_tangent position="2330.173, 2653.859, 21.293"/>
+				</point>
+				<point position="2322.999, 2659.143, 20.640" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="2329.592, 2654.759, 21.532"/>
+					<second_tangent position="2316.406, 2663.526, 19.747"/>
+				</point>
+				<point position="2315.490, 2680.176, 20.258" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.01500, 0.99989">
+					<first_tangent position="2316.426, 2680.527, 20.353"/>
+					<second_tangent position="2314.554, 2679.825, 20.162"/>
+				</point>
+			</points>
+		</path>
+		<path name="tyal_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="3168.122, 2617.714, 11.548" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="3175.998, 2607.104, 11.487"/>
+					<second_tangent position="3160.246, 2628.324, 11.610"/>
+				</point>
+				<point position="3160.363, 2641.836, 12.643" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="3159.114, 2626.830, 12.758"/>
+					<second_tangent position="3161.612, 2656.843, 12.528"/>
+				</point>
+				<point position="3163.624, 2672.815, 13.620" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00017, 0.00000, 1.00000">
+					<first_tangent position="3162.359, 2660.640, 9.979"/>
+					<second_tangent position="3164.889, 2684.989, 17.261"/>
+				</point>
+				<point position="3159.409, 2691.530, 21.581" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.17657, 0.98429">
+					<first_tangent position="3160.388, 2691.732, 21.475"/>
+					<second_tangent position="3158.430, 2691.327, 21.687"/>
+				</point>
+			</points>
+		</path>
+		<path name="chaikand_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="3326.283, 1884.228, 16.147" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="3321.638, 1876.465, 15.656"/>
+					<second_tangent position="3330.929, 1891.990, 16.637"/>
+				</point>
+				<point position="3328.873, 1899.381, 16.466" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="3332.563, 1884.847, 15.869"/>
+					<second_tangent position="3325.184, 1913.915, 17.063"/>
+				</point>
+				<point position="3323.339, 1930.276, 14.870" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="3326.487, 1907.430, 15.666"/>
+					<second_tangent position="3320.191, 1953.122, 14.074"/>
+				</point>
+				<point position="3319.810, 1967.932, 15.005" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00500, 0.99999">
+					<first_tangent position="3320.804, 1968.036, 15.019"/>
+					<second_tangent position="3318.815, 1967.829, 14.992"/>
+				</point>
+			</points>
+		</path>
+		<path name="odohk_ram" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="3494.930, 1584.752, 22.767" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="3471.004, 1582.392, 19.289"/>
+					<second_tangent position="3518.856, 1587.113, 26.245"/>
+				</point>
+				<point position="3536.618, 1595.178, 27.850" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="3512.675, 1586.449, 25.313"/>
+					<second_tangent position="3560.561, 1603.907, 30.386"/>
+				</point>
+				<point position="3579.512, 1607.598, 31.409" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, -0.63170, 0.77521">
+					<first_tangent position="3579.791, 1606.638, 31.355"/>
+					<second_tangent position="3579.234, 1608.559, 31.462"/>
 				</point>
 			</points>
 		</path>

@@ -1,4 +1,4 @@
-2560
+2559
 mesh arabian_building_detail_f
 mesh arabian_platform_wooden_c
 mesh arrow_bl_a_quiver
@@ -116,7 +116,6 @@ mesh bd_empty_sack
 mesh bd_fabric_a
 mesh bd_fabric_b
 mesh bd_fabric_c
-mesh bd_hammer
 mesh bd_ladder_b
 mesh bd_manure_a
 mesh bd_pickaxe_a
@@ -124,9 +123,7 @@ mesh bd_pillow_f
 mesh bd_pillow_g
 mesh bd_pillow_h
 mesh bd_pillow_j
-mesh bd_planks_a
 mesh bd_pole_3m
-mesh bd_rope_a
 mesh bd_sack_a
 mesh bd_sack_b
 mesh bd_sack_c
@@ -150,7 +147,6 @@ mesh burned_wood_b
 mesh burned_wood_f
 mesh camel_mesh
 mesh camel_saddle1
-mesh castle_plank_ramp_a
 mesh cave_rock_small_a
 mesh cave_rock_small_b
 mesh cave_rock_small_c
@@ -523,7 +519,6 @@ mesh vlandian_pommel_9
 mesh volume_box
 mesh weapon_heap_arrow_a
 mesh weapon_rack_a
-mesh wooden_platform_2_a
 mesh wooden_platform_2_plank_b
 mesh wooden_platform_2_plank_f_column
 mesh wooden_platform_a
@@ -724,6 +719,7 @@ prefab battania_storage_wood_a
 prefab battania_street_tent_a
 prefab battania_watermill_mill
 prefab battering_ram_rest_point
+prefab batteringram_a_spawner
 prefab battleground_fire_smoke_vertical
 prefab bd_anvil
 prefab bd_aserai_plate_cupper
@@ -1518,6 +1514,7 @@ prefab lib_scroll_a
 prefab lib_scroll_d
 prefab light
 prefab log_bench_default_d_unsittable
+prefab log_pine_a
 prefab log_pine_j
 prefab log_tree_high_f
 prefab log_tree_high_group_c
@@ -1757,6 +1754,7 @@ prefab pb_battania_noble_sword_3_t5
 prefab pb_battania_polearm_1_t5
 prefab pb_battania_ranged
 prefab pb_battania_sword_3_t3
+prefab pb_battering_ram_crafting
 prefab pb_bearded_axe_t3
 prefab pb_bed
 prefab pb_blade_zweihander
@@ -2485,6 +2483,7 @@ prefab weapon_heap_arrow_a
 prefab weapon_heap_sword_a
 prefab wheel_back
 prefab wheel_front
+prefab wheel_rear
 prefab window
 prefab window_wall
 prefab wolf_shoulder
