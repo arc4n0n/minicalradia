@@ -1,4 +1,4 @@
-2545
+2560
 mesh arabian_building_detail_f
 mesh arabian_platform_wooden_c
 mesh arrow_bl_a_quiver
@@ -116,6 +116,7 @@ mesh bd_empty_sack
 mesh bd_fabric_a
 mesh bd_fabric_b
 mesh bd_fabric_c
+mesh bd_hammer
 mesh bd_ladder_b
 mesh bd_manure_a
 mesh bd_pickaxe_a
@@ -123,7 +124,9 @@ mesh bd_pillow_f
 mesh bd_pillow_g
 mesh bd_pillow_h
 mesh bd_pillow_j
+mesh bd_planks_a
 mesh bd_pole_3m
+mesh bd_rope_a
 mesh bd_sack_a
 mesh bd_sack_b
 mesh bd_sack_c
@@ -147,6 +150,7 @@ mesh burned_wood_b
 mesh burned_wood_f
 mesh camel_mesh
 mesh camel_saddle1
+mesh castle_plank_ramp_a
 mesh cave_rock_small_a
 mesh cave_rock_small_b
 mesh cave_rock_small_c
@@ -516,8 +520,10 @@ mesh vlandian_guard_8
 mesh vlandian_pommel_4
 mesh vlandian_pommel_7
 mesh vlandian_pommel_9
+mesh volume_box
 mesh weapon_heap_arrow_a
 mesh weapon_rack_a
+mesh wooden_platform_2_a
 mesh wooden_platform_2_plank_b
 mesh wooden_platform_2_plank_f_column
 mesh wooden_platform_a
@@ -789,6 +795,7 @@ prefab bd_cloth_stick_10m
 prefab bd_cloth_stick_5m
 prefab bd_empty_sack
 prefab bd_flag_1
+prefab bd_flag_4
 prefab bd_flask_sturgia_a
 prefab bd_hammer
 prefab bd_hammer_a
@@ -1139,6 +1146,7 @@ prefab empire_keep_d_interior_arch_metal
 prefab empire_keep_d_interior_corner_platform_a
 prefab empire_keep_d_interior_corner_platform_a_stair
 prefab empire_keep_d_interior_flag
+prefab empire_keep_d_platform_a
 prefab empire_keep_d_stair
 prefab empire_keep_d_stair_wall
 prefab empire_keep_d_window_e
@@ -1289,7 +1297,9 @@ prefab fishnet_a
 prefab fishnet_b
 prefab fishnet_d
 prefab fishnet_e
+prefab flag_4
 prefab flag_5
+prefab flag_rope_cloth
 prefab flag_rope_cloth_02
 prefab flag_stand_big
 prefab flagpole_a
@@ -1401,6 +1411,7 @@ prefab khuzait_castle_keep_l3_interior_column
 prefab khuzait_castle_keep_l3_interior_door_open_a
 prefab khuzait_castle_stairs_a_l2
 prefab khuzait_castle_stairs_b_l3
+prefab khuzait_castle_stairs_c_l2
 prefab khuzait_castle_tower_round_a_l1
 prefab khuzait_castle_tower_round_a_l1_stairs1
 prefab khuzait_castle_tower_round_a_l1_stairs2
@@ -1842,6 +1853,7 @@ prefab pb_empire_gloves_a
 prefab pb_empire_helmets_a
 prefab pb_empire_lance_3_t5
 prefab pb_empire_mace_2_t4
+prefab pb_empire_polearm_1_t4
 prefab pb_empire_sword_1_t2
 prefab pb_empire_sword_2_t3
 prefab pb_empire_sword_5_t4
@@ -2128,6 +2140,7 @@ prefab pb_weapons_spears_a
 prefab pb_weapons_spears_aserai
 prefab pb_weapons_spears_b
 prefab pb_weapons_spears_battania
+prefab pb_weapons_spears_imperial
 prefab pb_weapons_spears_khuzait
 prefab pb_weapons_special
 prefab pb_weapons_swords_a
@@ -2277,6 +2290,8 @@ prefab siege_ladder_14m_spawner
 prefab siege_ladder_6m_spawner
 prefab siege_ladder_7m_spawner
 prefab siege_ladder_8m_spawner
+prefab siege_tower_12m_spawner
+prefab siege_tower_5m_spawner
 prefab siege_tower_9m_spawner
 prefab small_tower
 prefab smoked_fire_with_light

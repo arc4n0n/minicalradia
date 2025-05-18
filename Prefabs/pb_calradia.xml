@@ -3825,5 +3825,310 @@
 			</meta_mesh_component>
 		</components>
 	</game_entity>
+	<game_entity name="pb_weapons_spears_imperial" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 2.728" scale="0.304, 0.463, 0.451"/>
+		<physics shape="bo_wooden_platform_2_plank_f_column"/>
+		<components>
+			<meta_mesh_component name="wooden_platform_2_plank_f_column">
+				<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+				<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.386, -0.084, 4.738" non_orthogonal_rotation_mat="0.013012, 0.000227, -0.999915, -0.015431, 0.999881, 0.000000, 0.999845, 0.017414, 0.002581" scale="0.674, 0.296, 1.245"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="pb_northern_spear_4_t5" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_northern_spear_4_t5"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:2"/>
+				</tags>
+				<transform position="-0.552, -0.119, 7.070" non_orthogonal_rotation_mat="-0.999787, -0.020644, 0.000461, 0.047516, -0.994138, -0.097119, 0.005426, -0.092185, 0.995727" scale="3.144, 1.904, 2.235"/>
+				<components>
+					<meta_mesh_component name="spear_blade_13"/>
+				</components>
+				<children>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -3.126"/>
+						<components>
+							<meta_mesh_component name="spear_pommel_9"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -1.719"/>
+						<components>
+							<meta_mesh_component name="spear_handle_26"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -0.286"/>
+						<components>
+							<meta_mesh_component name="spear_guard_7"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="pb_southern_spear_3_t4" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_southern_spear_3_t4"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:2"/>
+				</tags>
+				<transform position="-2.464, -0.025, 5.709" non_orthogonal_rotation_mat="-0.999787, -0.020644, 0.000461, 0.047516, -0.994138, -0.097119, 0.005426, -0.092185, 0.995727" scale="3.144, 1.904, 2.235"/>
+				<components>
+					<meta_mesh_component name="spear_blade_11"/>
+				</components>
+				<children>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -0.202"/>
+						<components>
+							<meta_mesh_component name="spear_guard_7"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -1.332"/>
+						<components>
+							<meta_mesh_component name="spear_handle_20"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -2.474"/>
+						<components>
+							<meta_mesh_component name="spear_pommel_11"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="pb_western_spear_4_t3" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_western_spear_4_t3"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:2"/>
+				</tags>
+				<transform position="-3.318, -0.087, 6.203" non_orthogonal_rotation_mat="-0.999787, -0.020644, 0.000461, 0.047516, -0.994138, -0.097119, 0.005426, -0.092185, 0.995727" scale="3.144, 1.904, 2.062"/>
+				<components>
+					<meta_mesh_component name="spear_blade_8"/>
+				</components>
+				<children>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -1.643"/>
+						<components>
+							<meta_mesh_component name="spear_handle_25"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="pb_western_spear_3_t3" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_western_spear_3_t3"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:2"/>
+				</tags>
+				<transform position="-4.358, -0.137, 6.566" non_orthogonal_rotation_mat="-0.999787, -0.020644, 0.000461, 0.047516, -0.994138, -0.097119, 0.005426, -0.092185, 0.995727" scale="3.144, 1.904, 2.062"/>
+				<components>
+					<meta_mesh_component name="spear_blade_8"/>
+				</components>
+				<children>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -0.390"/>
+						<components>
+							<cloth_simulator>
+								<meta_mesh_component name="spear_banner_12"/>
+							</cloth_simulator>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -1.831"/>
+						<components>
+							<meta_mesh_component name="spear_handle_25"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="pb_imperial_spear_t2" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_imperial_spear_t2"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:2"/>
+				</tags>
+				<transform position="-5.136, -0.039, 5.268" non_orthogonal_rotation_mat="-0.999787, -0.020644, 0.000461, 0.047516, -0.994138, -0.097119, 0.005426, -0.092185, 0.995727" scale="3.144, 1.904, 2.062"/>
+				<components>
+					<meta_mesh_component name="spear_blade_3"/>
+				</components>
+				<children>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -1.414"/>
+						<components>
+							<meta_mesh_component name="spear_handle_5"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="pb_western_spear_1_t2" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_western_spear_1_t2"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:2"/>
+				</tags>
+				<transform position="-6.013, -0.059, 5.220" non_orthogonal_rotation_mat="-0.999787, -0.020644, 0.000461, 0.047516, -0.994138, -0.097119, 0.005426, -0.092186, 0.995727" scale="3.144, 1.904, 2.062"/>
+				<components>
+					<meta_mesh_component name="spear_blade_1"/>
+				</components>
+				<children>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -1.358"/>
+						<components>
+							<meta_mesh_component name="spear_handle_5"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.444, -0.153, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.028, 1.000"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.371, -0.084, 3.874" non_orthogonal_rotation_mat="0.013012, 0.000227, -0.999915, -0.015431, 0.999881, 0.000000, 0.999845, 0.017414, 0.002581" scale="0.674, 0.296, 1.245"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.351, -0.083, 2.319" non_orthogonal_rotation_mat="0.013012, 0.000227, -0.999915, -0.015431, 0.999881, 0.000000, 0.999845, 0.017414, 0.002581" scale="0.674, 0.296, 1.245"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.443, -0.942, 0.137" non_orthogonal_rotation_mat="1.000000, 0.000000, 0.000000, -0.000000, 0.899027, -0.437893, -0.000000, 0.419519, 0.907747" scale="0.849, 0.901, 0.362"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_b" old_prefab_name="">
+				<transform position="-6.401, -0.158, 0.000" non_orthogonal_rotation_mat="-0.089909, 0.995950, 0.000000, -0.999244, -0.038888, 0.000000, 0.000000, 0.000000, 1.000000" scale="0.574, 1.669, 2.217"/>
+				<physics shape="bo_wooden_platform_2_plank_a"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_b">
+						<mesh name="wooden_platform_2_plank_b.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_b.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.331, -0.083, 1.018" non_orthogonal_rotation_mat="0.013012, 0.000227, -0.999915, -0.015431, 0.999881, 0.000000, 0.999845, 0.017414, 0.002581" scale="0.674, 0.296, 1.245"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.455, 0.690, 0.191" non_orthogonal_rotation_mat="1.000000, 0.000000, 0.000000, -0.000000, 0.880500, 0.474047, 0.000000, -0.454918, 0.890533" scale="0.799, 0.795, 0.362"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-6.336, 0.595, 0.449" non_orthogonal_rotation_mat="-0.013575, 0.466990, -0.884158, -0.019523, 0.873525, 0.486388, 0.999946, 0.010293, -0.001246" scale="0.670, 0.298, 1.245"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="-0.004, 0.886, 0.100" non_orthogonal_rotation_mat="1.000000, 0.000000, 0.000000, -0.000000, 0.880500, 0.474047, 0.000000, -0.454918, 0.890533" scale="0.799, 0.795, 0.362"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="0.002, -0.748, 0.160" non_orthogonal_rotation_mat="1.000000, 0.000000, 0.000000, 0.000000, 0.899027, -0.437893, -0.000000, 0.419519, 0.907747" scale="0.799, 0.794, 0.362"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column">
+						<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="wooden_platform_2_plank_b" old_prefab_name="">
+				<transform position="0.023, 0.063, 0.000" non_orthogonal_rotation_mat="0.083250, -0.996529, 0.000000, 0.999352, 0.035991, 0.000000, 0.000000, 0.000000, 1.000000" scale="0.573, 1.670, 2.217"/>
+				<physics shape="bo_wooden_platform_2_plank_a"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_b">
+						<mesh name="wooden_platform_2_plank_b.0" material="plank_b"/>
+						<mesh name="wooden_platform_2_plank_b.lod3" material="plank_b"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="pb_empire_polearm_1_t4" old_prefab_name="">
+				<tags>
+					<tag name="pb_market"/>
+					<tag name="pb_item:pb_empire_polearm_1_t4"/>
+					<tag name="pb_town:2"/>
+				</tags>
+				<transform position="-1.545, 0.124, 4.418" non_orthogonal_rotation_mat="-0.999788, -0.020597, 0.000000, 0.047506, -0.994144, -0.097062, 0.004404, -0.092152, 0.995735" scale="3.289, 2.162, 2.217"/>
+				<components>
+					<meta_mesh_component name="spear_blade_7"/>
+				</components>
+				<children>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -0.309"/>
+						<components>
+							<cloth_simulator>
+								<meta_mesh_component name="spear_banner_2"/>
+							</cloth_simulator>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<transform position="0.000, 0.000, -1.109"/>
+						<components>
+							<meta_mesh_component name="spear_handle_15"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
 </prefabs>
 
