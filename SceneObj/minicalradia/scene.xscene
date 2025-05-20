@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<scene name="minicalradia" version="2" unique_token="{F1F4D8EF-402E-463A-B153-4BF2C4D5D25A}" revision="1747698092544" id_automatic="true">
+<scene name="minicalradia" version="2" unique_token="{F1F4D8EF-402E-463A-B153-4BF2C4D5D25A}" revision="1747764121316" id_automatic="true">
 	<flora_bounding_rect min="19.594, 18.281" max="4067.823, 4047.512"/>
 	<levels>
 		<level name="base" mask="1"/>
@@ -312,7 +312,7 @@
 			<transform position="1532.361, 2072.029, 46.899" rotation_euler="0.000, 0.000, -0.777"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1959.256, 1366.196, 3.010" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1955.540, 1367.026, 3.010" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 		</game_entity>
 		<game_entity prefab="pb_stable_village_work">
 			<transform position="2295.691, 2295.940, 12.480" rotation_euler="0.000, 0.000, 0.000"/>
@@ -1808,9 +1808,6 @@
 			</tags>
 			<transform position="2026.144, 1415.601, 10.980" rotation_euler="0.000, 0.000, 0.245"/>
 		</game_entity>
-		<game_entity prefab="pb_spawnpoint">
-			<transform position="2311.341, 1370.966, 16.010" rotation_euler="0.000, 0.000, 2.459"/>
-		</game_entity>
 		<game_entity prefab="pb_european_castle_wall_a_l3_destructable">
 			<transform position="655.079, 2710.084, 23.540" rotation_euler="0.000, 0.000, -2.669"/>
 		</game_entity>
@@ -1933,7 +1930,7 @@
 			<transform position="2751.566, 1160.473, 9.483" rotation_euler="0.000, 0.000, -0.658" scale="0.820, 1.000, 0.791"/>
 		</game_entity>
 		<game_entity prefab="empire_castle_barn_b_l2">
-			<transform position="2751.139, 1145.325, 7.533" rotation_euler="0.000, 0.000, -2.433"/>
+			<transform position="2750.682, 1138.032, 7.981" rotation_euler="0.000, 0.000, 2.948"/>
 		</game_entity>
 		<game_entity prefab="empire_house_storage_a">
 			<transform position="2744.119, 1181.802, 9.149" rotation_euler="0.000, 0.000, 2.567"/>
@@ -2870,7 +2867,7 @@
 				<tag name="pb_town:13"/>
 				<tag name="pb_culture:Khuzait"/>
 			</tags>
-			<transform position="3652.884, 1623.070, 31.420" rotation_euler="0.000, 0.000, 1.633"/>
+			<transform position="3652.423, 1622.987, 31.420" rotation_euler="0.000, 0.000, 1.633"/>
 			<children>
 				<game_entity _index_="0">
 					<children>
@@ -2978,6 +2975,14 @@
 		</game_entity>
 		<game_entity prefab="european_city_part_j_balcony">
 			<transform position="2725.257, 1056.138, 14.994" rotation_euler="0.000, 0.000, -3.132"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="roman_roof_nrm"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="roman_roof_nrm"/>
+				</meta_mesh_component>
+			</components>
 		</game_entity>
 		<game_entity prefab="wooden_platform_2_a">
 			<transform position="2758.976, 1126.177, 7.379" rotation_euler="0.000, 0.000, -0.178"/>
@@ -3632,7 +3637,7 @@
 			<transform position="2722.641, 1123.389, 0.113" rotation_euler="0.000, 0.000, 0.228" scale="1.487, 1.487, 1.487"/>
 		</game_entity>
 		<game_entity name="pb_ocean_surface" prefab="pb_lake">
-			<transform position="2048.000, 2048.000, 6.380" rotation_euler="0.000, 3.141, 0.000" scale="4096.000, 4096.000, 1.240"/>
+			<transform position="2048.000, 2048.000, 7.240" rotation_euler="0.000, 3.141, 0.000" scale="4095.999, 4095.999, 1.240"/>
 			<physics>
 				<body_flags/>
 			</physics>
@@ -6124,7 +6129,7 @@
 			<transform position="3699.826, 1971.975, 34.285" rotation_euler="0.000, 0.000, 3.141"/>
 		</game_entity>
 		<game_entity prefab="empire_garden_flowerpot_a">
-			<transform position="1976.914, 1382.913, 10.980" rotation_euler="0.000, 0.000, 0.000"/>
+			<transform position="1977.355, 1377.756, 10.980" rotation_euler="0.000, 0.000, 0.000"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_2_c">
 			<transform position="1999.524, 1047.194, 7.423" rotation_euler="0.000, 0.000, -0.851" scale="2.000, 2.000, 2.000"/>
@@ -6552,9 +6557,6 @@
 		</game_entity>
 		<game_entity prefab="empire_keep_balcony_a">
 			<transform position="2475.016, 2051.982, 46.204" rotation_euler="0.000, 0.000, 3.122"/>
-		</game_entity>
-		<game_entity prefab="pb_spawnpoint">
-			<transform position="2317.357, 1368.469, 16.010" rotation_euler="0.000, 0.000, 2.459"/>
 		</game_entity>
 		<game_entity prefab="pb_battania_castle_wall_a_l3_destructable">
 			<transform position="1252.461, 2353.075, 77.169" rotation_euler="0.000, 0.000, -3.051"/>
@@ -7019,6 +7021,14 @@
 		</game_entity>
 		<game_entity prefab="european_city_part_j_balcony">
 			<transform position="1728.180, 1961.945, 70.082" rotation_euler="0.000, 0.000, -2.902"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="roman_roof_nrm"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="roman_roof_nrm"/>
+				</meta_mesh_component>
+			</components>
 		</game_entity>
 		<game_entity prefab="empire_house_shrine_a">
 			<transform position="1521.129, 1898.057, 30.191" rotation_euler="0.000, 0.000, -2.522"/>
@@ -10094,10 +10104,10 @@
 			</children>
 		</game_entity>
 		<game_entity prefab="empire_road_floor_a_small">
-			<transform position="2005.354, 1421.261, 14.261" rotation_euler="0.000, 0.000, 0.160" scale="1.431, 1.567, 1.394"/>
+			<transform position="2005.354, 1421.261, 19.101" rotation_euler="0.000, 0.000, 0.160" scale="1.431, 1.567, 1.394"/>
 			<components>
 				<meta_mesh_component>
-					<mesh name="empire_road_floor_a_small" material="empire_wall_b" factor="4291083431"/>
+					<mesh name="empire_road_floor_a_small" material="castle_floor_a" factor="4291083431"/>
 				</meta_mesh_component>
 			</components>
 		</game_entity>
@@ -13526,21 +13536,29 @@
 		</game_entity>
 		<game_entity prefab="european_city_part_j_balcony">
 			<transform position="2594.209, 2402.529, 15.127" rotation_euler="0.000, 0.000, 2.823"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="roman_roof_nrm"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="roman_roof_nrm"/>
+				</meta_mesh_component>
+			</components>
 		</game_entity>
 		<game_entity prefab="pb_apple_tree">
 			<transform position="1280.069, 1626.904, 17.654" rotation_euler="0.000, 0.000, 0.000"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1957.129, 1369.331, 1.062" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1953.413, 1370.161, 1.062" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1959.964, 1368.517, 3.010" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1956.248, 1369.347, 3.010" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 		</game_entity>
 		<game_entity prefab="empire_street_tent_01">
 			<transform position="1442.297, 1297.791, 8.713" rotation_euler="0.000, 0.000, 1.214"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1962.303, 1370.616, 5.325" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1958.587, 1371.446, 5.325" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 			<components>
 				<meta_mesh_component>
 					<mesh name="wooden_platform_plank_f_column.0" material="plank_b2"/>
@@ -13664,7 +13682,7 @@
 			<transform position="2807.219, 1164.720, 5.020" rotation_euler="-0.468, 0.000, 0.901" scale="0.798, 0.798, 0.798"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1960.993, 1365.736, 3.010" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1957.277, 1366.566, 3.010" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 		</game_entity>
 		<game_entity prefab="pb_stable_village_work">
 			<transform position="2909.624, 2007.689, 18.000" rotation_euler="0.000, 0.000, -0.239"/>
@@ -13971,7 +13989,7 @@
 			<transform position="3623.025, 1629.004, 30.990" rotation_euler="0.000, 0.000, -0.454"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_2_stairs_a">
-			<transform position="1947.811, 1377.257, 8.120" rotation_euler="0.000, 0.000, -0.664" scale="1.428, 1.428, 1.428"/>
+			<transform position="1947.441, 1377.546, 8.120" rotation_euler="0.000, 0.000, -0.664" scale="1.906, 1.428, 1.428"/>
 		</game_entity>
 		<game_entity prefab="pb_pine_1">
 			<transform position="3218.500, 2742.760, 23.621" rotation_euler="0.000, 0.000, 0.000"/>
@@ -15188,6 +15206,14 @@
 		</game_entity>
 		<game_entity prefab="european_city_part_j_balcony">
 			<transform position="1892.306, 1934.034, 55.740" rotation_euler="0.000, 0.000, -2.138"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="roman_roof_nrm"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="roman_roof_nrm"/>
+				</meta_mesh_component>
+			</components>
 		</game_entity>
 		<game_entity prefab="battania_castle_keep_wood_stake_c">
 			<transform position="1007.981, 1848.428, 19.818" rotation_euler="0.000, 0.000, 0.275" scale="1.937, 1.937, 1.695"/>
@@ -16112,7 +16138,7 @@
 			<transform position="3058.278, 2818.899, 40.056" rotation_euler="-0.487, 0.000, -2.356"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1956.748, 1367.896, 1.062" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1953.032, 1368.726, 1.062" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 		</game_entity>
 		<game_entity prefab="european_castle_bridge_a_new">
 			<transform position="1023.642, 2026.331, 8.224" rotation_euler="0.000, 0.000, 1.453"/>
@@ -16639,7 +16665,7 @@
 			<transform position="2527.880, 1874.138, 0.189" rotation_euler="0.039, -0.011, 2.936"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1960.564, 1371.122, 5.219" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1956.848, 1371.952, 5.219" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 			<components>
 				<meta_mesh_component>
 					<mesh name="wooden_platform_plank_f_column.0" material="plank_b2"/>
@@ -16948,7 +16974,7 @@
 			<transform position="2055.131, 2932.169, 24.403" rotation_euler="-0.383, 0.000, 2.612" scale="1.361, 1.361, 1.361"/>
 		</game_entity>
 		<game_entity prefab="empire_village_house_b">
-			<transform position="2008.930, 1434.714, 12.925" rotation_euler="0.000, 0.000, -1.399" scale="0.847, 0.893, 0.893"/>
+			<transform position="2008.930, 1434.714, 12.925" rotation_euler="0.000, 0.000, -1.399" scale="0.850, 0.900, 0.900"/>
 		</game_entity>
 		<game_entity prefab="khuzait_village_house_b">
 			<transform position="3504.927, 1846.119, 35.592" rotation_euler="0.000, 0.000, 0.200" scale="0.900, 0.900, 1.000"/>
@@ -18184,7 +18210,7 @@
 			<transform position="3642.062, 1620.749, 32.016" rotation_euler="0.000, 0.000, 0.214"/>
 		</game_entity>
 		<game_entity prefab="empire_village_house_b">
-			<transform position="2056.576, 1372.715, 9.529" rotation_euler="0.000, 0.000, 2.489"/>
+			<transform position="2056.576, 1372.715, 10.149" rotation_euler="0.000, 0.000, 1.759" scale="0.900, 0.900, 0.900"/>
 		</game_entity>
 		<game_entity prefab="arrow_barrel">
 			<transform position="2004.729, 1425.907, 24.324" rotation_euler="0.000, 0.000, -3.035"/>
@@ -22176,7 +22202,7 @@
 			<transform position="2596.470, 2761.526, 28.535" rotation_euler="0.000, 0.000, 0.217"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1954.017, 1368.690, 1.160" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1950.301, 1369.520, 1.160" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 		</game_entity>
 		<game_entity prefab="rock_cliff_a">
 			<transform position="2438.558, 2057.453, 25.907" rotation_euler="-0.092, -0.166, -2.444" scale="1.133, 0.904, 1.133"/>
@@ -22218,7 +22244,7 @@
 				<tag name="pb_craft:carpentry"/>
 				<tag name="pb_town:2"/>
 			</tags>
-			<transform position="2027.547, 1384.498, 10.980" rotation_euler="0.000, 0.000, 0.191"/>
+			<transform position="2028.645, 1381.389, 10.980" rotation_euler="0.000, 0.000, 0.191"/>
 		</game_entity>
 		<game_entity prefab="pb_weavery">
 			<tags>
@@ -22440,7 +22466,7 @@
 			</children>
 		</game_entity>
 		<game_entity prefab="pb_wheat_and_seed_market">
-			<transform position="2748.075, 1143.864, 7.648" rotation_euler="0.000, 0.000, -0.789"/>
+			<transform position="2747.636, 1139.530, 7.446" rotation_euler="0.000, 0.000, -1.691"/>
 		</game_entity>
 		<game_entity prefab="rock_cliff_b">
 			<transform position="1646.045, 2217.984, 49.704" rotation_euler="-0.368, 0.000, 0.684"/>
@@ -24181,7 +24207,7 @@
 			<transform position="3304.990, 1994.491, 15.219" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.950"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_b">
-			<transform position="1955.509, 1369.515, 6.653" rotation_euler="0.000, 0.000, 1.311"/>
+			<transform position="1951.793, 1370.345, 6.653" rotation_euler="0.000, 0.000, 1.311"/>
 		</game_entity>
 		<game_entity prefab="pb_bed">
 			<transform position="504.999, 2037.540, 20.558" rotation_euler="0.000, 0.000, -3.131" scale="0.671, 0.671, 0.671"/>
@@ -26290,7 +26316,7 @@
 			</children>
 		</game_entity>
 		<game_entity prefab="PB_Stairs">
-			<transform position="1961.070, 1369.617, 8.673" rotation_euler="0.000, 0.000, -0.301"/>
+			<transform position="1957.354, 1370.447, 8.673" rotation_euler="0.000, 0.000, -0.301"/>
 			<components>
 				<meta_mesh_component>
 					<mesh name="wooden_platform_stairs_a.0" material="plank_b2"/>
@@ -31279,7 +31305,7 @@
 			<transform position="2299.106, 2257.789, 19.182" rotation_euler="0.000, 0.000, 1.596"/>
 		</game_entity>
 		<game_entity prefab="bd_barrel_a">
-			<transform position="1957.609, 1370.952, 7.022" rotation_euler="0.000, 0.000, 0.000"/>
+			<transform position="1953.893, 1371.782, 7.022" rotation_euler="0.000, 0.000, 0.000"/>
 		</game_entity>
 		<game_entity prefab="khuzait_grandbazaar_ground_b">
 			<transform position="1900.715, 901.026, 17.089" rotation_euler="0.000, 0.000, 1.487" scale="1.255, 1.255, 1.396"/>
@@ -32126,7 +32152,7 @@
 			<transform position="2427.692, 1995.076, 27.290" rotation_euler="0.000, 0.000, -0.762"/>
 		</game_entity>
 		<game_entity prefab="hut_a">
-			<transform position="2062.751, 1366.607, 9.071" rotation_euler="0.000, 0.000, 0.914"/>
+			<transform position="2057.314, 1365.092, 8.644" rotation_euler="0.000, 0.000, 0.179"/>
 		</game_entity>
 		<game_entity prefab="rock_cliff_c">
 			<transform position="976.865, 2107.282, 43.948" rotation_euler="-0.769, -0.266, -1.518" scale="0.686, 0.686, 0.686"/>
@@ -33920,7 +33946,7 @@
 			<transform position="1214.437, 2333.649, 68.374" rotation_euler="0.000, 0.000, -0.591"/>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1954.850, 1371.836, 1.129" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1951.134, 1372.667, 1.129" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 		</game_entity>
 		<game_entity prefab="flora_tree_high_v_palm_date_e">
 			<transform position="1769.757, 401.835, 25.394" rotation_euler="0.000, 0.000, 0.000"/>
@@ -34078,7 +34104,7 @@
 			<transform position="2001.323, 1056.919, -1.353" rotation_euler="0.000, 0.000, -0.841" scale="1.463, 1.463, 1.850"/>
 		</game_entity>
 		<game_entity prefab="empire_village_house_a">
-			<transform position="2046.563, 1454.047, 14.059" rotation_euler="0.000, 0.000, 0.132" scale="0.900, 0.900, 0.900"/>
+			<transform position="2044.507, 1453.774, 14.059" rotation_euler="0.000, 0.000, 0.132" scale="0.900, 0.900, 0.900"/>
 		</game_entity>
 		<game_entity prefab="flora_tree_high_v_palm_date_e">
 			<transform position="1828.142, 1019.413, 14.852" rotation_euler="0.000, 0.000, 0.000"/>
@@ -35973,6 +35999,14 @@
 		</game_entity>
 		<game_entity prefab="european_city_part_j_balcony">
 			<transform position="1463.452, 1592.123, 11.628" rotation_euler="0.000, 0.000, 0.509"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="roman_roof_nrm"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="roman_roof_nrm"/>
+				</meta_mesh_component>
+			</components>
 		</game_entity>
 		<game_entity prefab="outermesh_003">
 			<transform position="4608.553, 1849.605, -11.507" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 0.374"/>
@@ -36675,6 +36709,16 @@
 		</game_entity>
 		<game_entity prefab="european_city_part_j_balcony">
 			<transform position="2172.883, 2489.550, 33.947" rotation_euler="0.000, 0.000, -1.898"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.2" material="planks_4"/>
+					<mesh name="european_city_part_j_balcony.5" material="thatched_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="thatched_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.2" material="planks_4"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="thatched_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="thatched_roof"/>
+				</meta_mesh_component>
+			</components>
 		</game_entity>
 		<game_entity prefab="pb_pine_5">
 			<transform position="3367.889, 2414.415, 21.818" rotation_euler="0.000, 0.000, -0.236"/>
@@ -38514,7 +38558,7 @@
 			</children>
 		</game_entity>
 		<game_entity prefab="arabian_house_new_d">
-			<transform position="1931.699, 1019.347, 7.568" rotation_euler="0.000, 0.000, -0.774" scale="0.800, 0.800, 0.800"/>
+			<transform position="1931.474, 1019.117, 7.568" rotation_euler="0.000, 0.000, -0.781" scale="0.800, 0.800, 0.800"/>
 		</game_entity>
 		<game_entity prefab="empire_grandbazaar_connective">
 			<transform position="1991.689, 1456.924, 13.840" rotation_euler="0.000, 0.000, 1.146"/>
@@ -38749,7 +38793,7 @@
 			<transform position="2024.969, 2230.339, 26.384" rotation_euler="-1.035, 2.886, 2.433" scale="2.028, 2.028, 2.028"/>
 		</game_entity>
 		<game_entity prefab="empire_village_house_b">
-			<transform position="2011.902, 1450.088, 12.930" rotation_euler="0.000, 0.000, -1.415"/>
+			<transform position="2011.902, 1450.088, 12.930" rotation_euler="0.000, 0.000, -1.415" scale="0.900, 0.900, 0.900"/>
 		</game_entity>
 		<game_entity prefab="rock_cliff_a">
 			<transform position="2842.675, 1554.353, 29.866" rotation_euler="-0.230, 0.000, 0.518"/>
@@ -38765,6 +38809,14 @@
 		</game_entity>
 		<game_entity prefab="european_city_part_j_balcony">
 			<transform position="1722.243, 1952.705, 70.082" rotation_euler="0.000, 0.000, -1.332"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="roman_roof_nrm"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="roman_roof_nrm"/>
+				</meta_mesh_component>
+			</components>
 		</game_entity>
 		<game_entity prefab="empire_street_tent_01">
 			<transform position="1719.982, 1957.039, 52.738" rotation_euler="0.000, 0.000, -1.421" scale="1.388, 1.388, 1.565"/>
@@ -39370,7 +39422,7 @@
 			<transform position="2695.160, 1140.157, 7.230" rotation_euler="0.000, 0.000, 1.742"/>
 		</game_entity>
 		<game_entity prefab="pb_tannery">
-			<transform position="2714.601, 1139.657, 7.900" rotation_euler="0.000, 0.000, -1.148"/>
+			<transform position="2708.531, 1141.399, 7.720" rotation_euler="0.000, 0.000, -2.683" scale="1.000, 1.000, 1.000"/>
 		</game_entity>
 		<game_entity prefab="empire_castle_stairs_b_l1">
 			<transform position="2779.683, 1150.699, 12.315" rotation_euler="0.000, 0.000, -0.582" scale="1.500, 1.000, 1.000"/>
@@ -39379,7 +39431,7 @@
 			<transform position="2764.740, 1127.408, 10.244" rotation_euler="0.000, 0.000, -0.277" scale="1.500, 1.000, 1.000"/>
 		</game_entity>
 		<game_entity prefab="pb_millstone">
-			<transform position="2741.604, 1142.379, 7.727" rotation_euler="0.000, 0.000, 0.000"/>
+			<transform position="2742.459, 1143.687, 7.715" rotation_euler="0.000, 0.000, -0.902"/>
 		</game_entity>
 		<game_entity prefab="pb_millstone">
 			<transform position="1404.042, 2141.991, 65.094" rotation_euler="0.000, 0.000, 0.000"/>
@@ -40739,7 +40791,7 @@
 			</children>
 		</game_entity>
 		<game_entity prefab="wooden_platform_plank_f_column">
-			<transform position="1961.751, 1368.044, 3.010" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
+			<transform position="1958.035, 1368.874, 3.010" rotation_euler="0.000, 0.000, -0.259" scale="1.000, 1.000, 1.081"/>
 		</game_entity>
 		<game_entity prefab="pb_saddle_maker">
 			<transform position="1441.504, 1297.570, 8.541" rotation_euler="0.000, 0.121, 3.077"/>
@@ -43869,10 +43921,10 @@
 			<transform position="1929.290, 1370.288, 12.459" rotation_euler="0.000, 0.000, -0.655" scale="1.365, 1.000, 1.000"/>
 		</game_entity>
 		<game_entity prefab="pb_bed">
-			<transform position="2745.326, 1134.763, 7.633" rotation_euler="0.000, 0.000, 2.260" scale="0.671, 0.671, 0.671"/>
+			<transform position="2738.792, 1136.044, 8.081" rotation_euler="0.000, 0.000, 1.358" scale="0.671, 0.671, 0.671"/>
 		</game_entity>
 		<game_entity prefab="pb_food_market_neutral">
-			<transform position="2752.800, 1139.558, 7.633" rotation_euler="0.000, 0.000, -0.879"/>
+			<transform position="2747.188, 1133.153, 8.081" rotation_euler="0.000, 0.000, -1.781"/>
 			<children>
 				<game_entity _index_="1">
 					<children>
@@ -45148,10 +45200,10 @@
 			<transform position="1180.994, 2197.404, 65.460" rotation_euler="0.000, 0.000, 0.349"/>
 		</game_entity>
 		<game_entity prefab="empire_road_floor_a_small">
-			<transform position="1986.501, 1451.536, 14.261" rotation_euler="0.000, 0.000, 0.125" scale="1.431, 1.567, 1.394"/>
+			<transform position="1986.501, 1451.536, 19.101" rotation_euler="0.000, 0.000, 0.125" scale="1.431, 1.567, 1.394"/>
 			<components>
 				<meta_mesh_component>
-					<mesh name="empire_road_floor_a_small" material="empire_wall_b" factor="4291083431"/>
+					<mesh name="empire_road_floor_a_small" material="castle_floor_a" factor="4291083431"/>
 				</meta_mesh_component>
 			</components>
 		</game_entity>
@@ -45195,10 +45247,10 @@
 			</children>
 		</game_entity>
 		<game_entity prefab="empire_road_floor_a_small">
-			<transform position="1962.449, 1440.830, 14.133" rotation_euler="0.000, 0.000, 1.733" scale="1.431, 1.567, 1.394"/>
+			<transform position="1962.449, 1440.830, 19.125" rotation_euler="0.000, 0.000, 1.733" scale="1.431, 1.567, 1.394"/>
 			<components>
 				<meta_mesh_component>
-					<mesh name="empire_road_floor_a_small" material="empire_wall_b" factor="4291083431"/>
+					<mesh name="empire_road_floor_a_small" material="castle_floor_a" factor="4291083431"/>
 				</meta_mesh_component>
 			</components>
 		</game_entity>
@@ -45519,7 +45571,7 @@
 			</children>
 		</game_entity>
 		<game_entity prefab="module_european_floor_c">
-			<transform position="2752.203, 1140.827, 7.500" rotation_euler="0.000, 0.000, 2.267"/>
+			<transform position="2747.813, 1134.408, 7.948" rotation_euler="0.000, 0.000, 1.365"/>
 		</game_entity>
 		<game_entity prefab="sturgia_grandbazaar_big_wall_b">
 			<transform position="3090.933, 2738.631, 44.103" rotation_euler="0.000, 0.000, 0.203" scale="1.456, 1.636, 1.636"/>
@@ -46764,28 +46816,7 @@
 			<transform position="2728.030, 1134.677, 8.174" rotation_euler="0.000, 0.000, -0.176" scale="1.000, 1.000, 1.239"/>
 		</game_entity>
 		<game_entity prefab="empire_garden_wall_d1">
-			<transform position="2737.936, 1132.913, 8.174" rotation_euler="0.000, 0.000, -0.176" scale="1.000, 1.000, 1.239"/>
-		</game_entity>
-		<game_entity prefab="empire_garden_wall_d1">
-			<transform position="2741.170, 1132.338, 8.174" rotation_euler="0.000, 0.000, -0.176" scale="1.000, 1.000, 1.239"/>
-		</game_entity>
-		<game_entity prefab="empire_garden_wall_d1">
-			<transform position="2744.382, 1131.766, 8.174" rotation_euler="0.000, 0.000, -0.176" scale="1.000, 1.000, 1.239"/>
-		</game_entity>
-		<game_entity prefab="empire_garden_wall_d1">
-			<transform position="2748.326, 1130.869, 8.174" rotation_euler="0.000, 0.000, -0.176" scale="1.000, 1.000, 1.239"/>
-		</game_entity>
-		<game_entity prefab="empire_garden_wall_d1">
-			<transform position="2751.517, 1130.332, 8.174" rotation_euler="0.000, 0.000, -0.189" scale="1.000, 1.000, 1.239"/>
-		</game_entity>
-		<game_entity prefab="empire_garden_wall_d1">
-			<transform position="2754.743, 1129.636, 8.174" rotation_euler="0.000, 0.000, -0.194" scale="1.000, 1.000, 1.239"/>
-		</game_entity>
-		<game_entity prefab="empire_garden_wall_d1">
-			<transform position="2757.997, 1128.998, 8.174" rotation_euler="0.000, 0.000, -0.194" scale="1.000, 1.000, 1.239"/>
-		</game_entity>
-		<game_entity prefab="empire_garden_wall_d1">
-			<transform position="2761.236, 1128.363, 8.174" rotation_euler="0.000, 0.000, -0.194" scale="1.000, 1.000, 1.239"/>
+			<transform position="2756.250, 1129.341, 8.174" rotation_euler="0.000, 0.000, -0.194" scale="1.000, 1.000, 1.239"/>
 		</game_entity>
 		<game_entity prefab="empire_grandbazaar_gate">
 			<transform position="2732.999, 1133.885, 7.470" rotation_euler="0.000, 0.000, 2.966" scale="1.000, 1.000, 1.122"/>
@@ -47884,7 +47915,7 @@
 			<flags>
 				<flag name="record_to_scene_replay" value="true"/>
 			</flags>
-			<transform position="1963.133, 1422.665, 7.857" rotation_euler="0.000, 0.000, -1.439"/>
+			<transform position="1962.714, 1425.823, 7.787" rotation_euler="0.000, 0.000, -1.439"/>
 			<scripts>
 				<script name="WallSegment">
 					<variables>
@@ -47961,41 +47992,6 @@
 						</script>
 					</scripts>
 					<children>
-						<game_entity name="merlon_1" old_prefab_name="merlon_1" mobility="1">
-							<physics shape="bo_empire_castle_wall_a_l3_01"/>
-							<components>
-								<meta_mesh_component name="empire_castle_wall_a_l3_01"/>
-							</components>
-							<scripts>
-								<script name="DestructableComponent">
-									<variables>
-										<variable name="DestructionStates" value="debris_empire_l3"/>
-										<variable name="DestroyedByStoneOnly" value="true"/>
-										<variable name="CanBeDestroyedInitially" value="true"/>
-										<variable name="MaxHitPoint" value="1.000"/>
-										<variable name="DestroyOnAnyHit" value="false"/>
-										<variable name="PassHitOnToParent" value="false"/>
-										<variable name="ReferenceEntityTag" value="reference"/>
-										<variable name="HeavyHitParticlesTag" value=""/>
-										<variable name="HeavyHitParticlesThreshold" value="5.000"/>
-										<variable name="ParticleEffectOnDestroy" value=""/>
-										<variable name="SoundEffectOnDestroy" value=""/>
-										<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
-										<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
-										<variable name="BattleSide" value="None"/>
-										<variable name="NavMeshPrefabName" value=""/>
-									</variables>
-								</script>
-							</scripts>
-							<children>
-								<game_entity name="debris_holder" old_prefab_name="debris_holder" mobility="1">
-									<tags>
-										<tag name="reference"/>
-									</tags>
-									<transform position="-10.298, -1.297, 12.059"/>
-								</game_entity>
-							</children>
-						</game_entity>
 						<game_entity name="merlon_2" old_prefab_name="merlon_2" mobility="1">
 							<physics shape="bo_empire_castle_wall_a_l3_02"/>
 							<components>
@@ -48446,7 +48442,7 @@
 			</children>
 		</game_entity>
 		<game_entity prefab="pb_salt_mine">
-			<transform position="500.910, 1898.750, 9.318" rotation_euler="-0.729, 0.000, 0.000"/>
+			<transform position="500.910, 1898.750, 10.178" rotation_euler="-0.729, 0.000, 0.000"/>
 		</game_entity>
 		<game_entity prefab="khuzait_tent_a">
 			<transform position="3581.143, 1629.033, 31.789" rotation_euler="0.000, 0.000, 2.325" scale="0.660, 0.660, 0.800"/>
@@ -48649,7 +48645,7 @@
 			<transform position="1262.318, 2012.188, 44.227" rotation_euler="0.000, 0.000, -2.103"/>
 		</game_entity>
 		<game_entity prefab="empire_castle_tower_round_a_l2">
-			<transform position="1796.908, 1639.857, 22.462" rotation_euler="0.000, 0.000, 0.000"/>
+			<transform position="1796.908, 1639.857, 21.662" rotation_euler="0.000, 0.000, 0.000"/>
 			<children>
 				<game_entity _index_="1">
 					<children>
@@ -54017,6 +54013,16 @@
 		</game_entity>
 		<game_entity prefab="european_city_part_j_balcony">
 			<transform position="2188.448, 2485.403, 33.931" rotation_euler="0.000, 0.000, 1.395"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.2" material="planks_4"/>
+					<mesh name="european_city_part_j_balcony.5" material="thatched_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="thatched_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.2" material="planks_4"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="thatched_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="thatched_roof"/>
+				</meta_mesh_component>
+			</components>
 		</game_entity>
 		<game_entity prefab="european_castle_bridge_a_new">
 			<transform position="1639.089, 2555.668, 10.600" rotation_euler="0.000, 0.000, 1.522"/>
@@ -54043,16 +54049,16 @@
 			<transform position="1956.738, 1045.108, 12.661" rotation_euler="0.000, 0.000, -1.640"/>
 		</game_entity>
 		<game_entity prefab="module_european_floor_c">
-			<transform position="2755.940, 1143.956, 7.500" rotation_euler="0.000, 0.000, -0.875"/>
+			<transform position="2752.585, 1133.416, 7.948" rotation_euler="0.000, 0.000, -1.777"/>
 		</game_entity>
 		<game_entity prefab="module_european_floor_c">
-			<transform position="2748.471, 1137.715, 7.500" rotation_euler="0.000, 0.000, -0.875"/>
+			<transform position="2743.057, 1135.407, 7.948" rotation_euler="0.000, 0.000, -1.777"/>
 		</game_entity>
 		<game_entity prefab="module_european_floor_c">
-			<transform position="2745.123, 1134.911, 7.500" rotation_euler="0.000, 0.000, 2.267" scale="1.000, 0.777, 1.000"/>
+			<transform position="2738.782, 1136.295, 7.948" rotation_euler="0.000, 0.000, 1.365" scale="1.000, 0.777, 1.000"/>
 		</game_entity>
 		<game_entity prefab="pb_kitchen">
-			<transform position="2755.950, 1144.362, 7.634" rotation_euler="0.000, 0.000, -0.889"/>
+			<transform position="2752.910, 1133.660, 8.082" rotation_euler="0.000, 0.000, -1.791"/>
 			<components>
 				<meta_mesh_component>
 					<mesh name="shop_prop_merchantbakery_a.8" material="roman_brick"/>
@@ -57769,6 +57775,14 @@
 		</game_entity>
 		<game_entity prefab="european_city_part_j_balcony">
 			<transform position="1905.193, 1925.823, 55.740" rotation_euler="0.000, 0.000, 1.004"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="roman_roof_nrm"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="roman_roof_nrm"/>
+				</meta_mesh_component>
+			</components>
 		</game_entity>
 		<game_entity prefab="rock_cliff_b">
 			<transform position="1095.046, 2960.363, 22.290" rotation_euler="-0.507, 0.000, 2.362" scale="1.342, 1.342, 1.342"/>
@@ -58338,19 +58352,19 @@
 			<transform position="1950.101, 1380.332, 10.801" rotation_euler="0.000, 0.000, -0.676"/>
 		</game_entity>
 		<game_entity prefab="empire__lord_endtable_a">
-			<transform position="2748.886, 1135.887, 7.634" rotation_euler="0.000, 0.000, -0.903" scale="1.954, 1.954, 1.162"/>
+			<transform position="2741.880, 1133.948, 8.082" rotation_euler="0.000, 0.000, -1.805" scale="1.954, 1.954, 1.162"/>
 		</game_entity>
 		<game_entity prefab="carpet_empire_b">
-			<transform position="2747.979, 1137.375, 7.634" rotation_euler="0.000, 0.000, 0.672" scale="1.557, 1.557, 1.557"/>
+			<transform position="2742.486, 1135.582, 8.082" rotation_euler="0.000, 0.000, -0.230" scale="1.557, 1.557, 1.557"/>
 		</game_entity>
 		<game_entity prefab="bd_chair_b_01">
-			<transform position="2747.753, 1133.843, 7.633" rotation_euler="0.000, 0.000, 2.866"/>
+			<transform position="2739.574, 1133.570, 8.081" rotation_euler="0.000, 0.000, 1.964"/>
 		</game_entity>
 		<game_entity prefab="bd_chair_b_01">
-			<transform position="2748.907, 1137.961, 7.634" rotation_euler="0.000, 0.000, 0.140"/>
+			<transform position="2743.521, 1135.217, 8.082" rotation_euler="0.000, 0.000, -0.762"/>
 		</game_entity>
 		<game_entity prefab="bd_chair_b_01">
-			<transform position="2747.027, 1136.357, 7.634" rotation_euler="0.000, 0.000, 1.380"/>
+			<transform position="2741.097, 1135.698, 8.082" rotation_euler="0.000, 0.000, 0.478"/>
 		</game_entity>
 		<game_entity prefab="pb_pine_3">
 			<transform position="937.060, 2421.389, 39.688" rotation_euler="0.000, 0.000, -0.644"/>
@@ -58393,9 +58407,6 @@
 		</game_entity>
 		<game_entity prefab="arrow_barrel">
 			<transform position="2714.311, 513.332, 49.277" rotation_euler="0.000, 0.000, 0.000"/>
-		</game_entity>
-		<game_entity prefab="arrow_barrel">
-			<transform position="2723.748, 533.814, 49.275" rotation_euler="0.000, 0.000, 0.000"/>
 		</game_entity>
 		<game_entity prefab="arrow_barrel">
 			<transform position="2730.875, 488.051, 53.136" rotation_euler="0.000, 0.000, 0.000"/>
@@ -60029,7 +60040,7 @@
 			<transform position="2975.576, 839.995, 12.652" rotation_euler="0.000, 0.000, -1.254" scale="1.000, 1.000, 1.120"/>
 		</game_entity>
 		<game_entity prefab="crate_a">
-			<transform position="1947.494, 1380.350, 11.170" rotation_euler="0.000, 0.000, -2.196"/>
+			<transform position="1949.226, 1381.084, 11.170" rotation_euler="0.000, 0.000, -2.273"/>
 		</game_entity>
 		<game_entity prefab="pb_small_shipyard">
 			<transform position="1214.927, 1286.169, 7.588" rotation_euler="0.127, 0.000, 2.817"/>
@@ -61281,7 +61292,7 @@
 			<transform position="1025.121, 1842.446, 22.209" rotation_euler="0.000, 0.000, 2.013" scale="1.909, 1.685, 1.685"/>
 		</game_entity>
 		<game_entity prefab="empire_castle_tower_round_a_l3">
-			<transform position="1960.209, 1410.496, 7.880" rotation_euler="0.000, 0.000, -2.223"/>
+			<transform position="1959.757, 1410.841, 7.880" rotation_euler="0.000, 0.000, -2.223"/>
 			<children>
 				<game_entity _index_="0">
 					<children>
@@ -62204,8 +62215,182 @@
 		<game_entity prefab="pb_pine_2">
 			<transform position="3295.136, 1920.889, 14.012" rotation_euler="0.000, 0.000, 0.141"/>
 		</game_entity>
-		<game_entity prefab="pb_vlandia_shields_serg_c">
+		<game_entity name="pb_vlandia_shields_serg_c" old_prefab_name="pb_vlandia_shields_serg_c">
 			<transform position="2719.028, 1180.017, 10.877" rotation_euler="0.000, 0.000, 1.757"/>
+			<children>
+				<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="wooden_platform_2_plank_f_column">
+					<transform position="0.025, 1.310, -0.281" rotation_euler="0.000, 0.000, -1.630" scale="0.404, 0.462, 0.405"/>
+					<physics shape="bo_wooden_platform_2_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_2_plank_f_column">
+							<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+							<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="wooden_platform_2_plank_f_column">
+					<transform position="0.105, 1.206, 1.456" rotation_euler="0.000, 1.574, -1.571" scale="0.579, 0.127, 0.502"/>
+					<physics shape="bo_wooden_platform_2_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_2_plank_f_column">
+							<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+							<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="wooden_platform_2_plank_f_column">
+					<transform position="-0.054, 1.206, 1.456" rotation_euler="0.000, 1.574, -1.571" scale="0.579, 0.127, 0.502"/>
+					<physics shape="bo_wooden_platform_2_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_2_plank_f_column">
+							<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+							<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="wooden_platform_2_plank_f_column">
+					<transform position="0.024, 1.209, 0.631" rotation_euler="0.000, 1.574, -1.571" scale="0.579, 0.127, 0.502"/>
+					<physics shape="bo_wooden_platform_2_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_2_plank_f_column">
+							<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+							<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="wooden_platform_2_plank_f_column">
+					<transform position="-0.322, 1.328, -0.209" rotation_euler="-0.443, 0.000, -1.630" scale="0.243, 0.366, 0.164"/>
+					<physics shape="bo_wooden_platform_2_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_2_plank_f_column">
+							<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+							<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="wood_weapon_holder_a" old_prefab_name="wood_weapon_holder_a">
+					<transform position="-0.106, 1.305, -0.281" rotation_euler="0.000, 0.000, 0.000" scale="0.215, 0.508, 1.000"/>
+					<physics shape="bo_wooden_platform_2_plank_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_2_plank_b">
+							<mesh name="wooden_platform_2_plank_b.0" material="plank_b"/>
+							<mesh name="wooden_platform_2_plank_b.lod3" material="plank_b"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_2_plank_b" old_prefab_name="wooden_platform_2_plank_b">
+					<transform position="-0.111, -1.236, -0.281" non_orthogonal_rotation_mat="-0.999687, 0.025021, 0.000000, -0.004483, -0.999990, 0.000000, 0.000000, 0.000000, 1.000000" scale="0.229, 0.508, 1.000"/>
+					<physics shape="bo_wooden_platform_2_plank_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_2_plank_b">
+							<mesh name="wooden_platform_2_plank_b.0" material="plank_b"/>
+							<mesh name="wooden_platform_2_plank_b.lod3" material="plank_b"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="wooden_platform_2_plank_f_column">
+					<transform position="0.024, -1.229, -0.281" rotation_euler="0.000, 0.000, -1.630" scale="0.303, 0.462, 0.405"/>
+					<physics shape="bo_wooden_platform_2_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_2_plank_f_column">
+							<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+							<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="wooden_platform_2_plank_f_column">
+					<transform position="-0.322, -1.207, -0.209" rotation_euler="-0.443, 0.000, -1.630" scale="0.243, 0.366, 0.164"/>
+					<physics shape="bo_wooden_platform_2_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_2_plank_f_column">
+							<mesh name="wooden_platform_2_plank_f_column.0" material="plank_b"/>
+							<mesh name="wooden_platform_2_plank_f_column.lod3" material="plank_b"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="shields_a3" old_prefab_name="shields_a3">
+					<transform position="2.413, 0.722, -0.245"/>
+					<children>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_tall_heater_shield"/>
+							</tags>
+							<transform position="-2.441, -1.128, 1.587" rotation_euler="-1.571, 3.072, -1.656"/>
+							<components>
+								<meta_mesh_component name="heater_shield_k"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_reinforced_kite_shield"/>
+							</tags>
+							<transform position="-2.399, -0.517, 1.619" rotation_euler="-1.571, 3.062, -1.656"/>
+							<components>
+								<meta_mesh_component name="kite_shield_d"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_fortified_kite_shield"/>
+							</tags>
+							<transform position="-2.362, 0.363, 1.615" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="kite_shield_s"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_reinforced_flat_kite_shield"/>
+							</tags>
+							<transform position="-2.347, -0.269, 1.592" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="kite_shield_p"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_studded_bound_kite_shield"/>
+							</tags>
+							<transform position="-2.345, -0.910, 1.607" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="kite_shield_r"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_worn_kite_shield"/>
+							</tags>
+							<transform position="-2.385, -1.530, 1.606" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="kite_shield_b"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_heavy_heater_shield"/>
+							</tags>
+							<transform position="-2.448, -1.752, 1.588" rotation_euler="-1.571, 3.043, -1.656"/>
+							<components>
+								<meta_mesh_component name="heater_shield_g"/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
 		</game_entity>
 		<game_entity prefab="pb_armory_imperial_lamellar">
 			<transform position="2716.212, 1179.125, 10.876" rotation_euler="0.000, 0.000, -2.385"/>
@@ -63566,9 +63751,6 @@
 		</game_entity>
 		<game_entity prefab="pb_chest_locked">
 			<transform position="2715.758, 515.329, 49.266" rotation_euler="0.000, 0.000, -2.162"/>
-		</game_entity>
-		<game_entity prefab="pb_chest_locked">
-			<transform position="2725.300, 532.179, 49.267" rotation_euler="0.000, 0.000, 2.545"/>
 		</game_entity>
 		<game_entity prefab="pb_vlandia_armory_b">
 			<transform position="654.909, 2613.055, 26.686" rotation_euler="1.566, -3.100, -0.707" scale="0.733, 0.733, 0.202"/>
@@ -65251,7 +65433,7 @@
 			<transform position="2741.631, 1260.166, 14.725" rotation_euler="0.000, 0.000, 0.000"/>
 		</game_entity>
 		<game_entity prefab="pb_tree_4">
-			<transform position="2757.490, 1226.042, 14.053" rotation_euler="0.000, 0.000, -0.439"/>
+			<transform position="2791.562, 1239.291, 14.010" rotation_euler="0.000, 0.000, -0.439"/>
 		</game_entity>
 		<game_entity prefab="pb_tree_1">
 			<transform position="1360.694, 1250.181, 20.315" rotation_euler="0.000, 0.000, -0.572"/>
@@ -65414,6 +65596,1214 @@
 		</game_entity>
 		<game_entity prefab="pb_tree_4">
 			<transform position="653.696, 2229.336, 25.657" rotation_euler="0.000, 0.000, -0.175"/>
+		</game_entity>
+		<game_entity prefab="pb_salt_mine">
+			<transform position="1362.323, 2757.831, 7.191" rotation_euler="-1.016, 0.000, -0.785"/>
+		</game_entity>
+		<game_entity prefab="pb_salt_mine">
+			<transform position="2656.196, 2652.226, 8.841" rotation_euler="-0.987, 0.528, 1.277"/>
+		</game_entity>
+		<game_entity prefab="pb_pine_1">
+			<transform position="1053.449, 2199.009, 58.748" rotation_euler="0.000, 0.000, -0.219"/>
+		</game_entity>
+		<game_entity prefab="pb_pine_2">
+			<transform position="1055.562, 2183.306, 53.843" rotation_euler="0.000, 0.000, 0.560"/>
+		</game_entity>
+		<game_entity prefab="pb_pine_3">
+			<transform position="1038.125, 2154.881, 48.429" rotation_euler="0.000, 0.000, -0.774"/>
+		</game_entity>
+		<game_entity prefab="pb_pine_4">
+			<transform position="1046.539, 2169.353, 52.670" rotation_euler="0.000, 0.000, 0.332"/>
+		</game_entity>
+		<game_entity prefab="pb_pine_5">
+			<transform position="1053.867, 2217.066, 61.918" rotation_euler="0.000, 0.000, -0.653"/>
+		</game_entity>
+		<game_entity prefab="empire_house_c">
+			<transform position="2023.487, 1467.193, 14.906" rotation_euler="0.000, 0.000, -1.415" scale="0.646, 0.646, 0.646"/>
+		</game_entity>
+		<game_entity prefab="empire_house_shed_a">
+			<transform position="2084.793, 1349.903, 8.904" rotation_euler="0.000, 0.000, -2.897"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_stairs_c_l2">
+			<transform position="2081.992, 1346.918, 7.313" rotation_euler="0.000, 0.000, -1.318"/>
+		</game_entity>
+		<game_entity prefab="empire_house_storage_a">
+			<transform position="2088.489, 1350.377, 8.665" rotation_euler="0.000, 0.000, 1.849"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_b">
+			<transform position="2069.471, 1376.030, 10.140" rotation_euler="0.000, 0.000, 0.201" scale="0.800, 0.800, 0.900"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_a">
+			<transform position="2076.840, 1363.071, 7.992" rotation_euler="0.000, 0.000, 0.206" scale="0.900, 0.900, 0.950"/>
+		</game_entity>
+		<game_entity prefab="pb_empire_armory_a">
+			<transform position="2017.720, 2280.052, 27.429" rotation_euler="0.000, 0.000, -1.176" scale="0.997, 0.898, 0.399"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="5">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="6">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="11">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_empire_armory_b">
+			<transform position="2017.774, 2278.678, 27.549" rotation_euler="0.000, 0.000, -1.199" scale="0.997, 0.997, 0.399"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="1">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="2">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="3">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="4">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_empire_boots_a">
+			<transform position="2019.881, 2275.370, 27.090" rotation_euler="0.000, 0.000, 0.313" scale="1.222, 1.267, 1.000"/>
+		</game_entity>
+		<game_entity prefab="pb_empire_capes_a">
+			<transform position="2015.630, 2283.499, 26.939" rotation_euler="0.000, 0.000, -0.385" scale="1.234, 0.744, 1.000"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="4">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="13">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="18">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="31">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="33">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="37">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_empire_gloves_a">
+			<transform position="2019.668, 2280.583, 27.090" rotation_euler="0.000, 0.000, -1.171"/>
+		</game_entity>
+		<game_entity prefab="pb_empire_helmets_a">
+			<transform position="2011.229, 2283.198, 29.203" rotation_euler="0.000, 0.000, 1.967" scale="0.856, 1.474, 0.579"/>
+			<children>
+				<game_entity _index_="7">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="8">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="18">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="24">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="26">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="27">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="29">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="31">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="33">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="36">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_weapons_2h_d">
+			<transform position="2011.089, 2280.835, 26.938" rotation_euler="0.000, 0.000, -2.759" scale="0.303, 0.462, 0.260"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_axes_a">
+			<transform position="2008.905, 2281.312, 26.939" rotation_euler="0.000, 0.000, -0.377"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_swords_c">
+			<transform position="2014.329, 2277.855, 26.939" rotation_euler="0.000, 0.000, 1.911" scale="0.303, 0.462, 0.201"/>
+		</game_entity>
+		<game_entity name="pb_vlandia_shields_serg_a" old_prefab_name="pb_vlandia_shields_serg_a">
+			<transform position="2016.892, 2273.396, 26.939" rotation_euler="0.000, 0.000, 1.964"/>
+			<children>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.005, -2.192, 0.821" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.415"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.006, -1.307, 0.417" rotation_euler="-1.567, 3.141, 0.000" scale="0.353, 0.828, 1.434"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.006, -1.310, 0.814" rotation_euler="-1.567, 3.141, 0.000" scale="0.353, 0.828, 1.434"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.006, -1.314, 1.680" rotation_euler="1.567, 3.141, 3.141" scale="0.353, 0.828, 1.434"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.005, -0.385, 0.821" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.415"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.006, 1.006, 0.890" rotation_euler="-1.565, 3.141, 0.000" scale="0.350, 0.821, 1.969"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.006, 1.001, 1.680" rotation_euler="1.565, 3.141, 3.141" scale="0.350, 0.821, 1.969"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.006, 1.009, 0.417" rotation_euler="-1.565, 3.141, 0.000" scale="0.350, 0.821, 1.969"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="pb_sturgia_shields_a" old_prefab_name="pb_sturgia_shields_a">
+					<transform position="-0.004, 2.086, 0.821" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.415"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="shields_a" old_prefab_name="shields_a">
+					<transform position="0.049, -0.154, 0.000"/>
+					<children>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_heavy_heater_shield"/>
+							</tags>
+							<transform position="-0.073, 1.959, 1.515" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="heater_shield_g"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_tall_heater_shield"/>
+							</tags>
+							<transform position="-0.092, 1.351, 1.536" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="heater_shield_k"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_reinforced_kite_shield"/>
+							</tags>
+							<transform position="-0.116, 0.780, 1.566" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="kite_shield_d"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_fortified_kite_shield"/>
+							</tags>
+							<transform position="-0.105, 0.207, 1.555" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="kite_shield_s"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_reinforced_flat_kite_shield"/>
+							</tags>
+							<transform position="-0.080, -0.511, 1.532" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="kite_shield_p"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_studded_bound_kite_shield"/>
+							</tags>
+							<transform position="-0.092, -1.103, 1.566" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="kite_shield_r"/>
+							</components>
+						</game_entity>
+						<game_entity name="empty_object" old_prefab_name="empty_object">
+							<tags>
+								<tag name="pb_town:0"/>
+								<tag name="pb_market"/>
+								<tag name="pb_item:pb_worn_kite_shield"/>
+							</tags>
+							<transform position="-0.115, -1.632, 1.556" rotation_euler="-1.571, -0.138, -1.691"/>
+							<components>
+								<meta_mesh_component name="kite_shield_b"/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_vlandia_shields_cav_b">
+			<transform position="2013.836, 2274.419, 26.927" rotation_euler="0.000, 0.000, 1.470"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_maces_b">
+			<transform position="2013.477, 2279.783, 26.937" rotation_euler="0.000, 0.000, 1.951" scale="0.303, 0.462, 0.201"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_spears_imperial">
+			<transform position="2020.013, 2278.772, 26.939" rotation_euler="0.000, 0.000, 1.531" scale="0.304, 0.463, 0.451"/>
+			<children>
+				<game_entity _index_="4">
+					<children>
+						<game_entity _index_="0">
+							<components>
+								<cloth_simulator/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+				<game_entity _index_="18">
+					<children>
+						<game_entity _index_="0">
+							<components>
+								<cloth_simulator/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_weapons_lances_a">
+			<transform position="2017.556, 2282.552, 26.939" rotation_euler="0.000, 0.000, 2.553" scale="0.304, 0.463, 0.451"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_special">
+			<transform position="2007.857, 2277.973, 27.064" rotation_euler="0.000, 0.000, -1.210" scale="1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="pb_shortbows_ranged_a">
+			<transform position="2010.047, 2272.626, 26.936" rotation_euler="0.000, 0.000, 1.188"/>
+		</game_entity>
+		<game_entity prefab="pb_imperial_arrows">
+			<transform position="2010.995, 2271.706, 28.833" rotation_euler="0.000, 0.000, 2.789" scale="1.000, 0.771, 0.893"/>
+		</game_entity>
+		<game_entity prefab="pb_armory_imperial_lamellar">
+			<transform position="2017.071, 2275.904, 26.939" rotation_euler="0.000, 0.000, 1.017"/>
+			<components>
+				<cloth_simulator/>
+			</components>
+		</game_entity>
+		<game_entity prefab="pb_sturgia_armory_a">
+			<transform position="2241.353, 2756.495, 35.193" rotation_euler="0.000, 0.000, -3.029"/>
+			<children>
+				<game_entity _index_="5">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="6">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="7">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="8">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="9">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_sturgia_armory_b">
+			<transform position="2240.445, 2763.073, 34.941" rotation_euler="0.000, 0.000, -3.052"/>
+			<children>
+				<game_entity _index_="5">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="8">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_sturgia_boots_a">
+			<transform position="2240.426, 2765.129, 34.487" rotation_euler="0.000, 0.000, -3.100"/>
+		</game_entity>
+		<game_entity prefab="pb_sturgia_capes_a">
+			<transform position="2241.780, 2753.585, 34.487" rotation_euler="0.000, 0.000, -3.004"/>
+		</game_entity>
+		<game_entity prefab="pb_sturgia_capes_b">
+			<transform position="2241.600, 2754.467, 34.487" rotation_euler="0.000, 0.000, -3.040"/>
+		</game_entity>
+		<game_entity prefab="pb_sturgia_gloves_a">
+			<transform position="2240.173, 2766.072, 34.486" rotation_euler="0.000, 0.000, -1.573" scale="0.328, 0.715, 1.000"/>
+		</game_entity>
+		<game_entity prefab="pb_sturgia_helmets_a">
+			<transform position="2241.742, 2752.153, 34.486" rotation_euler="0.000, 0.000, -1.464" scale="0.668, 0.637, 1.000"/>
+			<children>
+				<game_entity _index_="4">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="6">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="13">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="15">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="16">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="pb_sturgia_shields_a" old_prefab_name="pb_sturgia_shields_a">
+			<transform position="2240.831, 2761.014, 35.292" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.415"/>
+			<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+			<components>
+				<meta_mesh_component name="european_castle_wall_fence_b"/>
+			</components>
+			<children>
+				<game_entity name="empty_object" old_prefab_name="empty_object">
+					<tags>
+						<tag name="pb_item:pb_heavy_round_shield"/>
+						<tag name="pb_market"/>
+						<tag name="pb_town:0"/>
+					</tags>
+					<transform position="0.042, -0.625, 0.411" non_orthogonal_rotation_mat="0.008995, 0.999959, -0.000789, -0.091074, 0.002392, 0.995841, 0.998918, -0.008914, 0.045638" scale="0.956, 0.624, 1.007"/>
+					<components>
+						<meta_mesh_component name="sturgia_shield_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.002, -1.824, 0.510" rotation_euler="1.567, 3.141, 3.141" scale="0.348, 0.577, 0.888"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="empty_object">
+					<tags>
+						<tag name="pb_item:pb_sturgia_old_shield_c"/>
+						<tag name="pb_market"/>
+						<tag name="pb_town:0"/>
+					</tags>
+					<transform position="0.105, -1.306, -0.273" non_orthogonal_rotation_mat="0.007796, 0.999970, 0.000000, -0.219648, 0.001713, 0.975578, 0.993706, -0.007748, 0.111747" scale="0.956, 0.630, 1.002"/>
+					<components>
+						<meta_mesh_component name="sturgia_old_shield_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.001, -2.473, 0.000"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.002, -0.592, -0.286" rotation_euler="-1.567, 3.141, 0.000" scale="0.348, 0.577, 0.888"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="empty_object">
+					<tags>
+						<tag name="pb_item:pb_leather_round_shield"/>
+						<tag name="pb_town:0"/>
+						<tag name="pb_market"/>
+					</tags>
+					<transform position="0.094, 0.075, -0.225" non_orthogonal_rotation_mat="-0.320582, 0.947101, -0.015064, -0.233525, -0.048117, 0.971159, 0.939104, 0.321721, 0.120744" scale="0.956, 0.632, 1.001"/>
+					<components>
+						<meta_mesh_component name="sturgia_shield_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="empty_object">
+					<tags>
+						<tag name="pb_town:0"/>
+						<tag name="pb_market"/>
+						<tag name="pb_item:pb_reinforced_horsemans_kite_shield"/>
+					</tags>
+					<transform position="-0.059, -1.762, 0.437" non_orthogonal_rotation_mat="0.106404, -0.993851, 0.030619, 0.015588, -0.059897, -0.998083, 0.994277, 0.106731, 0.004556" scale="1.000, 0.707, 1.000"/>
+					<components>
+						<meta_mesh_component name="kite_shield_j"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.002, -1.822, 0.201" rotation_euler="-1.567, 3.141, 0.000" scale="0.348, 0.577, 0.888"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.002, -1.820, -0.286" rotation_euler="-1.567, 3.141, 0.000" scale="0.348, 0.577, 0.888"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.002, -0.594, 0.201" rotation_euler="-1.567, 3.141, 0.000" scale="0.348, 0.577, 0.888"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.002, -0.596, 0.510" rotation_euler="1.567, 3.141, 3.141" scale="0.348, 0.577, 0.888"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="-0.001, -1.228, 0.000"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_weapons_lances_sturgia">
+			<transform position="2244.569, 2769.502, 34.479" rotation_euler="0.000, 0.000, -3.100" scale="0.304, 0.463, 0.451"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_2h_a">
+			<transform position="2241.847, 2769.163, 34.479" rotation_euler="0.000, 0.000, -3.066" scale="0.303, 0.462, 0.411"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_axes_b">
+			<transform position="2240.812, 2769.090, 34.479" rotation_euler="0.000, 0.000, -1.418"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_spears_a">
+			<transform position="2247.072, 2769.733, 34.479" rotation_euler="0.000, 0.000, -3.094" scale="0.304, 0.463, 0.451"/>
+			<children>
+				<game_entity _index_="2">
+					<children>
+						<game_entity _index_="0">
+							<components>
+								<cloth_simulator/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+				<game_entity _index_="5">
+					<children>
+						<game_entity _index_="0">
+							<components>
+								<cloth_simulator/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_weapons_special">
+			<transform position="2251.835, 2770.070, 34.624" rotation_euler="0.000, 0.000, -3.035"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_swords_a">
+			<transform position="2239.694, 2766.727, 34.484" rotation_euler="0.000, 0.000, -1.489" scale="0.303, 0.462, 0.201"/>
+		</game_entity>
+		<game_entity prefab="mat_fur_a">
+			<transform position="2247.307, 2759.802, 34.584" rotation_euler="0.000, 0.000, 0.104"/>
+		</game_entity>
+		<game_entity prefab="throne_sturgia">
+			<transform position="2248.057, 2754.779, 45.284" rotation_euler="0.000, 0.000, -3.026"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_a">
+			<transform position="2246.031, 2753.838, 45.290" rotation_euler="0.000, 0.000, 0.722"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_a">
+			<transform position="2250.226, 2754.332, 45.290" rotation_euler="0.000, 0.000, -0.425"/>
+		</game_entity>
+		<game_entity prefab="pb_money_chest">
+			<transform position="2248.487, 2749.747, 45.329" rotation_euler="0.000, 0.000, -3.043"/>
+		</game_entity>
+		<game_entity prefab="mat_fur_a">
+			<transform position="2248.315, 2752.133, 45.308" rotation_euler="0.000, 0.000, 1.715"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_inf_a">
+			<transform position="2247.918, 2756.467, 39.542" rotation_euler="0.000, 0.000, -1.463"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_doctor-healer_a">
+			<transform position="2252.558, 2748.166, 40.183" rotation_euler="0.000, 0.000, 1.658"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_ranged_a">
+			<transform position="2247.183, 2761.827, 39.542" rotation_euler="0.000, 0.000, -1.497"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_serf_a">
+			<transform position="2242.022, 2750.414, 39.542" rotation_euler="0.000, 0.000, 0.062"/>
+		</game_entity>
+		<game_entity prefab="mat_carpet_h">
+			<transform position="2242.068, 2750.412, 39.542" rotation_euler="0.000, 0.000, -1.477" scale="0.495, 0.495, 0.495"/>
+		</game_entity>
+		<game_entity prefab="mat_fur_c">
+			<transform position="2247.757, 2755.648, 39.542" rotation_euler="0.000, 0.000, 0.043"/>
+		</game_entity>
+		<game_entity prefab="mat_fur_b">
+			<transform position="2247.446, 2761.382, 39.542" rotation_euler="0.000, 0.000, 1.629" scale="0.629, 0.629, 0.629"/>
+		</game_entity>
+		<game_entity prefab="carpet_empire_d">
+			<transform position="2252.480, 2748.154, 39.547" rotation_euler="0.000, 0.000, -1.469"/>
+		</game_entity>
+		<game_entity prefab="bd_carpet_khuzait_n">
+			<transform position="3652.409, 1623.004, 31.980" rotation_euler="0.000, 0.000, 0.208" scale="1.974, 1.974, 1.974"/>
+		</game_entity>
+		<game_entity prefab="carpet_empire_c">
+			<transform position="3647.752, 1616.833, 32.003" rotation_euler="0.000, 0.000, -0.625"/>
+		</game_entity>
+		<game_entity prefab="carpet_empire_c">
+			<transform position="3644.778, 1628.174, 32.003" rotation_euler="0.000, 0.000, 1.056"/>
+		</game_entity>
+		<game_entity prefab="bd_carpet_khuzait_h">
+			<transform position="3656.066, 1631.520, 32.007" rotation_euler="0.000, 0.000, -0.828"/>
+		</game_entity>
+		<game_entity prefab="bd_carpet_khuzait_l">
+			<transform position="3658.852, 1618.428, 32.027" rotation_euler="0.000, 0.000, 0.903"/>
+		</game_entity>
+		<game_entity prefab="bd_carpet_khuzait_m">
+			<transform position="3662.417, 1625.141, 32.017" rotation_euler="0.000, 0.000, 0.206" scale="2.587, 2.587, 2.587"/>
+		</game_entity>
+		<game_entity prefab="mat_carpet_h">
+			<transform position="3654.142, 1614.049, 31.988" rotation_euler="0.000, 0.000, 0.121"/>
+		</game_entity>
+		<game_entity prefab="mat_carpet_h">
+			<transform position="3649.186, 1632.439, 31.988" rotation_euler="0.000, 0.000, 0.349"/>
+		</game_entity>
+		<game_entity prefab="throne_khuzait">
+			<transform position="3664.225, 1625.540, 31.987" rotation_euler="0.000, 0.000, -1.374"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_ranged_a">
+			<transform position="3663.732, 1629.170, 32.036" rotation_euler="0.000, 0.000, -2.596"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_serf_a">
+			<transform position="3662.736, 1630.553, 32.005" rotation_euler="0.000, 0.000, -2.505"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_inf_a">
+			<transform position="3665.015, 1620.512, 31.995" rotation_euler="0.000, 0.000, 2.902"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_doctor-healer_outlaw">
+			<transform position="3664.340, 1618.266, 32.580" rotation_euler="0.000, 0.000, 2.700"/>
+		</game_entity>
+		<game_entity prefab="pb_khuzait_armory_a">
+			<transform position="3652.756, 1626.888, 31.980" rotation_euler="0.000, 0.000, -1.351" scale="0.775, 0.775, 0.516"/>
+			<children>
+				<game_entity _index_="1">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="3">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="4">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_khuzait_armory_b">
+			<transform position="3654.303, 1619.417, 31.980" rotation_euler="0.000, 0.000, -1.459" scale="0.775, 0.775, 0.516"/>
+			<children>
+				<game_entity _index_="0">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="3">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="5">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="7">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="8">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="pb_khuzait_boots" old_prefab_name="pb_khuzait_boots_a">
+			<transform position="3654.540, 1611.428, 31.946" rotation_euler="0.000, 0.000, 0.118" scale="0.639, 0.562, 1.584"/>
+			<physics shape="bo_tavern_vlandia_table_a"/>
+			<components>
+				<meta_mesh_component name="tavern_vlandia_table_a">
+					<mesh name="tavern_vlandia_table_a.38" material="adobe_wall_white"/>
+					<mesh name="tavern_vlandia_table_a.lod2.38" material="adobe_wall_white"/>
+					<mesh name="tavern_vlandia_table_a.lod3.38" material="adobe_wall_white"/>
+				</meta_mesh_component>
+			</components>
+			<children>
+				<game_entity name="empty_object" old_prefab_name="empty_object">
+					<tags>
+						<tag name="pb_town:0"/>
+						<tag name="pb_market"/>
+						<tag name="pb_item:pb_reinforced_suede_boots"/>
+					</tags>
+					<transform position="-0.517, 0.047, 0.187" rotation_euler="-0.001, 0.000, -0.008" scale="1.512, 1.720, 0.610"/>
+					<components>
+						<meta_mesh_component name="khuzait_suede_leather_foot"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="empty_object">
+					<tags>
+						<tag name="pb_town:0"/>
+						<tag name="pb_market"/>
+						<tag name="pb_item:pb_khuzait_curved_boots"/>
+					</tags>
+					<transform position="0.702, 0.038, 0.655" rotation_euler="-0.001, 0.000, -0.008" scale="1.512, 1.720, 0.610"/>
+					<components>
+						<meta_mesh_component name="khuzait_leather_boots"/>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="empty_object">
+					<tags>
+						<tag name="pb_town:0"/>
+						<tag name="pb_market"/>
+						<tag name="pb_item:pb_steppe_leather_boots"/>
+					</tags>
+					<transform position="-0.517, 0.051, 0.650" rotation_euler="-0.001, 0.000, -0.008" scale="1.512, 1.720, 0.610"/>
+					<components>
+						<meta_mesh_component name="khuzait_leather_armor_foot"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_d" old_prefab_name="wooden_platform_plank_d">
+					<transform position="0.082, 0.055, 0.138" rotation_euler="0.000, 0.000, -0.003" scale="0.623, 2.305, 0.631"/>
+					<physics shape="bo_wooden_platform_plank_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_d">
+							<mesh name="wooden_platform_plank_d.0" material="planks"/>
+							<mesh name="wooden_platform_plank_d.lod3" material="planks"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity name="empty_object" old_prefab_name="empty_object">
+					<tags>
+						<tag name="pb_market"/>
+						<tag name="pb_town:0"/>
+						<tag name="pb_item:pb_plated_strip_boots"/>
+					</tags>
+					<transform position="0.686, 0.029, 0.193" non_orthogonal_rotation_mat="0.986711, -0.162472, -0.002038, 0.126444, 0.991940, 0.008150, 0.004276, -0.065835, 0.997821" scale="1.255, 1.774, 0.633"/>
+					<components>
+						<meta_mesh_component name="empire_plated_boots"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_khuzait_gloves_capes">
+			<transform position="3648.403, 1634.911, 31.980" rotation_euler="0.000, 0.000, -2.801"/>
+			<children>
+				<game_entity _index_="17">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="20">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="24">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="27">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_khuzait_helmets_a">
+			<transform position="3649.374, 1622.323, 31.980" rotation_euler="0.000, 0.000, 1.795" scale="1.000, 0.584, 1.918"/>
+			<children>
+				<game_entity _index_="1">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="3">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="7">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="10">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="12">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="13">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="14">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="17">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="18">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+				<game_entity _index_="23">
+					<components>
+						<cloth_simulator/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_khuzait_shields_a">
+			<transform position="3645.175, 1629.319, 31.980" rotation_euler="0.000, 0.000, -2.085"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_spears_khuzait">
+			<transform position="3657.103, 1633.814, 31.980" rotation_euler="0.000, 0.000, 2.295" scale="0.304, 0.463, 0.451"/>
+			<children>
+				<game_entity _index_="18">
+					<children>
+						<game_entity _index_="0">
+							<components>
+								<cloth_simulator/>
+							</components>
+						</game_entity>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="pb_weapons_axes_a">
+			<transform position="3649.542, 1616.731, 31.980" rotation_euler="0.000, 0.000, 2.525"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_lances_a">
+			<transform position="3661.222, 1617.312, 31.980" rotation_euler="0.000, 0.000, 0.851" scale="0.304, 0.463, 0.451"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_outlaws_a">
+			<transform position="3654.555, 1635.518, 33.687" rotation_euler="1.566, 1.450, 3.141" scale="0.814, 0.814, 1.245"/>
+		</game_entity>
+		<game_entity prefab="pb_weapons_swords_b">
+			<transform position="3648.967, 1616.114, 31.980" rotation_euler="0.000, 0.000, 0.886" scale="0.303, 0.462, 0.201"/>
+		</game_entity>
+		<game_entity prefab="pb_battania_ranged">
+			<transform position="3659.230, 1612.473, 31.985" rotation_euler="0.000, 0.000, -2.741" scale="0.424, 0.424, 0.687"/>
+		</game_entity>
+		<game_entity prefab="pb_shortbows_ranged_a">
+			<transform position="3661.370, 1613.703, 31.980" rotation_euler="0.000, 0.000, 2.293"/>
+		</game_entity>
+		<game_entity prefab="pb_vlandia_shields_cav_b">
+			<transform position="2719.507, 1177.491, 10.892" rotation_euler="0.000, 0.000, -1.355"/>
+		</game_entity>
+		<game_entity prefab="pb_crossbows_ranged_imperial">
+			<transform position="2008.205, 2279.691, 26.939" rotation_euler="0.000, 0.000, 1.194" scale="1.357, 1.357, 1.357"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_doctor-healer_d">
+			<transform position="2016.159, 2284.188, 38.364" rotation_euler="0.000, 0.000, -1.959"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_inf_a">
+			<transform position="2007.124, 2275.010, 37.882" rotation_euler="0.000, 0.000, 0.391"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_serf_a">
+			<transform position="2012.119, 2272.053, 37.740" rotation_euler="0.000, 0.000, 1.179"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_ranged_a">
+			<transform position="2020.125, 2275.221, 37.912" rotation_euler="0.000, 0.000, 2.745"/>
+		</game_entity>
+		<game_entity prefab="mat_carpet_c">
+			<transform position="2015.383, 2278.377, 37.740" rotation_euler="0.000, 0.000, 0.405"/>
+		</game_entity>
+		<game_entity prefab="throne_empire">
+			<transform position="2016.766, 2279.029, 37.740" rotation_euler="0.000, 0.000, -1.176"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_empire_a_pillow_a">
+			<transform position="2015.557, 2280.888, 37.740" rotation_euler="0.000, 0.000, -0.754"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_empire_a_pillow_a">
+			<transform position="2017.323, 2276.861, 37.740" rotation_euler="0.000, 0.000, -1.613"/>
+		</game_entity>
+		<game_entity prefab="pb_money_chest">
+			<transform position="2020.125, 2280.556, 37.850" rotation_euler="0.000, 0.000, -1.165"/>
+		</game_entity>
+		<game_entity prefab="bd_tapestry_imperial_b">
+			<transform position="2017.651, 2279.399, 43.774" rotation_euler="0.000, 0.000, 0.422"/>
+		</game_entity>
+		<game_entity prefab="pb_classes_doctor-healer_d">
+			<transform position="2729.403, 490.970, 47.843" rotation_euler="0.000, 0.000, -2.370"/>
+		</game_entity>
+		<game_entity prefab="vlandia_grandbazaar_ground_b">
+			<transform position="1964.817, 1416.726, 14.410" rotation_euler="0.000, 0.000, 2.494" scale="1.235, 0.773, 1.000"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="vlandia_grandbazaar_ground_b.0" material="empire_wall_a"/>
+					<mesh name="vlandia_grandbazaar_ground_b.1" material="wall_castle_a"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="pb_spawn_protection">
+			<transform position="1960.151, 1410.673, 7.509" rotation_euler="0.000, 0.000, -2.217" scale="13.320, 13.604, 11.408"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1956.196, 1411.631, 9.531" rotation_euler="0.000, 0.000, -1.582"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1958.110, 1414.132, 9.531" rotation_euler="0.000, 0.000, -2.837"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1956.630, 1408.756, 9.531" rotation_euler="0.000, 0.000, -0.883"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1961.206, 1414.105, 9.531" rotation_euler="0.000, 0.000, 2.761"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1958.785, 1406.558, 9.530" rotation_euler="0.000, 0.000, -0.369"/>
+		</game_entity>
+		<game_entity prefab="pb_spawn_protection_spawn">
+			<transform position="1958.861, 1418.085, 9.920" rotation_euler="0.000, 0.000, -0.012"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2320.038, 1377.422, 15.711" rotation_euler="0.000, 0.000, 2.534"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2310.711, 1376.477, 16.080" rotation_euler="0.000, 0.000, 2.534"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2312.808, 1379.906, 16.080" rotation_euler="0.000, 0.000, 2.534"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2308.645, 1379.513, 16.080" rotation_euler="0.000, 0.000, 2.534"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2316.828, 1379.881, 16.078" rotation_euler="0.000, 0.000, 2.711"/>
+		</game_entity>
+		<game_entity prefab="pb_spawn_protection">
+			<transform position="2691.489, 1129.023, 11.570" rotation_euler="0.000, 0.000, -1.358" scale="8.703, 8.639, 5.044"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2694.234, 1128.612, 12.138" rotation_euler="0.000, 0.000, 1.680"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2689.628, 1126.390, 11.995" rotation_euler="0.000, 0.000, -0.479"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2688.141, 1131.522, 12.125" rotation_euler="0.000, 0.000, -2.099"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2688.574, 1128.990, 12.089" rotation_euler="0.000, 0.000, -1.379"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2692.257, 1126.796, 12.111" rotation_euler="0.000, 0.000, 0.481"/>
+		</game_entity>
+		<game_entity prefab="pb_spawn_protection_spawn">
+			<transform position="2683.066, 1163.566, 6.707" rotation_euler="0.000, 0.000, 0.771"/>
+		</game_entity>
+		<game_entity prefab="european_city_part_j_balcony">
+			<transform position="2693.822, 1124.529, 11.738" rotation_euler="0.000, 0.000, 0.257"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="european_city_part_j_balcony.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.10" material="roman_roof_nrm"/>
+					<mesh name="european_city_part_j_balcony.lod4.5" material="roman_roof"/>
+					<mesh name="european_city_part_j_balcony.lod4.10" material="roman_roof_nrm"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="empire_castle_stairs_a_l1">
+			<transform position="2689.864, 1142.133, 8.096" rotation_euler="0.000, 0.000, 1.732" scale="1.179, 1.430, 1.000"/>
+		</game_entity>
+		<game_entity prefab="pb_spawn_protection">
+			<transform position="2725.822, 533.179, 43.123" rotation_euler="0.000, 0.000, -2.169" scale="7.901, 8.404, 11.731"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2725.259, 536.370, 44.439" rotation_euler="0.000, 0.000, -2.724"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2723.802, 534.603, 44.448" rotation_euler="0.000, 0.000, -2.142"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2729.099, 534.749, 44.439" rotation_euler="0.000, 0.000, 2.325"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2729.124, 532.644, 44.439" rotation_euler="0.000, 0.000, 1.498"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="2726.732, 534.506, 44.439" rotation_euler="0.000, 0.000, 2.900"/>
+		</game_entity>
+		<game_entity prefab="pb_spawn_protection_spawn">
+			<transform position="2732.294, 532.088, 35.667" rotation_euler="0.000, 0.000, -1.466"/>
+		</game_entity>
+		<game_entity prefab="aserai_castle_stairs_a_l3">
+			<transform position="1922.332, 1031.765, 1.125" rotation_euler="0.000, 0.000, -0.101" scale="1.000, 1.211, 1.000"/>
+		</game_entity>
+		<game_entity prefab="pb_spawn_protection">
+			<transform position="1930.836, 1038.698, 12.173" rotation_euler="0.000, 0.000, -1.680" scale="13.153, 11.857, 11.731"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1931.784, 1044.883, 14.348" rotation_euler="0.000, 0.000, 2.921"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1927.343, 1043.036, 14.358" rotation_euler="0.000, 0.000, -2.449"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1935.824, 1042.364, 14.356" rotation_euler="0.000, 0.000, 2.137"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1925.572, 1039.032, 14.373" rotation_euler="0.000, 0.000, -1.615"/>
+		</game_entity>
+		<game_entity prefab="pb_spawnpoint">
+			<transform position="1936.983, 1038.095, 14.372" rotation_euler="0.000, 0.000, 1.247"/>
+		</game_entity>
+		<game_entity prefab="pb_spawn_protection_spawn">
+			<transform position="1922.478, 1043.099, 6.964" rotation_euler="0.000, 0.000, 0.771"/>
+		</game_entity>
+		<game_entity prefab="empire_castle_stairs_b_l2">
+			<transform position="1804.123, 1639.877, 26.073" rotation_euler="0.000, 0.000, 1.598"/>
+		</game_entity>
+		<game_entity prefab="pb_bed">
+			<transform position="1796.664, 1643.235, 30.068" rotation_euler="0.000, 0.000, -0.045" scale="0.671, 0.671, 0.671"/>
+		</game_entity>
+		<game_entity prefab="empire_house_storage_a">
+			<transform position="2756.616, 1132.587, 7.969" rotation_euler="0.000, 0.000, 1.374"/>
+		</game_entity>
+		<game_entity prefab="empire_house_shed_a">
+			<transform position="2708.472, 1135.893, 7.606" rotation_euler="0.000, 0.000, -2.973" scale="0.900, 0.900, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_shed_a">
+			<transform position="2760.047, 1129.380, 8.056" rotation_euler="0.000, 0.000, -0.173" scale="0.904, 0.714, 0.904"/>
+		</game_entity>
+		<game_entity prefab="empire_house_storage_a">
+			<transform position="2697.136, 1131.567, 7.519" rotation_euler="0.000, 0.000, -2.981" scale="1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_storage_a">
+			<transform position="2715.351, 1136.764, 7.519" rotation_euler="0.000, 0.000, -1.409" scale="1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_b">
+			<transform position="2756.962, 1144.507, 7.779" rotation_euler="0.000, 0.000, -2.159" scale="0.800, 0.850, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_shop_a">
+			<transform position="2703.802, 1133.874, 7.308" rotation_euler="0.000, 0.000, 1.734" scale="0.790, 0.749, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_grandbazaar_shop_a">
+			<transform position="1968.745, 1379.484, 10.980" rotation_euler="0.000, 0.000, 1.248" scale="0.848, 0.819, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_storage_a">
+			<transform position="1964.362, 1381.713, 11.189" rotation_euler="0.000, 0.000, -1.868"/>
+		</game_entity>
+		<game_entity prefab="empire_house_shed_a">
+			<transform position="2018.860, 1390.754, 11.300" rotation_euler="0.000, 0.000, 0.145" scale="1.000, 1.000, 1.000"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_platform_a">
+			<transform position="1977.774, 1362.095, 3.336" rotation_euler="0.000, 0.000, 0.945" scale="1.539, 1.539, 1.539"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_platform_a">
+			<transform position="1975.616, 1359.113, 3.336" rotation_euler="0.000, 0.000, 0.945" scale="1.539, 1.539, 1.539"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_platform_a">
+			<transform position="1968.961, 1368.624, 3.336" rotation_euler="0.000, 0.000, 0.945" scale="1.539, 1.539, 1.539"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_platform_a">
+			<transform position="1966.803, 1365.642, 3.336" rotation_euler="0.000, 0.000, 0.945" scale="1.539, 1.539, 1.539"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_platform_a">
+			<transform position="1974.021, 1365.885, 3.171" rotation_euler="0.000, 0.000, 0.945" scale="1.539, 1.539, 1.539"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_platform_a">
+			<transform position="1964.953, 1372.445, 3.171" rotation_euler="0.000, 0.000, 0.945" scale="1.539, 1.539, 1.539"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_platform_a">
+			<transform position="1959.320, 1375.275, 3.171" rotation_euler="0.000, 0.000, 1.252" scale="1.539, 1.539, 1.539"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d_platform_a">
+			<transform position="1953.263, 1377.274, 3.171" rotation_euler="0.000, 0.000, 1.252" scale="1.539, 1.539, 1.539"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="1987.771, 2307.047, 2.064" rotation_euler="0.445, 0.000, -2.810"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="2004.835, 2317.839, 3.165" rotation_euler="0.194, 0.000, -2.790" scale="0.669, 0.669, 0.669"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="2018.818, 2329.212, 4.747" rotation_euler="0.428, 0.000, -2.009" scale="0.608, 0.608, 0.608"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="1942.313, 2288.297, 4.118" rotation_euler="0.262, 0.000, -2.537"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="1862.620, 2330.190, 1.611" rotation_euler="0.177, 0.000, 1.861" scale="1.177, 1.177, 1.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="1832.834, 2354.134, 1.347" rotation_euler="0.231, 0.000, -3.035" scale="1.148, 1.148, 1.000"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="1944.720, 2380.176, -1.894" rotation_euler="0.189, 0.000, -0.820"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="1978.430, 2368.720, 1.216" rotation_euler="0.009, 0.000, -0.068"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="2005.806, 2345.125, 0.681" rotation_euler="-0.073, 0.000, 1.770" scale="0.850, 0.850, 0.850"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="1913.912, 2312.543, 0.073" rotation_euler="-0.537, 0.000, -0.696" scale="1.570, 1.570, 1.570"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_a">
+			<transform position="1851.859, 2253.958, -1.690" rotation_euler="0.307, 0.000, -3.130" scale="1.310, 1.310, 1.310"/>
+		</game_entity>
+		<game_entity prefab="rock_cliff_b">
+			<transform position="1824.334, 2243.596, 20.893" rotation_euler="0.067, 0.000, -2.689"/>
 		</game_entity>
 	</entities>
 	<terrain enabled="true" node_dimension_x="16" node_dimension_y="16" node_size="256.000" lod_multiplier="1.000" min_height="-0.685" max_height="95.500" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" use_dynamic_weather_effects="0" dynamic_flowmap_texture_name="" colormap_detail_level="-1" ao_intensity="4.000">
@@ -68928,7 +70318,7 @@
 					</variable>
 				</texture_levels>
 			</node>
-			<node idx="7" idy="8" occluders_enabled="true" layer_is_used_mask_summer="1015" layer_is_used_mask_fall="1015" layer_is_used_mask_winter="1015" layer_is_used_mask_spring="1015" layer_is_used_mask="true" height_complexity="3.260" min_height="0.000" max_height="75.747">
+			<node idx="7" idy="8" occluders_enabled="true" layer_is_used_mask_summer="1023" layer_is_used_mask_fall="1023" layer_is_used_mask_winter="1023" layer_is_used_mask_spring="1023" layer_is_used_mask="true" height_complexity="3.260" min_height="0.000" max_height="75.747">
 				<texture_levels>
 					<variable name="heightmap_level" value="7"/>
 					<variable name="min_heightmap_level" value="2"/>
@@ -68953,7 +70343,7 @@
 					</variable>
 				</texture_levels>
 			</node>
-			<node idx="7" idy="9" occluders_enabled="true" layer_is_used_mask_summer="439" layer_is_used_mask_fall="439" layer_is_used_mask_winter="439" layer_is_used_mask_spring="439" layer_is_used_mask="true" height_complexity="2.761" min_height="0.000" max_height="50.793">
+			<node idx="7" idy="9" occluders_enabled="true" layer_is_used_mask_summer="447" layer_is_used_mask_fall="447" layer_is_used_mask_winter="447" layer_is_used_mask_spring="447" layer_is_used_mask="true" height_complexity="2.761" min_height="0.000" max_height="50.793">
 				<texture_levels>
 					<variable name="heightmap_level" value="7"/>
 					<variable name="min_heightmap_level" value="2"/>
@@ -72330,7 +73720,7 @@
 			</node>
 		</nodes>
 	</terrain>
-	<editor_data editor_camera_position="1146.261, 1903.379, 623.993" editor_camera_elevation="-0.976" editor_camera_bearing="-4.938" editor_camera_forward="-0.544, -0.076, -0.835" author="" comment=""/>
+	<editor_data editor_camera_position="2717.170, 800.023, 136.643" editor_camera_elevation="-0.805" editor_camera_bearing="88.285" editor_camera_forward="0.057, 0.955, -0.291" author="" comment=""/>
 	<camera_data near_plane="0.100" far_plane="100000.000"/>
 	<Paths>
 		<path name="zeonica_siegetower_a" interpolation_type="quadratic" scene_upgrade_level_mask_="4294967295" season_mask_="255">

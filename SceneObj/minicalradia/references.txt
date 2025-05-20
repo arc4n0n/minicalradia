@@ -1,4 +1,4 @@
-2579
+2600
 mesh arabian_platform_wooden_c
 mesh arrow_bl_a_quiver
 mesh arrow_bl_b_quiver
@@ -301,6 +301,8 @@ mesh foods_leek_basket
 mesh foods_watermelon_b_piece
 mesh hammer_wooden
 mesh heater_shield_a
+mesh heater_shield_g
+mesh heater_shield_k
 mesh horse_d
 mesh horse_harness_aserai_a_clotest
 mesh horse_harness_aserai_a_rein
@@ -364,7 +366,12 @@ mesh kitchen_pitcher_a
 mesh kitchen_plate_a
 mesh kitchen_plate_b
 mesh kitchen_sausage_b
+mesh kite_shield_b
+mesh kite_shield_d
 mesh kite_shield_j
+mesh kite_shield_p
+mesh kite_shield_r
+mesh kite_shield_s
 mesh log_bench_default_d
 mesh log_tree_high_f
 mesh log_tree_high_group_b
@@ -445,6 +452,7 @@ mesh pot_b
 mesh pumpkin_leaves_a
 mesh ribs
 mesh rock_001
+mesh rock_cliff_b
 mesh sheep_head
 mesh shield_battania_cavalary_a
 mesh shield_battania_cavalary_b
@@ -501,7 +509,6 @@ mesh tavern_vlandia_table_a
 mesh throwing_knife2
 mesh tree_forest_beech_young_c
 mesh tree_forest_beech_young_e
-mesh tree_high_b
 mesh tree_high_m_poplar
 mesh tree_high_n_sprout_a
 mesh tree_high_n_sprout_c
@@ -622,6 +629,7 @@ prefab aserai_castle_keep_a_l3_interior_railing
 prefab aserai_castle_keep_a_l3_interior_top_floor_top
 prefab aserai_castle_stairs_a_l1
 prefab aserai_castle_stairs_a_l2
+prefab aserai_castle_stairs_a_l3
 prefab aserai_castle_stairs_b_l1
 prefab aserai_castle_stairs_b_l3
 prefab aserai_castle_stairs_c_l1
@@ -1529,6 +1537,7 @@ prefab log_tree_high_group_f
 prefab lord_pillow_b
 prefab lord_pillow_c
 prefab map_icons_production_sheep_farm_a
+prefab map_icons_sack_a
 prefab map_mountain_rock_d
 prefab map_mountain_rock_d_snw
 prefab map_mountain_rock_e
@@ -1934,6 +1943,7 @@ prefab pb_khuzait_castle_wall_a_l3_destructable
 prefab pb_khuzait_castle_wall_d_l1_destructable
 prefab pb_khuzait_castle_wall_d_l3_destructable
 prefab pb_khuzait_gloves_a
+prefab pb_khuzait_gloves_capes
 prefab pb_khuzait_helmets_a
 prefab pb_khuzait_mace_1_t2
 prefab pb_khuzait_mace_2_t4
@@ -1998,6 +2008,7 @@ prefab pb_pine_4
 prefab pb_pine_5
 prefab pb_platesmithy
 prefab pb_pointed_falchion_sword_t4
+prefab pb_poison_scalpel
 prefab pb_pommel_zweihander
 prefab pb_ranged_outlaws_a
 prefab pb_recycler
@@ -2047,6 +2058,8 @@ prefab pb_smelter
 prefab pb_southern_broad_2hsword_t4
 prefab pb_southern_spear_3_t4
 prefab pb_southern_spear_4_t3
+prefab pb_spawn_protection
+prefab pb_spawn_protection_spawn
 prefab pb_spawnpoint
 prefab pb_stable_castle
 prefab pb_stable_castle_camel
@@ -2108,6 +2121,8 @@ prefab pb_vine_3
 prefab pb_vineyard
 prefab pb_vineyard_2
 prefab pb_vlandia_2haxe_1_t4
+prefab pb_vlandia_2hsword_1_t5
+prefab pb_vlandia_2hsword_2_t5
 prefab pb_vlandia_armory_b
 prefab pb_vlandia_axe_1_t3
 prefab pb_vlandia_axe_2_t4
@@ -2128,6 +2143,7 @@ prefab pb_vlandia_noble_sword_1_t5
 prefab pb_vlandia_noble_sword_2_t5
 prefab pb_vlandia_polearm_1_t5
 prefab pb_vlandia_shields
+prefab pb_vlandia_shields_cav_b
 prefab pb_vlandia_shields_serg_c
 prefab pb_vlandia_sword_1_t2
 prefab pb_vlandia_sword_2_t3
@@ -2144,6 +2160,7 @@ prefab pb_weapons_2h_aserai
 prefab pb_weapons_2h_b
 prefab pb_weapons_2h_battania
 prefab pb_weapons_2h_c
+prefab pb_weapons_2h_d
 prefab pb_weapons_axes_a
 prefab pb_weapons_axes_b
 prefab pb_weapons_lances_a
@@ -2167,6 +2184,7 @@ prefab pb_weapons_swords_c
 prefab pb_weavery
 prefab pb_well
 prefab pb_western_2hsword_t3
+prefab pb_western_2hsword_t4
 prefab pb_western_spear_1_t2
 prefab pb_western_spear_2_t2
 prefab pb_western_spear_3_t3
@@ -2283,6 +2301,7 @@ prefab scene: sturgia_house_c_interior
 prefab shelf_empire_a
 prefab shield
 prefab shields_a3
+prefab shields_b2
 prefab shop_prop_merchantarmory_b
 prefab shop_prop_merchantflour_b
 prefab shop_prop_merchantflour_e
@@ -2421,6 +2440,7 @@ prefab targeting_volume
 prefab tavern_aserai_panel_b
 prefab tavern_aserai_panel_c
 prefab tavern_empire_table_c
+prefab tavern_khuzait_table_a
 prefab tavernkeeper_knife
 prefab tent_aserai_a
 prefab tent_aserai_b
@@ -2438,6 +2458,7 @@ prefab terrain_green_rock_big_c
 prefab terrain_rock_a
 prefab terrain_rock_a2
 prefab throne_empire
+prefab throne_khuzait
 prefab throne_sturgia
 prefab torch_aa
 prefab torch_candle_a
