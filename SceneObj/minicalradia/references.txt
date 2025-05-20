@@ -1,5 +1,4 @@
-2559
-mesh arabian_building_detail_f
+2579
 mesh arabian_platform_wooden_c
 mesh arrow_bl_a_quiver
 mesh arrow_bl_b_quiver
@@ -64,6 +63,7 @@ mesh aserai_courtyard_railing
 mesh aserai_grandbazaar_wall
 mesh aserai_grip_5
 mesh ashes_a
+mesh axe_craft_10_head
 mesh axe_craft_14_handle
 mesh axe_craft_16_head
 mesh axe_craft_17_head
@@ -301,10 +301,6 @@ mesh foods_leek_basket
 mesh foods_watermelon_b_piece
 mesh hammer_wooden
 mesh heater_shield_a
-mesh heater_shield_f
-mesh heater_shield_i
-mesh heater_shield_j
-mesh heater_shield_k
 mesh horse_d
 mesh horse_harness_aserai_a_clotest
 mesh horse_harness_aserai_a_rein
@@ -368,7 +364,6 @@ mesh kitchen_pitcher_a
 mesh kitchen_plate_a
 mesh kitchen_plate_b
 mesh kitchen_sausage_b
-mesh kite_shield_e
 mesh kite_shield_j
 mesh log_bench_default_d
 mesh log_tree_high_f
@@ -383,8 +378,10 @@ mesh mace_handle_12
 mesh mace_handle_13
 mesh mace_handle_5
 mesh mace_handle_6
+mesh mace_handle_8
 mesh mace_head_11
 mesh mace_head_13
+mesh mace_head_14
 mesh mace_head_15
 mesh mace_head_17
 mesh mace_head_20
@@ -437,6 +434,9 @@ mesh pb_handle_zweihander
 mesh pb_morningstar_handle
 mesh pb_morningstar_head
 mesh pb_pommel_zweihander
+mesh pb_vlandia_warhammer_handle
+mesh pb_vlandia_warhammer_head
+mesh pb_warhammer2h_head
 mesh peasent_scythe
 mesh peasent_shovel
 mesh peasent_sickle
@@ -448,7 +448,6 @@ mesh rock_001
 mesh sheep_head
 mesh shield_battania_cavalary_a
 mesh shield_battania_cavalary_b
-mesh shield_vlandia_cavalary_c
 mesh shop_prop_merchantarmory_a
 mesh shop_prop_merchantbakery_a
 mesh shop_prop_merchantbakery_b
@@ -469,9 +468,16 @@ mesh shop_prop_merchantweavery_wool_b
 mesh shop_prop_merchantweavery_wool_c
 mesh shop_prop_merchantwinery_b
 mesh spear_blade_1
+mesh spear_blade_11
 mesh spear_blade_13
+mesh spear_blade_20
+mesh spear_blade_5
 mesh spear_guard_3
+mesh spear_handle_19
+mesh spear_handle_20
+mesh spear_handle_23
 mesh spear_handle_5
+mesh spear_handle_8
 mesh spear_pommel_5
 mesh stairs_short_a
 mesh steel
@@ -495,6 +501,7 @@ mesh tavern_vlandia_table_a
 mesh throwing_knife2
 mesh tree_forest_beech_young_c
 mesh tree_forest_beech_young_e
+mesh tree_high_b
 mesh tree_high_m_poplar
 mesh tree_high_n_sprout_a
 mesh tree_high_n_sprout_c
@@ -725,6 +732,7 @@ prefab bd_anvil
 prefab bd_aserai_plate_cupper
 prefab bd_aserai_pot_cupper_a
 prefab bd_aserai_pot_cupper_b
+prefab bd_aserai_seat_a
 prefab bd_barrel_a
 prefab bd_barrel_b
 prefab bd_barrel_c
@@ -985,7 +993,6 @@ prefab cliff_i
 prefab cliff_j
 prefab close_inside
 prefab close_outside
-prefab collider
 prefab collider_agent_l
 prefab collider_agent_r
 prefab collider_l
@@ -1004,7 +1011,6 @@ prefab desert_border_b
 prefab desert_border_c
 prefab desert_border_d
 prefab desert_cow_skull
-prefab destroyed
 prefab distance_holder
 prefab dragon_banner_center
 prefab drawbridge_platform
@@ -1513,6 +1519,7 @@ prefab lib_quill_pen
 prefab lib_scroll_a
 prefab lib_scroll_d
 prefab light
+prefab local_envmap_prop
 prefab log_bench_default_d_unsittable
 prefab log_pine_a
 prefab log_pine_j
@@ -1537,6 +1544,7 @@ prefab market_potteryPile3
 prefab market_sheepHead_basket
 prefab mat_carpet_a
 prefab mat_carpet_b
+prefab mat_carpet_c
 prefab mat_carpet_d
 prefab mat_carpet_e
 prefab mat_carpet_f
@@ -1697,6 +1705,7 @@ prefab pb_aserai_2haxe_2_t4
 prefab pb_aserai_armory_a
 prefab pb_aserai_axe_1_t2
 prefab pb_aserai_boots_a
+prefab pb_aserai_castle_gate_inner_l1
 prefab pb_aserai_castle_gate_outer_l1
 prefab pb_aserai_castle_wall_a_l2_destructable
 prefab pb_aserai_castle_wall_a_l3_destructable
@@ -1705,6 +1714,7 @@ prefab pb_aserai_castle_wall_d_l3_destructable
 prefab pb_aserai_gloves_capes_a
 prefab pb_aserai_helmets_a
 prefab pb_aserai_mace_1_t2
+prefab pb_aserai_mace_4_t4
 prefab pb_aserai_shields_a
 prefab pb_aserai_sword_2_t2
 prefab pb_aserai_sword_3_t3
@@ -1759,6 +1769,7 @@ prefab pb_bearded_axe_t3
 prefab pb_bed
 prefab pb_blade_zweihander
 prefab pb_board_market
+prefab pb_bolt_a
 prefab pb_botany_table
 prefab pb_bowman_healer
 prefab pb_bread_market
@@ -1825,7 +1836,7 @@ prefab pb_controllers
 prefab pb_cow_barn
 prefab pb_crafting_resource_market_neutral
 prefab pb_craftsman_serf
-prefab pb_door_sally_destructable_1
+prefab pb_crossbows_ranged_imperial
 prefab pb_drawbridge_big
 prefab pb_duck_barn
 prefab pb_easter_polesword_t4
@@ -1839,6 +1850,7 @@ prefab pb_empire_armory_a
 prefab pb_empire_armory_b
 prefab pb_empire_boots_a
 prefab pb_empire_capes_a
+prefab pb_empire_castle_gate_inner_l3
 prefab pb_empire_castle_gate_outer_l2
 prefab pb_empire_castle_gate_outer_l3
 prefab pb_empire_castle_wall_a_l1_destructable
@@ -1851,6 +1863,8 @@ prefab pb_empire_gloves_a
 prefab pb_empire_helmets_a
 prefab pb_empire_lance_3_t5
 prefab pb_empire_mace_2_t4
+prefab pb_empire_mace_4_t5
+prefab pb_empire_mace_5_t5
 prefab pb_empire_polearm_1_t4
 prefab pb_empire_sword_1_t2
 prefab pb_empire_sword_2_t3
@@ -1900,6 +1914,7 @@ prefab pb_highland_spear_4_t4
 prefab pb_highland_spear_t2
 prefab pb_hog_barn
 prefab pb_hooked_axe_t4
+prefab pb_imperial_arrows
 prefab pb_imperial_spear_t2
 prefab pb_import_export_seeds
 prefab pb_import_export_tools
@@ -1913,6 +1928,7 @@ prefab pb_ironworks
 prefab pb_khuzait_armory_a
 prefab pb_khuzait_armory_b
 prefab pb_khuzait_capes_a
+prefab pb_khuzait_castle_gate_outer_l1
 prefab pb_khuzait_castle_wall_a_l1_destructable
 prefab pb_khuzait_castle_wall_a_l3_destructable
 prefab pb_khuzait_castle_wall_d_l1_destructable
@@ -1920,6 +1936,7 @@ prefab pb_khuzait_castle_wall_d_l3_destructable
 prefab pb_khuzait_gloves_a
 prefab pb_khuzait_helmets_a
 prefab pb_khuzait_mace_1_t2
+prefab pb_khuzait_mace_2_t4
 prefab pb_khuzait_mace_4_t5
 prefab pb_khuzait_noble_sword_2_t5
 prefab pb_khuzait_polearm_1_t4
@@ -1952,8 +1969,8 @@ prefab pb_money_chest_built
 prefab pb_money_chest_destroyed
 prefab pb_morningstar_handle
 prefab pb_morningstar_head
+prefab pb_morningstar_mace_t3
 prefab pb_movable
-prefab pb_moveable
 prefab pb_narrow_sword_t3
 prefab pb_noble_bow
 prefab pb_nondest_european_gate3
@@ -1982,7 +1999,6 @@ prefab pb_pine_5
 prefab pb_platesmithy
 prefab pb_pointed_falchion_sword_t4
 prefab pb_pommel_zweihander
-prefab pb_portcullis_destructable
 prefab pb_ranged_outlaws_a
 prefab pb_recycler
 prefab pb_ridged_sabre_sword_t4
@@ -2085,7 +2101,6 @@ prefab pb_tree_3
 prefab pb_tree_4
 prefab pb_trough
 prefab pb_use_movable_rotation_single
-prefab pb_use_moveable
 prefab pb_velvet_market
 prefab pb_vine_1
 prefab pb_vine_2
@@ -2096,19 +2111,23 @@ prefab pb_vlandia_2haxe_1_t4
 prefab pb_vlandia_armory_b
 prefab pb_vlandia_axe_1_t3
 prefab pb_vlandia_axe_2_t4
+prefab pb_vlandia_boots_a
 prefab pb_vlandia_boots_b
 prefab pb_vlandia_capes_a
 prefab pb_vlandia_gloves_a
+prefab pb_vlandia_helmets_a
 prefab pb_vlandia_helmets_c
 prefab pb_vlandia_lance_1_t3
 prefab pb_vlandia_lance_2_t4
 prefab pb_vlandia_lance_3_t5
 prefab pb_vlandia_lighthelmets_a
 prefab pb_vlandia_mace_1_t2
+prefab pb_vlandia_mace_2_t4
 prefab pb_vlandia_mace_3_t5
 prefab pb_vlandia_noble_sword_1_t5
 prefab pb_vlandia_noble_sword_2_t5
 prefab pb_vlandia_polearm_1_t5
+prefab pb_vlandia_shields
 prefab pb_vlandia_shields_serg_c
 prefab pb_vlandia_sword_1_t2
 prefab pb_vlandia_sword_2_t3
@@ -2132,6 +2151,7 @@ prefab pb_weapons_lances_b
 prefab pb_weapons_lances_battania
 prefab pb_weapons_lances_sturgia
 prefab pb_weapons_long_glaive
+prefab pb_weapons_maces_a
 prefab pb_weapons_maces_b
 prefab pb_weapons_outlaws_a
 prefab pb_weapons_spears_a
