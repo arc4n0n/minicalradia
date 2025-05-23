@@ -1,4 +1,4 @@
-2762
+2756
 mesh arabian_platform_wooden_c
 mesh arrow_bl_a_quiver
 mesh arrow_bl_b_quiver
@@ -367,8 +367,6 @@ mesh foods_leek_basket
 mesh foods_watermelon_b_piece
 mesh hammer_wooden
 mesh heater_shield_a
-mesh heater_shield_g
-mesh heater_shield_k
 mesh horse_d
 mesh horse_harness_aserai_a_clotest
 mesh horse_harness_aserai_a_rein
@@ -437,13 +435,10 @@ mesh kitchen_pitcher_a
 mesh kitchen_plate_a
 mesh kitchen_plate_b
 mesh kitchen_sausage_b
-mesh kite_shield_b
-mesh kite_shield_d
 mesh kite_shield_h
 mesh kite_shield_j
 mesh kite_shield_p
 mesh kite_shield_r
-mesh kite_shield_s
 mesh lib_book_open_a
 mesh lib_book_open_d
 mesh lib_scroll_a
@@ -513,7 +508,6 @@ mesh shield_battania_cavalary_a
 mesh shield_battania_cavalary_b
 mesh shield_sturgia_cavalary_a
 mesh shield_sturgia_infantary_a
-mesh shield_vlandia_cavalary_c
 mesh shop_prop_merchantarmory_a
 mesh shop_prop_merchantbakery_a
 mesh shop_prop_merchantbakery_b
