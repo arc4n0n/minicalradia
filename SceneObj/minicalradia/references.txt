@@ -1,4 +1,4 @@
-2756
+2759
 mesh arabian_platform_wooden_c
 mesh arrow_bl_a_quiver
 mesh arrow_bl_b_quiver
@@ -1003,7 +1003,10 @@ prefab bd_table_small_a
 prefab bd_table_small_b
 prefab bd_table_small_c
 prefab bd_table_trunk_a
+prefab bd_tapestry_aserai_c
 prefab bd_tapestry_aserai_d
+prefab bd_tapestry_aserai_f
+prefab bd_tapestry_aserai_g
 prefab bd_tapestry_battania
 prefab bd_tapestry_imperial_a
 prefab bd_tapestry_imperial_b
