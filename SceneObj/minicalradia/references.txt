@@ -1,4 +1,4 @@
-2923
+2907
 mesh animation_stand_arrow_blue
 mesh aquila
 mesh arabian_building_detail_f
@@ -23,7 +23,6 @@ mesh arabian_ladder_wood_c
 mesh arabian_platform_wooden_a
 mesh arabian_platform_wooden_c
 mesh arabian_small_wall_a
-mesh arabian_towerdoor_b
 mesh arabian_waterwell_a
 mesh armor_hun_a
 mesh armor_leather_chain_a
@@ -699,9 +698,6 @@ mesh bd_cloth_on_table_b
 mesh bd_cloth_stick_10m
 mesh bd_cloth_stick_5m
 mesh bd_empty_sack
-mesh bd_fabric_a
-mesh bd_fabric_b
-mesh bd_fabric_c
 mesh bd_flask_sturgia_a
 mesh bd_goblet_sturgia_a
 mesh bd_hammer
@@ -726,9 +722,7 @@ mesh bd_pillow_d
 mesh bd_pillow_e
 mesh bd_pillow_f
 mesh bd_pillow_g
-mesh bd_pillow_h
 mesh bd_pillow_i
-mesh bd_pillow_j
 mesh bd_planks_a
 mesh bd_pole_3m
 mesh bd_pole_6m
@@ -760,7 +754,6 @@ mesh bd_sturgia_bench_c
 mesh bd_sturgia_statue
 mesh bd_sturgia_table_bedside_a
 mesh bd_sturgia_table_bedside_b
-mesh bd_sturgia_table_workstation_a
 mesh bd_sturgia_wall_decoration_horn_a
 mesh bd_sturgia_wall_decoration_horn_b
 mesh bd_sturgia_wall_decoration_horn_c
@@ -1647,16 +1640,10 @@ mesh fishnet_d
 mesh fishnet_e
 mesh flag_pole_big
 mesh flagpole_a
-mesh floor_dirt_d
 mesh floorstone_b
 mesh flora_green_b
 mesh flora_green_h
 mesh flora_green_j
-mesh flora_plant_a
-mesh flora_plant_d
-mesh flora_plant_e
-mesh flora_plant_f
-mesh flora_plant_g
 mesh flour_pile
 mesh flour_sack
 mesh foods_apple_a
@@ -2124,10 +2111,8 @@ mesh mail_mitten_c
 mesh map_mountain_rock_d
 mesh map_mountain_rock_d_snw
 mesh map_mountain_rock_e
-mesh map_rock_b
 mesh map_rock_big_a
 mesh map_rock_big_b_snow
-mesh map_rock_big_c_snow
 mesh map_rock_groups_a_snow
 mesh market_apple_crate
 mesh mat_carpet_a
@@ -2224,7 +2209,6 @@ mesh mountain_border_c
 mesh mountain_border_d
 mesh mountain_border_e
 mesh mule_mesh
-mesh mushroom_tree_b
 mesh mushroom_tree_c
 mesh nasal_helmet_a
 mesh nasal_helmet_neckguard
@@ -2310,8 +2294,6 @@ mesh rock_cliff_top_c
 mesh rock_desert_cliff_c
 mesh rock_desert_cliff_d
 mesh rock_floor_a
-mesh rock_new_green_b
-mesh rock_new_green_c
 mesh ruinous_battania_castle_gate_house_a
 mesh ruinous_battania_castle_stone_heap_a
 mesh ruinous_battania_castle_stone_heap_b
@@ -2357,7 +2339,6 @@ mesh shop_prop_merchantflour_a
 mesh shop_prop_merchantflour_b
 mesh shop_prop_merchantflour_e
 mesh shop_prop_merchanthorse_a
-mesh shop_prop_merchanthorse_b
 mesh shop_prop_merchanthorse_f
 mesh shop_prop_merchantleather_a
 mesh shop_prop_merchantleather_b
@@ -2366,7 +2347,6 @@ mesh shop_prop_merchantleather_d
 mesh shop_prop_merchantleather_e
 mesh shop_prop_merchantleather_f
 mesh shop_prop_merchantsiege_e
-mesh shop_prop_merchantsiege_f
 mesh shop_prop_merchantsilversmith_a
 mesh shop_prop_merchantsilversmith_b
 mesh shop_prop_merchantsmithing_a
@@ -2460,10 +2440,6 @@ mesh stand_straw_b
 mesh steel
 mesh stone_bridge
 mesh stone_holster
-mesh stone_pile_a
-mesh stone_pile_b
-mesh stone_pile_g
-mesh stone_pile_j
 mesh stone_pile_wall_green_a
 mesh stone_pile_wall_green_b
 mesh stonewall_2a1
@@ -2733,7 +2709,6 @@ mesh torch_table_a
 mesh torch_table_b
 mesh tree_acacia_a
 mesh tree_forest_beech_young_c
-mesh tree_forest_beech_young_e
 mesh tree_high_a
 mesh tree_high_b
 mesh tree_high_c
@@ -2847,7 +2822,6 @@ mesh vlandian_pommel_7
 mesh vlandian_pommel_9
 mesh volume_box
 mesh waterfall_a
-mesh watermelon
 mesh weapon_heap_arrow_a
 mesh weapon_heap_sword_a
 mesh weapon_rack_a
@@ -2877,6 +2851,16 @@ mesh wooden_platform_plank_d
 mesh wooden_platform_plank_e
 mesh wooden_platform_plank_f_column
 mesh wooden_platform_stairs_a
+prefab bd_battania_statue_female_small
+prefab bd_battania_statue_male_small
+prefab empire_grandbazaar_floor_a
+prefab empire_statue_bust_a
+prefab european_castle_gatehouse_door_open
+prefab european_castle_gatehouse_portcullis_a
+prefab european_city_gatehouse_a
+prefab module_european_floor_b
+prefab pb_well
+prefab rock_cliff_c
 texture adobe_wall_white_d
 texture black_terrain
 texture cliff_c_d
