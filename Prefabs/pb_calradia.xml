@@ -4903,61 +4903,47 @@
 		</tags>
 		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
 		<children>
-			<game_entity name="pb_apple_tree_empty" old_prefab_name="">
-				<transform position="0.096, 0.243, 0.464"/>
-				<physics shape="bo_tree_olive_a"/>
-				<components>
-					<meta_mesh_component name="tree_olive_a">
-						<mesh name="tree_olive_a" material="new_tree_a2"/>
-						<mesh name="tree_olive_a.1" material="bark_acacia_a"/>
-						<mesh name="tree_olive_a.lod3" material="new_tree_a2"/>
-						<mesh name="tree_olive_a.lod3.1" material="bark_acacia_a"/>
-						<mesh name="tree_olive_a.lod5" material="new_tree_a2"/>
-						<mesh name="tree_olive_a.lod5.1" material="bark_acacia_a"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
 			<game_entity name="pb_apple_tree_fruits" old_prefab_name="">
-				<transform position="-0.144, -0.172, 3.710"/>
+				<transform position="-0.083, 0.888, 3.371" rotation_euler="0.000, 0.000, -1.483" scale="1.090, 1.090, 1.090"/>
 				<children>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="-1.174, -1.237, 0.621"/>
+						<transform position="-2.164, -2.245, 0.621" rotation_euler="0.000, 0.000, -0.676"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="-0.826, 0.780, -0.173"/>
+						<transform position="-0.826, 0.780, -0.173" rotation_euler="0.000, 0.000, -1.228"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="0.481, 2.787, -0.481"/>
+						<transform position="0.818, 3.505, -0.481" rotation_euler="0.000, 0.000, 3.102"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="0.481, 2.787, 0.139"/>
+						<transform position="0.481, 2.787, 0.139" rotation_euler="0.000, 0.000, 3.030"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="2.717, 1.409, -0.236"/>
+						<transform position="2.980, 1.451, -0.236" rotation_euler="0.000, 0.000, 3.077"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="1.131, 2.275, 0.047"/>
+						<transform position="1.131, 2.715, 0.047" rotation_euler="0.000, 0.000, 3.120"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="3.043, -0.810, -0.315"/>
+						<transform position="3.052, -0.787, -0.315" rotation_euler="0.000, 0.000, 1.704"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
@@ -4969,42 +4955,98 @@
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="0.213, -1.368, -0.353"/>
+						<transform position="0.228, -1.369, -0.627" rotation_euler="0.000, 0.000, 0.014"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="-1.189, -2.249, -0.278"/>
+						<transform position="-1.189, -2.249, -0.569"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="-1.087, -0.703, -0.278"/>
+						<transform position="-1.078, -0.716, -0.446" rotation_euler="0.000, 0.000, -0.871"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="-1.087, 0.051, -0.173"/>
+						<transform position="-1.087, 0.051, -0.436"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="-1.233, 1.241, -0.278"/>
+						<transform position="-1.241, 1.227, -0.278" rotation_euler="0.000, 0.000, -2.141"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 					<game_entity name="pb_apples_resource" old_prefab_name="">
-						<transform position="-1.022, 2.035, -0.278"/>
+						<transform position="-1.022, 2.035, -0.278" rotation_euler="0.000, 0.000, -2.083"/>
+						<components>
+							<meta_mesh_component name="foods_apple_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_apples_resource" old_prefab_name="">
+						<transform position="-1.962, 0.542, 1.022" rotation_euler="0.000, 0.000, -1.707"/>
+						<components>
+							<meta_mesh_component name="foods_apple_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_apples_resource" old_prefab_name="">
+						<transform position="1.168, 2.275, 1.334" rotation_euler="0.000, 0.000, -3.037"/>
+						<components>
+							<meta_mesh_component name="foods_apple_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_apples_resource" old_prefab_name="">
+						<transform position="2.671, 2.040, 1.242" rotation_euler="0.000, 0.000, 2.991"/>
+						<components>
+							<meta_mesh_component name="foods_apple_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_apples_resource" old_prefab_name="">
+						<transform position="1.691, -1.380, 0.946" rotation_euler="0.000, 0.000, 0.674"/>
+						<components>
+							<meta_mesh_component name="foods_apple_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_apples_resource" old_prefab_name="">
+						<transform position="1.460, -3.039, 0.754" rotation_euler="0.000, 0.000, 0.701"/>
+						<components>
+							<meta_mesh_component name="foods_apple_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_apples_resource" old_prefab_name="">
+						<transform position="-0.118, 0.129, 1.022" rotation_euler="0.000, 0.000, -0.086"/>
+						<components>
+							<meta_mesh_component name="foods_apple_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_apples_resource" old_prefab_name="">
+						<transform position="-0.790, 2.211, 0.917" rotation_euler="0.000, 0.000, -2.625"/>
 						<components>
 							<meta_mesh_component name="foods_apple_a"/>
 						</components>
 					</game_entity>
 				</children>
+			</game_entity>
+			<game_entity name="pb_apple_tree_empty" old_prefab_name="">
+				<transform position="0.064, 0.056, 0.015" rotation_euler="0.000, 0.000, 0.000" scale="0.365, 0.365, 0.519"/>
+				<components>
+					<meta_mesh_component name="tree_acacia_spring">
+						<mesh name="tree_acacia_spring.0.lod0" material="tree_high_fall_2_bark_mat"/>
+						<mesh name="tree_acacia_spring.1.lod0" material="new_tree_a2"/>
+						<mesh name="tree_acacia_spring.0.lod3" material="tree_high_fall_2_bark_mat"/>
+						<mesh name="tree_acacia_spring.1.lod3" material="new_tree_a2"/>
+						<mesh name="tree_acacia_spring.0.lod4" material="tree_high_fall_2_bark_mat"/>
+						<mesh name="tree_acacia_spring.1.lod4" material="new_tree_a2"/>
+						<mesh name="tree_acacia_spring.0.lod5" material="tree_acacia_summer_billboard_mat" factor="4286891661" factor2="4286891661"/>
+					</meta_mesh_component>
+				</components>
 			</game_entity>
 		</children>
 	</game_entity>

@@ -1,4 +1,4 @@
-2947
+2956
 mesh animation_stand_arrow_blue
 mesh aquila
 mesh arabian_building_detail_f
@@ -2887,8 +2887,17 @@ prefab pb_build_hammer_market
 prefab pb_butcher_knife_market
 prefab pb_import_export_tools
 prefab pb_pickaxe_market
+prefab pb_pine_1
+prefab pb_pine_2
+prefab pb_pine_3
+prefab pb_pine_4
+prefab pb_pine_5
 prefab pb_scyhe_market
 prefab pb_sickle_market
+prefab pb_tree_1
+prefab pb_tree_2
+prefab pb_tree_3
+prefab pb_tree_4
 prefab pb_well
 prefab pb_wood_axe_market
 prefab ramp
