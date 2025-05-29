@@ -1,4 +1,4 @@
-3072
+3069
 mesh animation_stand_arrow_blue
 mesh aquila
 mesh arabian_building_detail_f
@@ -2955,9 +2955,6 @@ prefab merlon_7
 prefab merlon_8
 prefab merlon_9
 prefab module_european_floor_b
-prefab mp_camera_start_pos
-prefab mp_spawnpoint_attacker
-prefab mp_spawnpoint_defender
 prefab pb_anvil
 prefab pb_apple_tree_calradia
 prefab pb_apple_tree_empty
