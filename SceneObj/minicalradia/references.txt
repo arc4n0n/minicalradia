@@ -1,4 +1,4 @@
-3069
+3071
 mesh animation_stand_arrow_blue
 mesh aquila
 mesh arabian_building_detail_f
@@ -2508,7 +2508,6 @@ mesh sturgia_castle_gatehouse_a_l2_30
 mesh sturgia_castle_gatehouse_a_l2_stairs
 mesh sturgia_castle_stairs_a_l1
 mesh sturgia_castle_stairs_a_l3
-mesh sturgia_castle_stairs_b_l2
 mesh sturgia_castle_stairs_c_l1
 mesh sturgia_castle_tower_round_a_l2
 mesh sturgia_castle_tower_round_a_l2_01
@@ -2969,6 +2968,7 @@ prefab pb_butcher_knife_market
 prefab pb_empire_balcony
 prefab pb_import_export_tools
 prefab pb_ironworks
+prefab pb_occluder
 prefab pb_pickaxe_market
 prefab pb_pine_1
 prefab pb_pine_2
@@ -2991,6 +2991,7 @@ prefab pot_heap_c
 prefab pot_heap_d
 prefab ramp
 prefab rock_cliff_c
+prefab rock_cliff_top_a
 prefab rope_chain_heap
 prefab shop_prop_merchantsiege_e
 prefab siege_barricade_c
@@ -3003,6 +3004,7 @@ prefab state2
 prefab state3
 prefab state4
 prefab sturgia_castle_balcony_b
+prefab sturgia_castle_stairs_a_l2
 prefab tavernkeeper_knife
 prefab torture_tool_chain_d
 prefab tree_mangrove
