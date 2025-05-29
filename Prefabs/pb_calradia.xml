@@ -5050,5 +5050,111 @@
 			</game_entity>
 		</children>
 	</game_entity>
+	<game_entity name="tree_mangrove" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.347, 1.347, 1.057"/>
+		<physics shape="bo_tree_acacia_a" override_material="wood"/>
+		<components>
+			<meta_mesh_component name="tree_acacia_a">
+				<mesh name="tree_acacia_a" material="new_tree_b2"/>
+				<mesh name="tree_acacia_a.lod5" material="new_tree_b2"/>
+				<mesh name="tree_acacia_a.lod6" material="new_tree_b2"/>
+				<mesh name="tree_acacia_a.lod3" material="new_tree_b2"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="tree_root_a_acacia" old_prefab_name="">
+				<transform position="-0.361, 0.605, 0.420" non_orthogonal_rotation_mat="-0.965228, -0.203771, -0.163746, -0.024664, -0.346927, 0.937568, -0.228669, 0.838636, 0.494368" scale="1.536, 1.878, 1.605"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_acacia"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_acacia" old_prefab_name="">
+				<transform position="0.452, 0.219, 0.045" non_orthogonal_rotation_mat="-0.601732, 0.798698, 0.000000, -0.293468, -0.221096, 0.930050, 0.672164, 0.506402, 0.540141" scale="1.397, 1.710, 1.483"/>
+				<physics shape="bo_tree_root_b_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_acacia"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_a_acacia" old_prefab_name="">
+				<transform position="0.282, -0.611, 0.206" non_orthogonal_rotation_mat="0.917444, -0.357089, -0.175453, 0.244076, 0.354037, 0.902820, -0.230544, -0.771619, 0.592835" scale="1.537, 1.844, 1.643"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_acacia"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_acacia" old_prefab_name="">
+				<transform position="-0.343, 0.167, 0.045" non_orthogonal_rotation_mat="0.620873, -0.732855, 0.278281, 0.352080, 0.485340, 0.800303, -0.588066, -0.325104, 0.740598" scale="1.418, 1.609, 1.573"/>
+				<physics shape="bo_tree_root_b_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_acacia"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_acacia" old_prefab_name="">
+				<transform position="0.360, -0.092, 0.045" non_orthogonal_rotation_mat="0.164306, 0.973653, 0.158124, -0.358171, -0.032833, 0.933078, 0.837566, -0.192455, 0.511316" scale="0.936, 1.142, 0.982"/>
+				<physics shape="bo_tree_root_b_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_acacia"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_acacia" old_prefab_name="">
+				<transform position="-0.355, 0.069, 0.045" non_orthogonal_rotation_mat="0.443325, -0.867170, 0.226890, 0.408523, 0.344948, 0.845056, -0.681538, -0.236915, 0.692371" scale="0.941, 1.094, 1.032"/>
+				<physics shape="bo_tree_root_b_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_acacia"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_acacia" old_prefab_name="">
+				<transform position="-0.343, 0.399, -0.385" non_orthogonal_rotation_mat="-0.675276, -0.656796, 0.335592, 0.041546, 0.260644, 0.964541, -0.713603, 0.658471, -0.239137" scale="1.428, 1.743, 1.413"/>
+				<physics shape="bo_tree_root_b_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_acacia"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_acacia" old_prefab_name="">
+				<transform position="-0.100, -0.257, -0.352" non_orthogonal_rotation_mat="0.811494, 0.489784, -0.318732, 0.162710, 0.122584, 0.979029, 0.522187, -0.852217, 0.032364" scale="1.425, 1.758, 1.397"/>
+				<physics shape="bo_tree_root_b_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_acacia"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_banner_market" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_bd_barrel_b" override_material="wood"/>
+		<components>
+			<meta_mesh_component name="bd_barrel_b"/>
+		</components>
+		<children>
+			<game_entity name="flagpole_b_ground_fold" old_prefab_name="">
+				<tags>
+					<tag name="pb_market"/>
+					<tag name="pb_item:pb_banner_empire"/>
+					<tag name="pb_town:0"/>
+				</tags>
+				<transform position="0.014, -0.005, 0.163" rotation_euler="0.000, 0.000, 1.729" scale="2.444, 2.444, 2.444"/>
+				<physics shape="bo_flagpole_b"/>
+				<components>
+					<meta_mesh_component name="flagpole_b"/>
+				</components>
+				<children>
+					<game_entity name="flag_stand" old_prefab_name="">
+						<transform position="0.000, 0.000, 1.725"/>
+						<physics shape="bo_flag_stand"/>
+						<components>
+							<meta_mesh_component name="flag_stand"/>
+						</components>
+					</game_entity>
+					<game_entity name="flag_b_fold" old_prefab_name="">
+						<transform position="0.000, 0.079, 1.731"/>
+						<components>
+							<meta_mesh_component name="flag_b_kat"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
 </prefabs>
 

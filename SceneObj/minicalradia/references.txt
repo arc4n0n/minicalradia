@@ -1,4 +1,4 @@
-3058
+3072
 mesh animation_stand_arrow_blue
 mesh aquila
 mesh arabian_building_detail_f
@@ -1617,7 +1617,6 @@ mesh fence_old_a1
 mesh fence_old_a4
 mesh fence_old_a5
 mesh fence_old_a6
-mesh fence_old_b2
 mesh fence_old_b3
 mesh fence_old_b5
 mesh fence_old_b6
@@ -2882,6 +2881,8 @@ prefab empire_castle_corner_stairs_2_l1
 prefab empire_castle_corner_stairs_3_l1
 prefab empire_castle_corner_stairs_4_l1
 prefab empire_castle_tower_round_a_l1
+prefab empire_garden_wall_top_c1
+prefab empire_garden_wall_top_c2
 prefab empire_grandbazaar_floor_a
 prefab empire_grandbazaar_wall
 prefab empire_hippodrome_column_a
@@ -2893,6 +2894,7 @@ prefab empire_street_pottery_02
 prefab empire_street_pottery_03
 prefab empire_street_pottery_05
 prefab empire_street_pottery_09
+prefab empire_street_tent_04
 prefab empire_tablecloth_a
 prefab empty_object
 prefab european_castle_gatehouse_door_open
@@ -2914,18 +2916,23 @@ prefab fence_old_b3
 prefab fence_old_b4
 prefab fence_old_b5
 prefab fence_old_b6
+prefab flag_b_fold
+prefab flag_stand
+prefab flagpole_b_ground_fold
 prefab floorstone_a
 prefab floorstone_c
 prefab fork_holder
 prefab ground_align
 prefab icon_man
 prefab initial_wait_pos
+prefab khuzait_tent_a
 prefab kitchen_chopping_board_b
 prefab ladder_down_state
 prefab ladder_up_state
 prefab lib_book_closed_b
 prefab lib_inkwell
 prefab lib_quill_pen
+prefab local_envmap_prop
 prefab log_beech_a
 prefab log_beech_b
 prefab log_beech_c
@@ -2948,6 +2955,9 @@ prefab merlon_7
 prefab merlon_8
 prefab merlon_9
 prefab module_european_floor_b
+prefab mp_camera_start_pos
+prefab mp_spawnpoint_attacker
+prefab mp_spawnpoint_defender
 prefab pb_anvil
 prefab pb_apple_tree_calradia
 prefab pb_apple_tree_empty
@@ -2955,6 +2965,7 @@ prefab pb_apple_tree_fruits
 prefab pb_apples_resource
 prefab pb_armorsmith
 prefab pb_autosell
+prefab pb_banner_market
 prefab pb_bed
 prefab pb_build_hammer_market
 prefab pb_butcher_knife_market
@@ -2997,6 +3008,9 @@ prefab state4
 prefab sturgia_castle_balcony_b
 prefab tavernkeeper_knife
 prefab torture_tool_chain_d
+prefab tree_mangrove
+prefab tree_root_a_acacia
+prefab tree_root_b_acacia
 prefab use_push
 prefab vlandia_arena_grandstand_roof_cloth_a4
 prefab wait_pos_ground
