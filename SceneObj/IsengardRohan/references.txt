@@ -1,10 +1,24 @@
-47
+74
 mesh editor_plane_low
+mesh outer_mesh_a
+mesh outermesh_006
 prefab battania_castle_keep_a_l3
 prefab debris_holder
+prefab empire_bridge_c_part_c
+prefab empire_castle_corner_c_l3
+prefab empire_castle_corner_c_l3_stairs
+prefab empire_castle_corner_c_l3_stairs2
 prefab empire_castle_gatehouse_a_l3
 prefab empire_castle_gatehouse_a_l3_tower
 prefab empire_castle_gatehouse_a_l3_tower_stairs
+prefab empire_castle_stairs_a_l3
+prefab empire_castle_tower_round_a_l3
+prefab empire_castle_tower_round_a_l3_stairs
+prefab empire_grandbazaar_wall
+prefab empire_road_floor_a
+prefab khuzait_castle_keep_l3_interior_door_open_a
+prefab kitchen_horn
+prefab local_envmap_prop
 prefab merlon_1
 prefab merlon_10
 prefab merlon_11
@@ -17,9 +31,14 @@ prefab merlon_6
 prefab merlon_7
 prefab merlon_8
 prefab merlon_9
+prefab orthanc
 prefab reverb_gatehouse
 prefab reverb_stone_corridor
 prefab reverb_stone_interior
+prefab sound
+prefab sound_reverb
+prefab stairs_bo
+prefab tower_fin
 texture black_terrain
 texture cg_50c_5b
 texture desert_floor_a
@@ -29,6 +48,10 @@ texture desert_floor_a_s
 texture dry_grass
 texture dry_grass_bump
 texture dry_grass_s
+texture forest_a_d
+texture forest_a_h
+texture forest_a_n
+texture forest_a_s
 texture gravel_a_d
 texture gravel_a_h
 texture gravel_a_n
@@ -45,4 +68,8 @@ texture rock_cliff_b_h
 texture rock_cliff_b_n
 texture rock_cliff_b_s
 texture semi_cloudy_2
+texture snow_a_d
+texture snow_a_h
+texture snow_a_n
+texture snow_a_s
 texture sun_core2
