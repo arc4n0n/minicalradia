@@ -469,7 +469,7 @@
 		</components>
 	</game_entity>
 	<game_entity name="minas_morgul_bastion" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_a">
-		<transform position="0.000, 0.000, 0.000" rotation_euler="1.571, 2.249, -3.094" scale="0.563, 1.000, 2.395"/>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="1.571, -0.893, 0.078" scale="0.563, 1.000, 2.395"/>
 		<physics shape="bo_module_european_house_end_attick_a" override_material="stone"/>
 		<components>
 			<meta_mesh_component name="module_european_house_end_attick_a">
@@ -533,6 +533,450 @@
 			</game_entity>
 			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
 				<transform position="0.423, 2.863, 5.283" non_orthogonal_rotation_mat="-0.971000, 0.000000, -0.239080, -0.975703, 0.000000, 0.219096, 0.000000, 1.000000, 0.000000" scale="0.395, 0.412, 0.771"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_e" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_e">
+				<transform position="-1.372, 0.519, 3.287" non_orthogonal_rotation_mat="0.999127, -0.000076, -0.041766, -0.603301, 0.000298, -0.797514, 0.000282, 1.000000, 0.000053" scale="0.875, 0.515, 0.500"/>
+				<physics shape="bo_empire_keep_a_wall_e"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_e">
+						<mesh name="empire_keep_a_wall_e.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_e" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_e">
+				<transform position="1.478, 0.519, 3.257" non_orthogonal_rotation_mat="0.999065, -0.000102, 0.043237, 0.616581, 0.000186, -0.787291, 0.000282, 1.000000, 0.000053" scale="0.874, 0.522, 0.500"/>
+				<physics shape="bo_empire_keep_a_wall_e"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_e">
+						<mesh name="empire_keep_a_wall_e.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_e" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_e">
+				<transform position="-4.608, 0.521, -0.983" non_orthogonal_rotation_mat="0.999102, -0.000076, -0.042371, -0.608825, 0.000297, -0.793305, 0.000282, 1.000000, 0.000053" scale="0.875, 0.688, 0.500"/>
+				<physics shape="bo_empire_keep_a_wall_e"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_e">
+						<mesh name="empire_keep_a_wall_e.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_e" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_e">
+				<transform position="4.852, 0.520, -0.969" non_orthogonal_rotation_mat="0.998984, -0.000103, 0.045057, 0.632318, 0.000181, -0.774709, 0.000282, 1.000000, 0.000053" scale="0.873, 0.699, 0.500"/>
+				<physics shape="bo_empire_keep_a_wall_e"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_e">
+						<mesh name="empire_keep_a_wall_e.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-2.932, 1.281, 3.273" non_orthogonal_rotation_mat="0.939774, -0.000021, -0.341796, -0.988654, -0.000134, -0.150213, -0.000281, 1.000000, -0.000054" scale="0.123, 0.181, 0.295"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="3.151, 1.686, 4.071" non_orthogonal_rotation_mat="-0.987688, -0.000040, 0.156436, 0.944185, 0.000185, 0.329417, -0.000281, 1.000000, -0.000054" scale="0.252, 0.178, 0.417"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-2.855, 1.685, 4.112" non_orthogonal_rotation_mat="0.939774, -0.000021, -0.341796, -0.988654, -0.000134, -0.150213, -0.000281, 1.000000, -0.000054" scale="0.173, 0.255, 0.417"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="3.090, 1.332, 3.260" non_orthogonal_rotation_mat="-0.987688, -0.000040, 0.156436, 0.944185, 0.000185, 0.329416, -0.000281, 1.000000, -0.000054" scale="0.178, 0.126, 0.295"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-3.197, 0.936, 2.625" non_orthogonal_rotation_mat="0.939774, -0.000021, -0.341796, -0.988654, -0.000134, -0.150213, -0.000281, 1.000000, -0.000054" scale="0.084, 0.123, 0.201"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="3.224, 0.987, 2.616" non_orthogonal_rotation_mat="-0.987688, -0.000040, 0.156436, 0.944185, 0.000185, 0.329416, -0.000281, 1.000000, -0.000054" scale="0.120, 0.084, 0.198"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-7.080, 1.178, -3.555" non_orthogonal_rotation_mat="0.999877, -0.000085, -0.015653, -0.272578, 0.000318, -0.962133, 0.000282, 1.000000, 0.000053" scale="0.142, 0.035, 0.198"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="7.118, 1.172, -3.573" non_orthogonal_rotation_mat="0.266077, -0.000318, 0.963952, 0.999884, -0.000085, -0.015251, 0.000282, 1.000000, 0.000053" scale="0.035, 0.142, 0.198"/>
 				<physics shape="bo_module_european_house_end_attick_d"/>
 				<components>
 					<meta_mesh_component name="module_european_house_end_attick_d">
@@ -5303,6 +5747,7 @@
 		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.499, 0.499, 0.499"/>
 		<children>
 			<game_entity name="sound" old_prefab_name="">
+				<transform position="0.000, 0.000, 158.196"/>
 				<children>
 					<game_entity name="sound_reverb" old_prefab_name="">
 						<transform position="0.000, 0.000, 6.837" rotation_euler="0.000, 0.000, 0.000" scale="7.582, 1.000, 1.000"/>
@@ -5380,7 +5825,7 @@
 				<flags>
 					<flag name="lod" value="4"/>
 				</flags>
-				<transform position="-0.006, -0.107, 21.274"/>
+				<transform position="-0.006, -0.107, 179.470"/>
 				<physics shape="bo_empire_castle_tower_round_a_l3"/>
 				<occlusion_body_flags>
 					<occlusion_body_flag name="two_sided"/>
@@ -5482,7 +5927,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="tower_fin" old_prefab_name="">
-				<transform position="-8.289, 0.002, 18.016" rotation_euler="0.000, 0.000, 0.000" scale="0.837, 0.837, 0.844"/>
+				<transform position="-8.289, 0.002, 176.212" rotation_euler="0.000, 0.000, 0.000" scale="0.837, 0.837, 0.844"/>
 				<children>
 					<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
 						<flags>
@@ -5649,7 +6094,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="tower_fin" old_prefab_name="">
-				<transform position="8.561, 0.003, 18.016" rotation_euler="0.000, 0.000, 3.141" scale="0.837, 0.837, 0.844"/>
+				<transform position="8.561, 0.003, 176.212" rotation_euler="0.000, 0.000, 3.141" scale="0.837, 0.837, 0.844"/>
 				<children>
 					<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
 						<flags>
@@ -5816,7 +6261,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="tower_fin" old_prefab_name="">
-				<transform position="0.157, 8.937, 18.016" rotation_euler="0.000, 0.000, -1.571" scale="0.837, 0.837, 0.844"/>
+				<transform position="0.157, 8.937, 176.212" rotation_euler="0.000, 0.000, -1.571" scale="0.837, 0.837, 0.844"/>
 				<children>
 					<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
 						<flags>
@@ -5983,7 +6428,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="tower_fin" old_prefab_name="">
-				<transform position="0.149, -8.080, 18.016" rotation_euler="0.000, 0.000, 1.570" scale="0.837, 0.837, 0.844"/>
+				<transform position="0.149, -8.080, 176.212" rotation_euler="0.000, 0.000, 1.570" scale="0.837, 0.837, 0.844"/>
 				<children>
 					<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
 						<flags>
@@ -6150,7 +6595,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-5.827, -0.123, -0.342" rotation_euler="0.000, 0.000, -1.571" scale="0.916, 0.916, 0.916"/>
+				<transform position="-5.827, -0.123, 157.854" rotation_euler="0.000, 0.000, -1.571" scale="0.916, 0.916, 0.916"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -6320,7 +6765,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="6.143, -0.117, -0.342" rotation_euler="0.000, 0.000, 1.571" scale="0.916, 0.916, 0.916"/>
+				<transform position="6.143, -0.117, 157.854" rotation_euler="0.000, 0.000, 1.571" scale="0.916, 0.916, 0.916"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -6490,7 +6935,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="0.196, -5.939, -0.342" rotation_euler="0.000, 0.000, 0.000" scale="0.916, 0.916, 0.916"/>
+				<transform position="0.196, -5.939, 157.854" rotation_euler="0.000, 0.000, 0.000" scale="0.916, 0.916, 0.916"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -6660,7 +7105,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-0.289, 6.029, -0.342" rotation_euler="0.000, 0.000, -3.141" scale="0.916, 0.916, 0.916"/>
+				<transform position="-0.289, 6.029, 157.854" rotation_euler="0.000, 0.000, -3.141" scale="0.916, 0.916, 0.916"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -6830,7 +7275,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="7.183, -0.215, -26.475" rotation_euler="0.000, 0.000, 1.571" scale="1.201, 1.201, 1.083"/>
+				<transform position="7.183, -0.215, 131.721" rotation_euler="0.000, 0.000, 1.571" scale="1.201, 1.201, 1.083"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -7000,7 +7445,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="0.030, -6.983, -26.475" rotation_euler="0.000, 0.000, 0.000" scale="1.201, 1.201, 1.083"/>
+				<transform position="0.030, -6.983, 131.721" rotation_euler="0.000, 0.000, 0.000" scale="1.201, 1.201, 1.083"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -7170,7 +7615,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-6.872, -0.051, -26.475" rotation_euler="0.000, 0.000, -1.571" scale="1.201, 1.201, 1.083"/>
+				<transform position="-6.872, -0.051, 131.721" rotation_euler="0.000, 0.000, -1.571" scale="1.201, 1.201, 1.083"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -7340,7 +7785,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-0.162, 7.071, -26.475" rotation_euler="0.000, 0.000, -3.141" scale="1.201, 1.201, 1.083"/>
+				<transform position="-0.162, 7.071, 131.721" rotation_euler="0.000, 0.000, -3.141" scale="1.201, 1.201, 1.083"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -7510,7 +7955,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-13.564, 0.327, -96.452" rotation_euler="0.000, 0.000, -1.571" scale="1.703, 1.703, 1.703"/>
+				<transform position="-13.564, 0.327, 61.744" rotation_euler="0.000, 0.000, -1.571" scale="1.703, 1.703, 1.703"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -7677,7 +8122,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-0.215, -13.511, -96.452" rotation_euler="0.000, 0.000, 0.000" scale="1.703, 1.703, 1.703"/>
+				<transform position="-0.215, -13.511, 61.744" rotation_euler="0.000, 0.000, 0.000" scale="1.703, 1.703, 1.703"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -7844,7 +8289,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="13.515, -0.520, -96.452" rotation_euler="0.000, 0.000, 1.571" scale="1.703, 1.703, 1.703"/>
+				<transform position="13.515, -0.520, 61.744" rotation_euler="0.000, 0.000, 1.571" scale="1.703, 1.703, 1.703"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -8011,7 +8456,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="0.215, 13.269, -96.452" rotation_euler="0.000, 0.000, -3.141" scale="1.703, 1.703, 1.703"/>
+				<transform position="0.215, 13.269, 61.744" rotation_euler="0.000, 0.000, -3.141" scale="1.703, 1.703, 1.703"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -8178,7 +8623,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-18.000, 0.151, -145.285" rotation_euler="0.000, 0.000, -1.571" scale="1.998, 1.998, 1.998"/>
+				<transform position="-18.000, 0.151, 12.911" rotation_euler="0.000, 0.000, -1.571" scale="1.998, 1.998, 1.998"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -8345,7 +8790,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="18.000, -0.245, -145.285" rotation_euler="0.000, 0.000, 1.571" scale="1.998, 1.998, 1.998"/>
+				<transform position="18.000, -0.245, 12.911" rotation_euler="0.000, 0.000, 1.571" scale="1.998, 1.998, 1.998"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -8512,7 +8957,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-0.242, -18.000, -145.285" rotation_euler="0.000, 0.000, 0.000" scale="1.998, 1.998, 1.998"/>
+				<transform position="-0.242, -18.000, 12.911" rotation_euler="0.000, 0.000, 0.000" scale="1.998, 1.998, 1.998"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -8679,7 +9124,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="0.163, 18.000, -145.285" rotation_euler="0.000, 0.000, -3.141" scale="1.998, 1.998, 1.998"/>
+				<transform position="0.163, 18.000, 12.911" rotation_euler="0.000, 0.000, -3.141" scale="1.998, 1.998, 1.998"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -8846,7 +9291,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_stairs_a_l3" old_prefab_name="">
-				<transform position="-15.945, -15.944, -158.748" rotation_euler="0.000, 0.000, 0.785" scale="1.200, 1.600, 1.200"/>
+				<transform position="-15.945, -15.944, -0.552" rotation_euler="0.000, 0.000, 0.785" scale="1.200, 1.600, 1.200"/>
 				<physics shape="bo_empire_castle_stairs_a_l3"/>
 				<components>
 					<meta_mesh_component name="empire_castle_stairs_a_l3">
@@ -8895,7 +9340,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_road_floor_a" old_prefab_name="">
-				<transform position="-0.002, 0.000, -145.258" rotation_euler="0.000, 0.000, 0.785" scale="1.434, 1.434, 1.000"/>
+				<transform position="-0.002, 0.000, 12.938" rotation_euler="0.000, 0.000, 0.785" scale="1.434, 1.434, 1.000"/>
 				<physics shape="bo_empire_road_floor_a" override_material="stone"/>
 				<components>
 					<meta_mesh_component name="empire_road_floor_a">
@@ -8904,7 +9349,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_castle_stairs_a_l3" old_prefab_name="">
-				<transform position="15.944, 15.945, -158.748" rotation_euler="0.000, 0.000, -2.356" scale="1.200, 1.600, 1.200"/>
+				<transform position="15.944, 15.945, -0.552" rotation_euler="0.000, 0.000, -2.356" scale="1.200, 1.600, 1.200"/>
 				<physics shape="bo_empire_castle_stairs_a_l3"/>
 				<components>
 					<meta_mesh_component name="empire_castle_stairs_a_l3">
@@ -8953,7 +9398,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_stairs_a_l3" old_prefab_name="">
-				<transform position="16.043, -16.042, -158.748" rotation_euler="0.000, 0.000, 2.356" scale="1.200, 1.600, 1.200"/>
+				<transform position="16.043, -16.042, -0.552" rotation_euler="0.000, 0.000, 2.356" scale="1.200, 1.600, 1.200"/>
 				<physics shape="bo_empire_castle_stairs_a_l3"/>
 				<components>
 					<meta_mesh_component name="empire_castle_stairs_a_l3">
@@ -9002,7 +9447,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_stairs_a_l3" old_prefab_name="">
-				<transform position="-16.454, 16.087, -158.744" rotation_euler="0.000, 0.000, -0.785" scale="1.200, 1.600, 1.200"/>
+				<transform position="-16.454, 16.087, -0.548" rotation_euler="0.000, 0.000, -0.785" scale="1.200, 1.600, 1.200"/>
 				<physics shape="bo_empire_castle_stairs_a_l3"/>
 				<components>
 					<meta_mesh_component name="empire_castle_stairs_a_l3">
@@ -9051,7 +9496,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="khuzait_castle_keep_l3_interior_door_open_a" old_prefab_name="">
-				<transform position="-9.997, -10.000, -145.014" rotation_euler="0.000, 0.000, 2.356" scale="2.500, 2.500, 2.500"/>
+				<transform position="-9.997, -10.000, 13.182" rotation_euler="0.000, 0.000, 2.356" scale="2.500, 2.500, 2.500"/>
 				<physics shape="bo_khuzait_castle_keep_l3_interior_door_open_a"/>
 				<components>
 					<meta_mesh_component name="khuzait_castle_keep_l3_interior_door_open_a">
@@ -9061,7 +9506,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="khuzait_castle_keep_l3_interior_door_open_a" old_prefab_name="">
-				<transform position="10.000, 10.006, -145.014" rotation_euler="0.000, 0.000, 2.356" scale="2.500, 2.500, 2.500"/>
+				<transform position="10.000, 10.006, 13.182" rotation_euler="0.000, 0.000, 2.356" scale="2.500, 2.500, 2.500"/>
 				<physics shape="bo_khuzait_castle_keep_l3_interior_door_open_a"/>
 				<components>
 					<meta_mesh_component name="khuzait_castle_keep_l3_interior_door_open_a">
@@ -9071,7 +9516,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="khuzait_castle_keep_l3_interior_door_open_a" old_prefab_name="">
-				<transform position="10.000, -10.000, -145.014" rotation_euler="0.000, 0.000, 0.785" scale="2.500, 2.500, 2.500"/>
+				<transform position="10.000, -10.000, 13.182" rotation_euler="0.000, 0.000, 0.785" scale="2.500, 2.500, 2.500"/>
 				<physics shape="bo_khuzait_castle_keep_l3_interior_door_open_a"/>
 				<components>
 					<meta_mesh_component name="khuzait_castle_keep_l3_interior_door_open_a">
@@ -9081,7 +9526,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="khuzait_castle_keep_l3_interior_door_open_a" old_prefab_name="">
-				<transform position="-9.997, 10.006, -145.014" rotation_euler="0.000, 0.000, 0.785" scale="2.500, 2.500, 2.500"/>
+				<transform position="-9.997, 10.006, 13.182" rotation_euler="0.000, 0.000, 0.785" scale="2.500, 2.500, 2.500"/>
 				<physics shape="bo_khuzait_castle_keep_l3_interior_door_open_a"/>
 				<components>
 					<meta_mesh_component name="khuzait_castle_keep_l3_interior_door_open_a">
@@ -9091,7 +9536,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="-10.000, -10.000, -132.510" rotation_euler="0.000, 0.000, 0.785" scale="1.000, 1.000, 3.438"/>
+				<transform position="-10.000, -10.000, 25.686" rotation_euler="0.000, 0.000, 0.785" scale="1.000, 1.000, 3.438"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -9100,7 +9545,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="10.000, 10.000, -132.510" rotation_euler="0.000, 0.000, 0.785" scale="1.000, 1.000, 3.438"/>
+				<transform position="10.000, 10.000, 25.686" rotation_euler="0.000, 0.000, 0.785" scale="1.000, 1.000, 3.438"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -9109,7 +9554,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="-10.000, 10.000, -132.510" rotation_euler="0.000, 0.000, 2.356" scale="1.000, 1.000, 3.438"/>
+				<transform position="-10.000, 10.000, 25.686" rotation_euler="0.000, 0.000, 2.356" scale="1.000, 1.000, 3.438"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -9118,7 +9563,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="10.000, -10.000, -132.510" rotation_euler="0.000, 0.000, 2.356" scale="1.000, 1.000, 3.438"/>
+				<transform position="10.000, -10.000, 25.686" rotation_euler="0.000, 0.000, 2.356" scale="1.000, 1.000, 3.438"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -9130,7 +9575,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="0.023, -9.499, 26.040" rotation_euler="-0.392, 1.374, 1.546" scale="34.259, 34.259, 34.259"/>
+				<transform position="0.023, -9.499, 184.236" rotation_euler="-0.392, 1.374, 1.546" scale="34.259, 34.259, 34.259"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9144,7 +9589,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="0.023, -9.499, 19.830" rotation_euler="-0.392, 1.374, 1.546" scale="44.126, 44.126, 44.126"/>
+				<transform position="0.023, -9.499, 178.026" rotation_euler="-0.392, 1.374, 1.546" scale="44.126, 44.126, 44.126"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9158,7 +9603,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="0.438, 10.312, 26.040" rotation_euler="-0.392, 1.374, -1.595" scale="34.259, 34.259, 34.259"/>
+				<transform position="0.438, 10.312, 184.236" rotation_euler="-0.392, 1.374, -1.595" scale="34.259, 34.259, 34.259"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9172,7 +9617,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="0.438, 10.109, 19.830" rotation_euler="-0.392, 1.374, -1.595" scale="44.126, 44.126, 44.126"/>
+				<transform position="0.438, 10.109, 178.026" rotation_euler="-0.392, 1.374, -1.595" scale="44.126, 44.126, 44.126"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9186,7 +9631,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-9.685, 0.265, 26.040" rotation_euler="-0.392, 1.374, -0.026" scale="34.259, 34.259, 34.259"/>
+				<transform position="-9.685, 0.265, 184.236" rotation_euler="-0.392, 1.374, -0.026" scale="34.259, 34.259, 34.259"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9200,7 +9645,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="9.693, -0.103, 19.830" rotation_euler="-0.392, 1.374, 3.116" scale="44.126, 44.126, 44.126"/>
+				<transform position="9.693, -0.103, 178.026" rotation_euler="-0.392, 1.374, 3.116" scale="44.126, 44.126, 44.126"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9214,7 +9659,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="9.693, -0.103, 26.040" rotation_euler="-0.392, 1.374, 3.116" scale="34.259, 34.259, 34.259"/>
+				<transform position="9.693, -0.103, 184.236" rotation_euler="-0.392, 1.374, 3.116" scale="34.259, 34.259, 34.259"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9228,7 +9673,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-9.681, 0.265, 19.830" rotation_euler="-0.392, 1.374, -0.026" scale="44.126, 44.126, 44.126"/>
+				<transform position="-9.681, 0.265, 178.026" rotation_euler="-0.392, 1.374, -0.026" scale="44.126, 44.126, 44.126"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9242,7 +9687,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="1.841, -24.531, -69.546" rotation_euler="-0.300, 1.031, 1.302" scale="15.007, 15.007, 15.007"/>
+				<transform position="1.841, -24.531, 88.650" rotation_euler="-0.300, 1.031, 1.302" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9256,7 +9701,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="5.042, -24.531, -69.546" rotation_euler="-0.300, 1.031, 1.302" scale="15.007, 15.007, 15.007"/>
+				<transform position="5.042, -24.531, 88.650" rotation_euler="-0.300, 1.031, 1.302" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9270,7 +9715,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-1.392, -24.531, -69.546" rotation_euler="-0.300, 1.031, 1.302" scale="15.007, 15.007, 15.007"/>
+				<transform position="-1.392, -24.531, 88.650" rotation_euler="-0.300, 1.031, 1.302" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9284,7 +9729,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-4.600, -24.531, -69.546" rotation_euler="-0.300, 1.031, 1.302" scale="15.007, 15.007, 15.007"/>
+				<transform position="-4.600, -24.531, 88.650" rotation_euler="-0.300, 1.031, 1.302" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9298,7 +9743,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="1.280, 24.283, -69.546" rotation_euler="-0.300, 1.031, -1.840" scale="15.007, 15.007, 15.007"/>
+				<transform position="1.280, 24.283, 88.650" rotation_euler="-0.300, 1.031, -1.840" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9312,7 +9757,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-5.152, 24.283, -69.546" rotation_euler="-0.300, 1.031, -1.840" scale="15.007, 15.007, 15.007"/>
+				<transform position="-5.152, 24.283, 88.650" rotation_euler="-0.300, 1.031, -1.840" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9326,7 +9771,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="4.489, 24.283, -69.546" rotation_euler="-0.300, 1.031, -1.840" scale="15.007, 15.007, 15.007"/>
+				<transform position="4.489, 24.283, 88.650" rotation_euler="-0.300, 1.031, -1.840" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9340,7 +9785,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-1.952, 24.283, -69.546" rotation_euler="-0.300, 1.031, -1.840" scale="15.007, 15.007, 15.007"/>
+				<transform position="-1.952, 24.283, 88.650" rotation_euler="-0.300, 1.031, -1.840" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9354,7 +9799,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="24.355, 4.605, -69.546" rotation_euler="-0.300, 1.031, 2.872" scale="15.007, 15.007, 15.007"/>
+				<transform position="24.355, 4.605, 88.650" rotation_euler="-0.300, 1.031, 2.872" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9368,7 +9813,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="24.349, -5.038, -69.546" rotation_euler="-0.300, 1.031, 2.872" scale="15.007, 15.007, 15.007"/>
+				<transform position="24.349, -5.038, 88.650" rotation_euler="-0.300, 1.031, 2.872" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9382,7 +9827,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="24.353, 1.404, -69.546" rotation_euler="-0.300, 1.031, 2.872" scale="15.007, 15.007, 15.007"/>
+				<transform position="24.353, 1.404, 88.650" rotation_euler="-0.300, 1.031, 2.872" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9396,7 +9841,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-24.462, -1.740, -69.546" rotation_euler="-0.300, 1.031, -0.270" scale="15.007, 15.007, 15.007"/>
+				<transform position="-24.462, -1.740, 88.650" rotation_euler="-0.300, 1.031, -0.270" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9410,7 +9855,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-24.466, -4.942, -69.546" rotation_euler="-0.300, 1.031, -0.270" scale="15.007, 15.007, 15.007"/>
+				<transform position="-24.466, -4.942, 88.650" rotation_euler="-0.300, 1.031, -0.270" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9424,7 +9869,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="24.351, -1.829, -69.546" rotation_euler="-0.300, 1.031, 2.872" scale="15.007, 15.007, 15.007"/>
+				<transform position="24.351, -1.829, 88.650" rotation_euler="-0.300, 1.031, 2.872" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9438,7 +9883,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-24.460, 1.491, -69.546" rotation_euler="-0.300, 1.031, -0.270" scale="15.007, 15.007, 15.007"/>
+				<transform position="-24.460, 1.491, 88.650" rotation_euler="-0.300, 1.031, -0.270" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9452,7 +9897,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-24.458, 4.700, -69.546" rotation_euler="-0.300, 1.031, -0.270" scale="15.007, 15.007, 15.007"/>
+				<transform position="-24.458, 4.700, 88.650" rotation_euler="-0.300, 1.031, -0.270" scale="15.007, 15.007, 15.007"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9466,7 +9911,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-11.744, 2.364, 14.220" rotation_euler="-0.300, 1.031, -0.270" scale="10.230, 10.230, 10.230"/>
+				<transform position="-11.744, 2.364, 172.416" rotation_euler="-0.300, 1.031, -0.270" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9480,7 +9925,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="2.635, -11.882, 14.220" rotation_euler="-0.300, 1.031, 1.302" scale="10.230, 10.230, 10.230"/>
+				<transform position="2.635, -11.882, 172.416" rotation_euler="-0.300, 1.031, 1.302" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9494,7 +9939,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-0.501, -11.882, 14.220" rotation_euler="-0.300, 1.031, 1.302" scale="10.230, 10.230, 10.230"/>
+				<transform position="-0.501, -11.882, 172.416" rotation_euler="-0.300, 1.031, 1.302" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9508,7 +9953,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-2.066, -11.882, 14.220" rotation_euler="-0.300, 1.031, 1.302" scale="10.230, 10.230, 10.230"/>
+				<transform position="-2.066, -11.882, 172.416" rotation_euler="-0.300, 1.031, 1.302" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9522,7 +9967,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="0.800, 11.909, 14.220" rotation_euler="-0.300, 1.031, -1.840" scale="10.230, 10.230, 10.230"/>
+				<transform position="0.800, 11.909, 172.416" rotation_euler="-0.300, 1.031, -1.840" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9536,7 +9981,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-2.336, 11.909, 14.220" rotation_euler="-0.300, 1.031, -1.840" scale="10.230, 10.230, 10.230"/>
+				<transform position="-2.336, 11.909, 172.416" rotation_euler="-0.300, 1.031, -1.840" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9550,7 +9995,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="2.365, 11.909, 14.220" rotation_euler="-0.300, 1.031, -1.840" scale="10.230, 10.230, 10.230"/>
+				<transform position="2.365, 11.909, 172.416" rotation_euler="-0.300, 1.031, -1.840" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9564,7 +10009,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-0.774, 11.909, 14.220" rotation_euler="-0.300, 1.031, -1.840" scale="10.230, 10.230, 10.230"/>
+				<transform position="-0.774, 11.909, 172.416" rotation_euler="-0.300, 1.031, -1.840" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9578,7 +10023,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="12.047, 2.318, 14.220" rotation_euler="-0.300, 1.031, 2.872" scale="10.230, 10.230, 10.230"/>
+				<transform position="12.047, 2.318, 172.416" rotation_euler="-0.300, 1.031, 2.872" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9592,7 +10037,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="12.043, -2.382, 14.220" rotation_euler="-0.300, 1.031, 2.872" scale="10.230, 10.230, 10.230"/>
+				<transform position="12.043, -2.382, 172.416" rotation_euler="-0.300, 1.031, 2.872" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9606,7 +10051,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="12.046, 0.758, 14.220" rotation_euler="-0.300, 1.031, 2.872" scale="10.230, 10.230, 10.230"/>
+				<transform position="12.046, 0.758, 172.416" rotation_euler="-0.300, 1.031, 2.872" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9620,7 +10065,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-11.747, -0.775, 14.220" rotation_euler="-0.300, 1.031, -0.270" scale="10.230, 10.230, 10.230"/>
+				<transform position="-11.747, -0.775, 172.416" rotation_euler="-0.300, 1.031, -0.270" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9634,7 +10079,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-11.748, -2.335, 14.220" rotation_euler="-0.300, 1.031, -0.270" scale="10.230, 10.230, 10.230"/>
+				<transform position="-11.748, -2.335, 172.416" rotation_euler="-0.300, 1.031, -0.270" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9648,7 +10093,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="12.044, -0.818, 14.220" rotation_euler="-0.300, 1.031, 2.872" scale="10.230, 10.230, 10.230"/>
+				<transform position="12.044, -0.818, 172.416" rotation_euler="-0.300, 1.031, 2.872" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9662,7 +10107,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-11.746, 0.800, 14.220" rotation_euler="-0.300, 1.031, -0.270" scale="10.230, 10.230, 10.230"/>
+				<transform position="-11.746, 0.800, 172.416" rotation_euler="-0.300, 1.031, -0.270" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9676,7 +10121,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="1.073, -11.882, 14.220" rotation_euler="-0.300, 1.031, 1.302" scale="10.230, 10.230, 10.230"/>
+				<transform position="1.073, -11.882, 172.416" rotation_euler="-0.300, 1.031, 1.302" scale="10.230, 10.230, 10.230"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9690,7 +10135,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-4.481, 6.932, 13.962" rotation_euler="-0.300, 1.031, -1.055" scale="15.340, 15.340, 15.340"/>
+				<transform position="-4.481, 6.932, 172.158" rotation_euler="-0.300, 1.031, -1.055" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9704,7 +10149,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-4.628, -6.823, 13.962" rotation_euler="-0.300, 1.031, 0.516" scale="15.340, 15.340, 15.340"/>
+				<transform position="-4.628, -6.823, 172.158" rotation_euler="-0.300, 1.031, 0.516" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9718,7 +10163,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-6.152, -5.299, 13.962" rotation_euler="-0.300, 1.031, 0.516" scale="15.340, 15.340, 15.340"/>
+				<transform position="-6.152, -5.299, 172.158" rotation_euler="-0.300, 1.031, 0.516" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9732,7 +10177,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-6.913, -4.538, 13.962" rotation_euler="-0.300, 1.031, 0.516" scale="15.340, 15.340, 15.340"/>
+				<transform position="-6.913, -4.538, 172.158" rotation_euler="-0.300, 1.031, 0.516" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9746,7 +10191,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="6.068, 5.662, 13.962" rotation_euler="-0.300, 1.031, -2.625" scale="15.340, 15.340, 15.340"/>
+				<transform position="6.068, 5.662, 172.158" rotation_euler="-0.300, 1.031, -2.625" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9760,7 +10205,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="4.544, 7.186, 13.962" rotation_euler="-0.300, 1.031, -2.625" scale="15.340, 15.340, 15.340"/>
+				<transform position="4.544, 7.186, 172.158" rotation_euler="-0.300, 1.031, -2.625" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9774,7 +10219,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="6.829, 4.901, 13.962" rotation_euler="-0.300, 1.031, -2.625" scale="15.340, 15.340, 15.340"/>
+				<transform position="6.829, 4.901, 172.158" rotation_euler="-0.300, 1.031, -2.625" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9788,7 +10233,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="5.304, 6.428, 13.962" rotation_euler="-0.300, 1.031, -2.625" scale="15.340, 15.340, 15.340"/>
+				<transform position="5.304, 6.428, 172.158" rotation_euler="-0.300, 1.031, -2.625" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9802,7 +10247,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="7.224, -4.498, 13.962" rotation_euler="-0.300, 1.031, 2.086" scale="15.340, 15.340, 15.340"/>
+				<transform position="7.224, -4.498, 172.158" rotation_euler="-0.300, 1.031, 2.086" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9816,7 +10261,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="4.938, -6.780, 13.962" rotation_euler="-0.300, 1.031, 2.086" scale="15.340, 15.340, 15.340"/>
+				<transform position="4.938, -6.780, 172.158" rotation_euler="-0.300, 1.031, 2.086" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9830,7 +10275,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="6.464, -5.256, 13.962" rotation_euler="-0.300, 1.031, 2.086" scale="15.340, 15.340, 15.340"/>
+				<transform position="6.464, -5.256, 172.158" rotation_euler="-0.300, 1.031, 2.086" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9844,7 +10289,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-6.010, 5.408, 13.962" rotation_euler="-0.300, 1.031, -1.055" scale="15.340, 15.340, 15.340"/>
+				<transform position="-6.010, 5.408, 172.158" rotation_euler="-0.300, 1.031, -1.055" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9858,7 +10303,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-6.769, 4.651, 13.962" rotation_euler="-0.300, 1.031, -1.055" scale="15.340, 15.340, 15.340"/>
+				<transform position="-6.769, 4.651, 172.158" rotation_euler="-0.300, 1.031, -1.055" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9872,7 +10317,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="5.698, -6.020, 13.962" rotation_euler="-0.300, 1.031, 2.086" scale="15.340, 15.340, 15.340"/>
+				<transform position="5.698, -6.020, 172.158" rotation_euler="-0.300, 1.031, 2.086" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9886,7 +10331,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-5.243, 6.173, 13.962" rotation_euler="-0.300, 1.031, -1.055" scale="15.340, 15.340, 15.340"/>
+				<transform position="-5.243, 6.173, 172.158" rotation_euler="-0.300, 1.031, -1.055" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9900,7 +10345,7 @@
 				<flags>
 					<flag name="lod" value="2"/>
 				</flags>
-				<transform position="-5.388, -6.065, 13.962" rotation_euler="-0.300, 1.031, 0.516" scale="15.340, 15.340, 15.340"/>
+				<transform position="-5.388, -6.065, 172.158" rotation_euler="-0.300, 1.031, 0.516" scale="15.340, 15.340, 15.340"/>
 				<components>
 					<meta_mesh_component name="kitchen_horn">
 						<mesh name="kitchen_horn" material="ice_b" factor="4278979853"/>
@@ -9911,7 +10356,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="-5.300, -4.971, -5.641" rotation_euler="0.000, 0.000, 0.785" scale="0.622, 0.622, 3.242"/>
+				<transform position="-5.300, -4.971, 152.555" rotation_euler="0.000, 0.000, 0.785" scale="0.622, 0.622, 3.242"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -9920,7 +10365,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="4.917, 5.247, -5.641" rotation_euler="0.000, 0.000, 0.785" scale="0.622, 0.622, 3.242"/>
+				<transform position="4.917, 5.247, 152.555" rotation_euler="0.000, 0.000, 0.785" scale="0.622, 0.622, 3.242"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -9929,7 +10374,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="-5.164, 5.267, -5.641" rotation_euler="0.000, 0.000, 2.356" scale="0.622, 0.622, 3.242"/>
+				<transform position="-5.164, 5.267, 152.555" rotation_euler="0.000, 0.000, 2.356" scale="0.622, 0.622, 3.242"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -9938,7 +10383,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="4.937, -5.180, -5.641" rotation_euler="0.000, 0.000, 2.356" scale="0.622, 0.622, 3.242"/>
+				<transform position="4.937, -5.180, 152.555" rotation_euler="0.000, 0.000, 2.356" scale="0.622, 0.622, 3.242"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -9947,7 +10392,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="11.262, -0.312, -58.054" rotation_euler="0.000, 0.000, 1.571" scale="1.201, 1.201, 1.320"/>
+				<transform position="11.262, -0.312, 100.142" rotation_euler="0.000, 0.000, 1.571" scale="1.201, 1.201, 1.320"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -10114,7 +10559,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="0.021, -10.948, -58.054" rotation_euler="0.000, 0.000, 0.000" scale="1.201, 1.201, 1.320"/>
+				<transform position="0.021, -10.948, 100.142" rotation_euler="0.000, 0.000, 0.000" scale="1.201, 1.201, 1.320"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -10281,7 +10726,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-10.823, -0.055, -58.054" rotation_euler="0.000, 0.000, -1.571" scale="1.201, 1.201, 1.320"/>
+				<transform position="-10.823, -0.055, 100.142" rotation_euler="0.000, 0.000, -1.571" scale="1.201, 1.201, 1.320"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -10448,7 +10893,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="empire_castle_corner_c_l3" old_prefab_name="">
-				<transform position="-0.279, 11.137, -58.054" rotation_euler="0.000, 0.000, -3.141" scale="1.201, 1.201, 1.320"/>
+				<transform position="-0.279, 11.137, 100.142" rotation_euler="0.000, 0.000, -3.141" scale="1.201, 1.201, 1.320"/>
 				<children>
 					<game_entity name="sound" old_prefab_name="">
 						<children>
@@ -10615,7 +11060,7 @@
 				</children>
 			</game_entity>
 			<game_entity name="khuzait_castle_keep_l3_interior_door_open_a" old_prefab_name="">
-				<transform position="-9.995, 10.011, -145.049" rotation_euler="0.000, 0.000, 0.785" scale="3.306, 1.603, 2.765"/>
+				<transform position="-9.995, 10.011, 13.147" rotation_euler="0.000, 0.000, 0.785" scale="3.306, 1.603, 2.765"/>
 				<physics shape="bo_khuzait_castle_keep_l3_interior_door_open_a"/>
 				<components>
 					<meta_mesh_component name="khuzait_castle_keep_l3_interior_door_open_a">
@@ -10625,7 +11070,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="khuzait_castle_keep_l3_interior_door_open_a" old_prefab_name="">
-				<transform position="-9.995, -10.000, -145.049" rotation_euler="0.000, 0.000, 2.356" scale="3.306, 1.603, 2.765"/>
+				<transform position="-9.995, -10.000, 13.147" rotation_euler="0.000, 0.000, 2.356" scale="3.306, 1.603, 2.765"/>
 				<physics shape="bo_khuzait_castle_keep_l3_interior_door_open_a"/>
 				<components>
 					<meta_mesh_component name="khuzait_castle_keep_l3_interior_door_open_a">
@@ -10635,7 +11080,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="khuzait_castle_keep_l3_interior_door_open_a" old_prefab_name="">
-				<transform position="10.000, 10.011, -145.049" rotation_euler="0.000, 0.000, 2.356" scale="3.306, 1.603, 2.765"/>
+				<transform position="10.000, 10.011, 13.147" rotation_euler="0.000, 0.000, 2.356" scale="3.306, 1.603, 2.765"/>
 				<physics shape="bo_khuzait_castle_keep_l3_interior_door_open_a"/>
 				<components>
 					<meta_mesh_component name="khuzait_castle_keep_l3_interior_door_open_a">
@@ -10645,7 +11090,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="khuzait_castle_keep_l3_interior_door_open_a" old_prefab_name="">
-				<transform position="10.000, -10.000, -145.049" rotation_euler="0.000, 0.000, 0.785" scale="3.306, 1.603, 2.765"/>
+				<transform position="10.000, -10.000, 13.147" rotation_euler="0.000, 0.000, 0.785" scale="3.306, 1.603, 2.765"/>
 				<physics shape="bo_khuzait_castle_keep_l3_interior_door_open_a"/>
 				<components>
 					<meta_mesh_component name="khuzait_castle_keep_l3_interior_door_open_a">
@@ -10655,7 +11100,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="-6.521, -6.173, -62.358" rotation_euler="0.000, 0.000, 0.785" scale="0.770, 0.770, 8.904"/>
+				<transform position="-6.521, -6.173, 95.838" rotation_euler="0.000, 0.000, 0.785" scale="0.770, 0.770, 8.904"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -10664,7 +11109,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="6.122, 6.471, -62.358" rotation_euler="0.000, 0.000, 0.785" scale="0.770, 0.770, 8.904"/>
+				<transform position="6.122, 6.471, 95.838" rotation_euler="0.000, 0.000, 0.785" scale="0.770, 0.770, 8.904"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -10673,7 +11118,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="-6.354, 6.496, -62.358" rotation_euler="0.000, 0.000, 2.356" scale="0.770, 0.770, 8.904"/>
+				<transform position="-6.354, 6.496, 95.838" rotation_euler="0.000, 0.000, 2.356" scale="0.770, 0.770, 8.904"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -10682,7 +11127,7 @@
 				</components>
 			</game_entity>
 			<game_entity name="empire_grandbazaar_wall" old_prefab_name="" occlusion_body_name="bo_occ_empire_grandbazaar_wall">
-				<transform position="6.145, -6.431, -62.358" rotation_euler="0.000, 0.000, 2.356" scale="0.770, 0.770, 8.904"/>
+				<transform position="6.145, -6.431, 95.838" rotation_euler="0.000, 0.000, 2.356" scale="0.770, 0.770, 8.904"/>
 				<physics shape="bo_empire_grandbazaar_wall"/>
 				<components>
 					<meta_mesh_component name="empire_grandbazaar_wall">
@@ -10691,13 +11136,1938 @@
 				</components>
 			</game_entity>
 			<game_entity name="aserai_castle_keep_a_l3_interior_top_floor_top" old_prefab_name="">
-				<transform position="-0.002, -0.005, -164.427" rotation_euler="0.000, 0.000, 0.000" scale="1.506, 1.506, 1.506"/>
+				<transform position="-0.002, -0.005, -6.231" rotation_euler="0.000, 0.000, 0.000" scale="1.506, 1.506, 1.506"/>
 				<physics shape="bo_aserai_castle_keep_a_l3_interior_top_floor_top"/>
 				<components>
 					<meta_mesh_component name="aserai_castle_keep_a_l3_interior_top_floor_top">
 						<mesh name="aserai_castle_keep_a_l3_interior_top_floor_top.9" factor="4279046943"/>
 						<mesh name="aserai_castle_keep_a_l3_interior_top_floor_top.21" factor="4279046943"/>
 						<mesh name="aserai_castle_keep_a_l3_interior_top_floor_top.22" factor="4279046943"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_import_export_weapons_outlaws" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+		<children>
+			<game_entity name="pb_weapons_outlaws_a" old_prefab_name="">
+				<transform position="0.000, 0.231, 1.740" rotation_euler="1.566, 3.141, 3.141" scale="0.814, 0.814, 1.245"/>
+				<physics shape="bo_fence_c" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="fence_d"/>
+				</components>
+				<children>
+					<game_entity name="fence_d" old_prefab_name="">
+						<transform position="-0.372, -2.068, -0.374" rotation_euler="-1.564, -2.889, 3.141" scale="1.229, 0.803, 1.228"/>
+						<physics shape="bo_fence_c" override_material="wood"/>
+						<components>
+							<meta_mesh_component name="fence_d"/>
+						</components>
+					</game_entity>
+					<game_entity name="fence_d" old_prefab_name="">
+						<transform position="0.285, -2.019, -0.374" rotation_euler="-1.564, 2.922, 3.141" scale="1.229, 0.803, 1.228"/>
+						<physics shape="bo_fence_c" override_material="wood"/>
+						<components>
+							<meta_mesh_component name="fence_d"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_highland_spear_t2" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_highland_spear_t2"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_market"/>
+						</tags>
+						<transform position="0.049, 0.966, -0.208" rotation_euler="-0.005, 1.574, 1.631" scale="0.771, 1.081, 1.145"/>
+						<components>
+							<meta_mesh_component name="spear_blade_13"/>
+						</components>
+						<children>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.316"/>
+								<components>
+									<meta_mesh_component name="spear_guard_3"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -1.506"/>
+								<components>
+									<meta_mesh_component name="spear_handle_5"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merchandise_ironware_horseshoe" old_prefab_name="">
+						<transform position="0.097, -0.015, 0.648" non_orthogonal_rotation_mat="-0.050330, -0.007135, -0.998707, -0.999768, 0.000154, 0.021538, 0.000000, 0.999995, -0.003054" scale="0.321, 0.491, 0.491"/>
+						<components>
+							<meta_mesh_component name="merchandise_ironware_horseshoe"/>
+						</components>
+					</game_entity>
+					<game_entity name="merchandise_ironware_horseshoe" old_prefab_name="">
+						<transform position="0.107, -0.014, 0.846" non_orthogonal_rotation_mat="-0.050330, -0.007135, -0.998707, -0.999768, 0.000154, 0.021538, 0.000000, 0.999995, -0.003054" scale="0.321, 0.491, 0.491"/>
+						<components>
+							<meta_mesh_component name="merchandise_ironware_horseshoe"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_light_mace_t3" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_light_mace_t3"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="0.093, -0.363, 0.653" rotation_euler="-0.005, 1.573, 1.455" scale="0.670, 0.974, 0.923"/>
+						<components>
+							<meta_mesh_component name="mace_handle_12"/>
+						</components>
+						<children>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, -0.002, 0.416" rotation_euler="0.004, 0.000, 0.000"/>
+								<components>
+									<meta_mesh_component name="mace_head_20"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.404"/>
+								<components>
+									<meta_mesh_component name="spear_pommel_5"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merchandise_ironware_horseshoe" old_prefab_name="">
+						<transform position="0.099, -0.017, 0.425" non_orthogonal_rotation_mat="-0.050330, -0.007135, -0.998707, -0.999768, 0.000154, 0.021538, 0.000000, 0.999995, -0.003054" scale="0.321, 0.491, 0.491"/>
+						<components>
+							<meta_mesh_component name="merchandise_ironware_horseshoe"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_cleaver_2hsword_t3" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_cleaver_2hsword_t3"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="0.118, -0.510, 0.427" rotation_euler="-0.004, 1.568, -1.567" scale="0.614, 0.974, 1.079"/>
+						<components>
+							<meta_mesh_component name="cleaver_blade_4"/>
+						</components>
+						<children>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.773"/>
+								<components>
+									<meta_mesh_component name="cleaver_pommel_2"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.481"/>
+								<components>
+									<meta_mesh_component name="cleaver_guard_1"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.612"/>
+								<components>
+									<meta_mesh_component name="cleaver_grip_8"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="pb_aserai_mace_1_t2" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_aserai_mace_1_t2"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="0.111, -0.244, 1.039" rotation_euler="-0.005, 1.573, 1.479" scale="0.670, 0.974, 0.923"/>
+						<components>
+							<meta_mesh_component name="mace_handle_6"/>
+						</components>
+						<children>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.003, 0.000, 0.299" rotation_euler="0.000, 3.141, -3.141"/>
+								<components>
+									<meta_mesh_component name="mace_head_17"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="merchandise_ironware_horseshoe" old_prefab_name="">
+						<transform position="0.116, -0.012, 1.036" non_orthogonal_rotation_mat="-0.050330, -0.007135, -0.998707, -0.999768, 0.000154, 0.021538, 0.000000, 0.999995, -0.003054" scale="0.321, 0.491, 0.491"/>
+						<components>
+							<meta_mesh_component name="merchandise_ironware_horseshoe"/>
+						</components>
+					</game_entity>
+					<game_entity name="merchandise_ironware_horseshoe" old_prefab_name="">
+						<transform position="0.091, -0.011, 1.256" non_orthogonal_rotation_mat="-0.050330, -0.007135, -0.998707, -0.999768, 0.000154, 0.021538, 0.000000, 0.999995, -0.003054" scale="0.321, 0.491, 0.491"/>
+						<components>
+							<meta_mesh_component name="merchandise_ironware_horseshoe"/>
+						</components>
+					</game_entity>
+					<game_entity name="merchandise_ironware_horseshoe" old_prefab_name="">
+						<transform position="0.101, -0.009, 1.484" non_orthogonal_rotation_mat="-0.050330, -0.007135, -0.998707, -0.999768, 0.000154, 0.021538, 0.000000, 0.999995, -0.003054" scale="0.321, 0.491, 0.491"/>
+						<components>
+							<meta_mesh_component name="merchandise_ironware_horseshoe"/>
+						</components>
+					</game_entity>
+					<game_entity name="merchandise_ironware_horseshoe" old_prefab_name="">
+						<transform position="0.112, -0.008, 1.692" non_orthogonal_rotation_mat="-0.050330, -0.007135, -0.998707, -0.999768, 0.000154, 0.021538, 0.000000, 0.999995, -0.003054" scale="0.321, 0.491, 0.491"/>
+						<components>
+							<meta_mesh_component name="merchandise_ironware_horseshoe"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_empire_sword_1_t2" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_empire_sword_1_t2"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="0.127, -0.363, 1.695" non_orthogonal_rotation_mat="0.029746, -0.009577, -0.999512, 0.999919, 0.001091, 0.012717, 0.000969, -0.999991, 0.004108" scale="0.603, 0.877, 0.832"/>
+						<components>
+							<meta_mesh_component name="empire_blade_4"/>
+						</components>
+						<children>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.645"/>
+								<components>
+									<meta_mesh_component name="empire_pommel_1"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.469"/>
+								<components>
+									<meta_mesh_component name="cleaver_guard_4"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.558"/>
+								<components>
+									<meta_mesh_component name="empire_grip_6"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="fence_d" old_prefab_name="">
+						<transform position="0.285, -2.003, 1.872" rotation_euler="-1.564, 2.922, 3.141" scale="1.229, 0.803, 1.228"/>
+						<physics shape="bo_fence_c" override_material="wood"/>
+						<components>
+							<meta_mesh_component name="fence_d"/>
+						</components>
+					</game_entity>
+					<game_entity name="fence_d" old_prefab_name="">
+						<transform position="-0.372, -2.052, 1.872" rotation_euler="-1.564, -2.889, 3.141" scale="1.229, 0.803, 1.228"/>
+						<physics shape="bo_fence_c" override_material="wood"/>
+						<components>
+							<meta_mesh_component name="fence_d"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_sturgia_old_shield_c"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="-0.122, -1.573, 2.033" non_orthogonal_rotation_mat="0.994352, 0.104620, 0.017844, -0.090423, 0.962084, -0.257327, -0.090535, 0.522115, 0.848056" scale="1.175, 1.037, 0.884"/>
+						<components>
+							<meta_mesh_component name="sturgia_old_shield_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_hardwood_market" old_prefab_name="">
+						<transform position="0.734, -2.056, -0.885" non_orthogonal_rotation_mat="0.801761, -0.004382, -0.597629, -0.867472, -0.003651, -0.497472, -0.000002, 0.999995, -0.003136" scale="0.705, 0.743, 0.857"/>
+						<children>
+							<game_entity name="log_bench_default_d_unsittable" old_prefab_name="">
+								<transform position="0.093, 0.307, 0.178" rotation_euler="-0.197, 0.000, 1.508"/>
+								<physics shape="bo_log_bench_default_d"/>
+								<occlusion_body_flags>
+									<occlusion_body_flag name="two_sided"/>
+								</occlusion_body_flags>
+								<components>
+									<meta_mesh_component name="log_bench_default_d"/>
+								</components>
+							</game_entity>
+							<game_entity name="log_bench_default_d_unsittable" old_prefab_name="">
+								<transform position="-0.078, -0.011, 0.551" rotation_euler="1.168, 0.000, 0.000"/>
+								<physics shape="bo_log_bench_default_d"/>
+								<occlusion_body_flags>
+									<occlusion_body_flag name="two_sided"/>
+								</occlusion_body_flags>
+								<components>
+									<meta_mesh_component name="log_bench_default_d"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_battania_large_shield_c"/>
+						</tags>
+						<transform position="0.276, -1.550, 1.834" non_orthogonal_rotation_mat="-0.460234, -0.082231, -0.883981, -0.338424, 0.940229, 0.037931, 0.911829, 0.348662, -0.216800" scale="0.821, 1.081, 1.201"/>
+						<components>
+							<meta_mesh_component name="battania_large_shield_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="pb_battania_axe_1_t2" old_prefab_name="">
+						<tags>
+							<tag name="pb_import_export"/>
+							<tag name="pb_market"/>
+							<tag name="pb_item:pb_battania_axe_1_t2"/>
+						</tags>
+						<transform position="1.152, -1.723, -1.067" non_orthogonal_rotation_mat="0.814000, 0.115838, -0.569197, -0.711230, -0.514026, -0.479510, -0.395678, 0.903761, -0.163264" scale="0.856, 0.852, 0.907"/>
+						<components>
+							<meta_mesh_component name="axe_craft_2_handle"/>
+						</components>
+						<children>
+							<game_entity name="empty" old_prefab_name="">
+								<transform position="0.000, 0.000, 0.390"/>
+								<components>
+									<meta_mesh_component name="axe_craft_2_head"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="pb_sturgia_axe_2_t2" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_sturgia_axe_2_t2"/>
+						</tags>
+						<transform position="1.105, -1.128, -0.592" non_orthogonal_rotation_mat="0.507912, 0.778115, 0.369543, 0.843177, 0.044847, -0.535763, -0.558710, 0.752380, -0.348952" scale="0.942, 0.828, 0.855"/>
+						<components>
+							<meta_mesh_component name="axe_craft_2_handle"/>
+						</components>
+						<children>
+							<game_entity name="empty" old_prefab_name="">
+								<transform position="0.000, 0.000, 0.393"/>
+								<components>
+									<meta_mesh_component name="axe_craft_20_head"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="pb_sturgia_sword_1_t2" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_sturgia_sword_1_t2"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="0.124, -0.325, 1.488" rotation_euler="0.004, 1.567, -1.569" scale="0.670, 0.974, 0.923"/>
+						<components>
+							<meta_mesh_component name="sturgian_blade_1"/>
+						</components>
+						<children>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.443"/>
+								<components>
+									<meta_mesh_component name="sturgian_grip_13"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.526"/>
+								<components>
+									<meta_mesh_component name="sturgian_pommel_7"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.362"/>
+								<components>
+									<meta_mesh_component name="sturgian_guard_1"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="pb_khuzait_sword_1_t2" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_khuzait_sword_1_t2"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="0.125, -0.378, 1.257" rotation_euler="0.004, 1.567, -1.569" scale="0.670, 0.974, 0.923"/>
+						<components>
+							<meta_mesh_component name="khuzait_blade_7"/>
+						</components>
+						<children>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.416"/>
+								<components>
+									<meta_mesh_component name="khuzait_guard_4"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.572" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.133, 1.000"/>
+								<components>
+									<meta_mesh_component name="khuzait_pommel_2"/>
+								</components>
+							</game_entity>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -0.494"/>
+								<components>
+									<meta_mesh_component name="khuzait_grip_7"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="pb_vlandia_mace_1_t2" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_vlandia_mace_1_t2"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="0.137, -0.240, 0.844" rotation_euler="0.004, 1.567, -1.569" scale="0.670, 0.974, 0.923"/>
+						<components>
+							<meta_mesh_component name="mace_handle_6"/>
+						</components>
+						<children>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="-0.005, 0.000, -0.297"/>
+								<components>
+									<meta_mesh_component name="mace_head_22"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="pb_western_spear_1_t2" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_western_spear_1_t2"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_market"/>
+						</tags>
+						<transform position="0.050, 0.779, 0.113" rotation_euler="-0.004, 1.574, 1.666" scale="0.768, 1.082, 1.143"/>
+						<components>
+							<meta_mesh_component name="spear_blade_1"/>
+						</components>
+						<children>
+							<game_entity name="empty_object" old_prefab_name="">
+								<transform position="0.000, 0.000, -1.358"/>
+								<components>
+									<meta_mesh_component name="spear_handle_5"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_import_export_ranged_outlaws" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+		<children>
+			<game_entity name="crate_b_empty" old_prefab_name="">
+				<transform position="-0.133, 0.534, 0.008" rotation_euler="0.000, 0.000, 0.085" scale="0.603, 0.603, 0.603"/>
+				<physics shape="bo_crate_a"/>
+				<components>
+					<meta_mesh_component name="crate_b_empty"/>
+				</components>
+			</game_entity>
+			<game_entity name="empty_object" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_barbed_arrows"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:1"/>
+				</tags>
+				<transform position="-0.377, 0.373, 0.522" rotation_euler="0.402, -0.020, -1.062"/>
+				<components>
+					<meta_mesh_component name="arrow_bl_g_quiver"/>
+				</components>
+			</game_entity>
+			<game_entity name="empty_object" old_prefab_name="">
+				<tags>
+					<tag name="pb_market"/>
+					<tag name="pb_town:1"/>
+					<tag name="pb_item:pb_bodkin_arrows_b"/>
+				</tags>
+				<transform position="0.089, 0.374, 0.419" rotation_euler="0.498, 0.040, 0.186"/>
+				<components>
+					<meta_mesh_component name="arrow_bl_c_quiver"/>
+				</components>
+			</game_entity>
+			<game_entity name="desert_cow_skull" old_prefab_name="">
+				<transform position="-0.193, 0.019, 1.046" rotation_euler="-0.002, 0.000, -0.820" scale="0.769, 0.769, 0.769"/>
+				<components>
+					<meta_mesh_component name="desert_cow_skull"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_bench_default_d_unsittable" old_prefab_name="">
+				<transform position="-0.279, 0.194, 0.541" rotation_euler="1.565, 0.000, 0.245" scale="0.812, 0.812, 0.812"/>
+				<physics shape="bo_log_bench_default_d"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="log_bench_default_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="pb_nordic_shortbow" old_prefab_name="">
+				<tags>
+					<tag name="pb_town:1"/>
+					<tag name="pb_market"/>
+					<tag name="pb_item:pb_nordic_shortbow"/>
+				</tags>
+				<transform position="0.093, -0.507, 0.393" rotation_euler="0.412, 0.111, -2.277" scale="0.773, 0.773, 0.773"/>
+				<components>
+					<meta_mesh_component name="shortbow_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="pb_composite_bow" old_prefab_name="">
+				<tags>
+					<tag name="pb_town:1"/>
+					<tag name="pb_market"/>
+					<tag name="pb_item:pb_composite_bow"/>
+				</tags>
+				<transform position="0.391, -0.089, 0.400" rotation_euler="0.413, 0.109, -2.271" scale="0.773, 0.773, 0.773"/>
+				<components>
+					<meta_mesh_component name="shortbow_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="log_bench_default_d_unsittable" old_prefab_name="">
+				<transform position="0.038, -0.240, 0.007" rotation_euler="0.000, 0.000, -0.639" scale="0.812, 0.812, 0.812"/>
+				<physics shape="bo_log_bench_default_d"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="log_bench_default_d"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_import_export_outlaw_armory" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 1.000"/>
+		<children>
+			<game_entity name="pb_outlaw_armory_a" old_prefab_name="">
+				<transform position="0.000, 1.846, 0.641" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 0.428"/>
+				<physics shape="bo_bd_pole_3m" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="bd_pole_3m"/>
+				</components>
+				<children>
+					<game_entity name="empire_keep_d_interior_arch_metal" old_prefab_name="">
+						<transform position="0.009, -1.701, 2.493" rotation_euler="0.000, 0.000, 0.000" scale="0.345, 0.723, 0.749"/>
+						<components>
+							<meta_mesh_component name="empire_keep_d_interior_arch_metal"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_imperial_padded_cloth"/>
+						</tags>
+						<transform position="0.000, -0.409, -1.671" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<cloth_simulator>
+								<meta_mesh_component name="empire_fabric_armor"/>
+							</cloth_simulator>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_vlandia_bandit_b"/>
+						</tags>
+						<transform position="0.005, -1.711, -1.671" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<cloth_simulator>
+								<meta_mesh_component name="vlandia_bandit_b"/>
+							</cloth_simulator>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_buckled_wildsman_armor"/>
+						</tags>
+						<transform position="0.005, -2.342, -1.671" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<meta_mesh_component name="bandit_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_rough_fur_over_chain"/>
+						</tags>
+						<transform position="0.005, -2.956, -1.671" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<cloth_simulator>
+								<meta_mesh_component name="bandit_3_b"/>
+							</cloth_simulator>
+						</components>
+					</game_entity>
+					<game_entity name="bd_pole_3m" old_prefab_name="">
+						<transform position="0.000, -3.339, 0.000"/>
+						<physics shape="bo_bd_pole_3m" override_material="stone"/>
+						<components>
+							<meta_mesh_component name="bd_pole_3m"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_chains_sturgia" old_prefab_name="">
+						<transform position="0.031, -2.948, 2.371" rotation_euler="0.000, 0.000, -1.191" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<meta_mesh_component name="bd_chains_sturgia"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_chains_sturgia" old_prefab_name="">
+						<transform position="0.025, -2.339, 2.371" rotation_euler="0.000, 0.000, -1.191" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<meta_mesh_component name="bd_chains_sturgia"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_chains_sturgia" old_prefab_name="">
+						<transform position="0.035, -1.718, 2.371" rotation_euler="0.000, 0.000, -1.191" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<meta_mesh_component name="bd_chains_sturgia"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_chains_sturgia" old_prefab_name="">
+						<transform position="0.021, -1.052, 2.371" rotation_euler="0.000, 0.000, -1.191" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<meta_mesh_component name="bd_chains_sturgia"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_vlandia_bandit_a"/>
+						</tags>
+						<transform position="0.000, -1.063, -1.671" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<cloth_simulator>
+								<meta_mesh_component name="vlandia_bandit_a"/>
+							</cloth_simulator>
+						</components>
+					</game_entity>
+					<game_entity name="bd_chains_sturgia" old_prefab_name="">
+						<transform position="0.021, -0.391, 2.371" rotation_euler="0.000, 0.000, -1.191" scale="1.000, 1.000, 2.335"/>
+						<components>
+							<meta_mesh_component name="bd_chains_sturgia"/>
+						</components>
+					</game_entity>
+					<game_entity name="crate_b_empty" old_prefab_name="">
+						<transform position="0.285, 0.521, -0.553" rotation_euler="0.016, -3.141, -0.806" scale="0.777, 0.777, 1.815"/>
+						<physics shape="bo_crate_a"/>
+						<components>
+							<meta_mesh_component name="crate_b_empty"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_leather_studdedhelm_over_headcloth"/>
+						</tags>
+						<transform position="0.460, 0.380, -3.558" rotation_euler="-0.004, 0.004, -0.775" scale="1.000, 1.000, 2.336"/>
+						<components>
+							<meta_mesh_component name="battania_helmet_k_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_battania_fur_helmet"/>
+						</tags>
+						<transform position="0.165, 0.780, -3.533" rotation_euler="-0.004, 0.004, -0.775" scale="1.000, 1.000, 2.336"/>
+						<components>
+							<meta_mesh_component name="battania_fur_helmet_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_straw_d" old_prefab_name="">
+						<transform position="0.272, 0.523, -0.485" rotation_euler="0.000, 0.000, 0.743" scale="0.132, 0.176, 0.309"/>
+						<physics override_material="straw"/>
+						<components>
+							<meta_mesh_component name="bd_straw_d"/>
+						</components>
+					</game_entity>
+					<game_entity name="crate_b_lid" old_prefab_name="">
+						<transform position="0.353, 1.281, -1.396" non_orthogonal_rotation_mat="-0.203340, -0.615090, 0.761786, 0.950796, -0.288973, 0.111722, 0.042118, 0.207791, 0.977266" scale="0.963, 0.702, 1.489"/>
+						<components>
+							<meta_mesh_component name="crate_b_lid"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_strapped_mail_chausses"/>
+						</tags>
+						<transform position="0.144, -3.646, -0.702" rotation_euler="-0.005, 0.002, -2.057" scale="1.000, 1.000, 2.336"/>
+						<components>
+							<meta_mesh_component name="mail_chausses_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="empty_object" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_highland_boots"/>
+						</tags>
+						<transform position="0.098, -4.205, -1.564" rotation_euler="-0.006, -0.002, -2.716" scale="1.000, 1.000, 2.336"/>
+						<components>
+							<meta_mesh_component name="pict_armor_boot"/>
+						</components>
+					</game_entity>
+					<game_entity name="crate_b" old_prefab_name="">
+						<transform position="0.094, -3.655, -1.774" rotation_euler="0.000, 0.000, -2.503" scale="0.677, 0.677, 1.581"/>
+						<physics shape="bo_crate_a"/>
+						<components>
+							<meta_mesh_component name="crate_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_pole_3m" old_prefab_name="">
+						<transform position="0.491, 0.413, -0.894" rotation_euler="0.000, 0.000, 0.000" scale="0.493, 0.493, 0.469"/>
+						<physics override_material="stone"/>
+						<components>
+							<meta_mesh_component name="bd_pole_3m"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_pole_3m" old_prefab_name="">
+						<transform position="0.185, 0.798, -0.894" rotation_euler="0.000, 0.000, 0.000" scale="0.493, 0.493, 0.469"/>
+						<physics override_material="stone"/>
+						<components>
+							<meta_mesh_component name="bd_pole_3m"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_potato_market" old_prefab_name="">
+		<tags>
+			<tag name="pb_item:pb_potato"/>
+			<tag name="pb_market"/>
+			<tag name="pb_town:0"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_foods_basket_d"/>
+		<components>
+			<meta_mesh_component name="foods_basket_d">
+				<mesh name="foods_basket_d" material="ground_dirt"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+	<game_entity name="rohan_keep" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 2.815"/>
+		<physics shape="bo_sturgia_town_house_f_shed"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_f_shed">
+				<mesh name="sturgia_town_house_f_shed.1" material="plank_fine_a"/>
+				<mesh name="sturgia_town_house_f_shed.4" material="thatched_roof_c" factor="4294961307"/>
+				<mesh name="sturgia_town_house_f_shed.5" material="thatched_roof_c_alpha" factor="4294955902"/>
+				<mesh name="sturgia_town_house_f_shed.14" material="plank_fine_a"/>
+				<mesh name="sturgia_town_house_f_shed.15" material="planks_1_interior"/>
+				<mesh name="sturgia_town_house_f_shed.lod4.1" material="plank_fine_a"/>
+				<mesh name="sturgia_town_house_f_shed.lod4.4" material="thatched_roof_c" factor="4294961307"/>
+				<mesh name="sturgia_town_house_f_shed.lod4.5" material="thatched_roof_c_alpha" factor="4294961307"/>
+				<mesh name="sturgia_town_house_f_shed.lod4.6" factor="4294961307"/>
+				<mesh name="sturgia_town_house_f_shed.lod4.14" material="plank_fine_a"/>
+				<mesh name="sturgia_town_house_f_shed.lod4.15" material="planks_1_interior"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="sturgia_castle_stairs_a_l2" old_prefab_name="">
+				<transform position="-5.499, -23.858, -16.363" rotation_euler="0.000, 0.000, 1.588" scale="1.834, 2.204, 1.834"/>
+				<physics shape="bo_sturgia_castle_stairs_a_l2"/>
+				<components>
+					<meta_mesh_component name="sturgia_castle_stairs_a_l2"/>
+				</components>
+				<children>
+					<game_entity name="stairs_bo" old_prefab_name="">
+						<physics shape="bo_2_sturgia_castle_stairs_a_l2">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_ground_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_ground_a">
+				<transform position="-15.290, -15.007, -8.128" rotation_euler="0.000, 0.000, -3.121" scale="1.760, 1.500, 1.470"/>
+				<physics shape="bo_sturgia_grandbazaar_ground_a"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_ground_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_ground_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_ground_a">
+				<transform position="3.234, -14.634, -8.128" rotation_euler="0.000, 0.000, -3.121" scale="1.500, 1.500, 1.470"/>
+				<physics shape="bo_sturgia_grandbazaar_ground_a"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_ground_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_d_interior_column_top_a" old_prefab_name="">
+				<transform position="-16.153, -16.198, -0.399" rotation_euler="0.000, 0.000, -3.138" scale="1.461, 1.461, 1.461"/>
+				<physics shape="bo_empire_keep_d_interior_column_top_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_d_interior_column_top_a">
+						<mesh name="empire_keep_d_interior_column_top_a" factor="4293722103"/>
+						<mesh name="empire_keep_d_interior_column_top_a.lod1" factor="4293722103"/>
+						<mesh name="empire_keep_d_interior_column_top_a.lod2" factor="4293722103"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="cauldron" old_prefab_name="">
+				<transform position="-16.154, -16.202, 0.712" rotation_euler="0.000, 0.000, 3.119" scale="7.520, 7.520, 7.520"/>
+				<physics override_material="stone"/>
+				<components>
+					<meta_mesh_component name="cauldron"/>
+				</components>
+			</game_entity>
+			<game_entity name="nord_fire_stand" old_prefab_name="">
+				<transform position="-16.157, -16.194, -2.719" rotation_euler="0.000, 0.000, -1.562" scale="3.195, 3.195, 3.195"/>
+				<physics override_material="stone"/>
+				<components>
+					<meta_mesh_component name="nord_fire_stand"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_d_interior_column_top_a" old_prefab_name="">
+				<transform position="4.568, -15.896, -0.399" rotation_euler="0.000, 0.000, -3.138" scale="1.461, 1.461, 1.461"/>
+				<physics shape="bo_empire_keep_d_interior_column_top_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_d_interior_column_top_a">
+						<mesh name="empire_keep_d_interior_column_top_a" factor="4293722103"/>
+						<mesh name="empire_keep_d_interior_column_top_a.lod1" factor="4293722103"/>
+						<mesh name="empire_keep_d_interior_column_top_a.lod2" factor="4293722103"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="cauldron" old_prefab_name="">
+				<transform position="4.565, -15.893, 0.711" rotation_euler="0.000, 0.000, 3.119" scale="7.520, 7.520, 7.520"/>
+				<physics override_material="stone"/>
+				<components>
+					<meta_mesh_component name="cauldron"/>
+				</components>
+			</game_entity>
+			<game_entity name="nord_fire_stand" old_prefab_name="">
+				<transform position="4.565, -15.893, -2.719" rotation_euler="0.000, 0.000, -1.562" scale="3.195, 3.195, 3.195"/>
+				<physics override_material="stone"/>
+				<components>
+					<meta_mesh_component name="nord_fire_stand"/>
+				</components>
+			</game_entity>
+			<game_entity name="burning_campfire" old_prefab_name="">
+				<transform position="4.668, -15.787, 0.827" rotation_euler="0.000, 0.000, -2.815"/>
+				<physics shape="bo_burned_wood_a"/>
+				<components>
+					<meta_mesh_component name="burned_wood_a"/>
+				</components>
+				<children>
+					<game_entity name="smoked_fire_with_light" old_prefab_name="">
+						<transform position="0.327, -0.020, 0.019" rotation_euler="0.000, 0.000, 2.755"/>
+						<children>
+							<game_entity name="campfire" old_prefab_name="">
+								<transform position="0.229, 0.140, 0.025" rotation_euler="0.000, 0.000, -1.106"/>
+								<components>
+									<particle_system_instanced_component>
+										<effect_ref base_effect="{022BD5E3-7A5A-4371-92C7-94E3E33A84C9}"/>
+									</particle_system_instanced_component>
+								</components>
+							</game_entity>
+							<game_entity name="campfire_light" old_prefab_name="">
+								<transform position="0.173, 0.187, 0.452" rotation_euler="0.000, 0.000, -0.947"/>
+								<components>
+									<light_component color="1.000, 0.455, 0.094" intensity="150.000" radius="7.000" flicker_interval="0.700" flicker_magnitude="0.700" local_frame_rot="7.000000, 0.000000, 0.000000, 0.000000, 7.000000, 0.000000, 0.000000, 0.000000, 7.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="5.600"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="burning_campfire" old_prefab_name="">
+				<transform position="-16.235, -16.252, 0.827" rotation_euler="0.000, 0.000, 0.326"/>
+				<physics shape="bo_burned_wood_a"/>
+				<components>
+					<meta_mesh_component name="burned_wood_a"/>
+				</components>
+				<children>
+					<game_entity name="smoked_fire_with_light" old_prefab_name="">
+						<transform position="0.327, -0.020, 0.019" rotation_euler="0.000, 0.000, 2.755"/>
+						<children>
+							<game_entity name="campfire" old_prefab_name="">
+								<transform position="0.229, 0.140, 0.025" rotation_euler="0.000, 0.000, -1.106"/>
+								<components>
+									<particle_system_instanced_component>
+										<effect_ref base_effect="{022BD5E3-7A5A-4371-92C7-94E3E33A84C9}"/>
+									</particle_system_instanced_component>
+								</components>
+							</game_entity>
+							<game_entity name="campfire_light" old_prefab_name="">
+								<transform position="0.173, 0.187, 0.452" rotation_euler="0.000, 0.000, -0.947"/>
+								<components>
+									<light_component color="1.000, 0.455, 0.094" intensity="150.000" radius="7.000" flicker_interval="0.700" flicker_magnitude="0.700" local_frame_rot="7.000000, 0.000000, 0.000000, 0.000000, 7.000000, 0.000000, 0.000000, 0.000000, 7.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="3.000"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="empire_statue_horse" old_prefab_name="">
+				<transform position="-0.347, -9.546, -0.679" rotation_euler="0.000, 0.000, 1.547" scale="1.495, 1.495, 1.495"/>
+				<physics shape="bo_empire_statue_horse" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_statue_horse">
+						<mesh name="empire_statue_horse" factor="4294934309"/>
+						<mesh name="empire_statue_horse.lod3" factor="4294934309"/>
+						<mesh name="empire_statue_horse.lod4" factor="4294934309"/>
+						<mesh name="empire_statue_horse.lod5" factor="4294934309"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_statue_horse" old_prefab_name="">
+				<transform position="-11.244, -9.708, -0.679" rotation_euler="0.000, 0.000, -1.486" scale="1.495, 1.495, 1.495"/>
+				<physics shape="bo_empire_statue_horse" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_statue_horse">
+						<mesh name="empire_statue_horse" factor="4294934309"/>
+						<mesh name="empire_statue_horse.lod3" factor="4294934309"/>
+						<mesh name="empire_statue_horse.lod4" factor="4294934309"/>
+						<mesh name="empire_statue_horse.lod5" factor="4294934309"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_ground_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_ground_a">
+				<transform position="-2.488, -8.274, -8.994" rotation_euler="0.000, 0.000, -1.551" scale="1.666, 1.666, 1.666"/>
+				<physics shape="bo_sturgia_grandbazaar_ground_a"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_ground_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_ground_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_ground_a">
+				<transform position="-15.788, -8.542, -8.994" rotation_euler="0.000, 0.000, -3.121" scale="1.666, 1.666, 1.666"/>
+				<physics shape="bo_sturgia_grandbazaar_ground_a"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_ground_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_ground_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_ground_a">
+				<transform position="10.751, -8.017, -8.994" rotation_euler="0.000, 0.000, 0.019" scale="1.666, 1.666, 1.666"/>
+				<physics shape="bo_sturgia_grandbazaar_ground_a"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_ground_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_ground_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_ground_a">
+				<transform position="10.506, 5.260, -8.994" rotation_euler="0.000, 0.000, 0.019" scale="1.666, 1.666, 1.666"/>
+				<physics shape="bo_sturgia_grandbazaar_ground_a"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_ground_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_ground_a" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_ground_a">
+				<transform position="-16.056, 4.739, -8.994" rotation_euler="0.000, 0.000, -1.551" scale="1.666, 1.666, 1.666"/>
+				<physics shape="bo_sturgia_grandbazaar_ground_a"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_ground_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="rohan_house" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_town_house_g_shed_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_sturgia_town_house_g_shed_a"/>
+		<components>
+			<meta_mesh_component name="sturgia_town_house_g_shed_a">
+				<mesh name="sturgia_town_house_g_shed_a" material="planks_1_interior"/>
+				<mesh name="sturgia_town_house_g_shed_a.1" material="plank_fine_b"/>
+				<mesh name="sturgia_town_house_g_shed_a.4" material="thatched_roof_c" factor="4294961307"/>
+				<mesh name="sturgia_town_house_g_shed_a.5" material="thatched_roof_c_alpha" factor="4294961307"/>
+				<mesh name="sturgia_town_house_g_shed_a.15" material="planks_1_interior"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+	<game_entity name="elven_fountain" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.764" scale="0.590, 0.590, 0.348"/>
+		<children>
+			<game_entity name="empire_column_d" old_prefab_name="">
+				<transform position="-3.608, 0.126, -0.057" rotation_euler="0.000, 0.000, -1.603" scale="0.495, 0.495, 1.204"/>
+				<physics shape="bo_roman_column_d" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="roman_column_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_column_d" old_prefab_name="">
+				<transform position="3.695, -0.109, -0.057" rotation_euler="0.000, 0.000, -1.603" scale="0.495, 0.495, 1.204"/>
+				<physics shape="bo_roman_column_d" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="roman_column_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_a_aspen" old_prefab_name="">
+				<transform position="3.706, 0.124, 19.797" non_orthogonal_rotation_mat="0.211195, -0.073208, 0.974699, 0.847353, -0.015577, -0.530802, 0.056611, 0.982621, 0.176778" scale="4.093, 2.551, 1.959"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_aspen">
+						<mesh name="tree_root_a_aspen" material="empire_column_a"/>
+						<mesh name="tree_root_a_aspen.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_a_aspen.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_a_aspen.lod4" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_a_aspen" old_prefab_name="">
+				<transform position="-3.620, -0.068, 19.716" non_orthogonal_rotation_mat="-0.192782, 0.093724, 0.976755, -0.854671, 0.094191, -0.510554, -0.145637, -0.971828, 0.185312" scale="4.107, 2.530, 1.971"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_aspen">
+						<mesh name="tree_root_a_aspen" material="empire_column_a"/>
+						<mesh name="tree_root_a_aspen.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_a_aspen.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_a_aspen.lod4" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_dry" old_prefab_name="">
+				<transform position="-3.635, -0.416, 3.010" non_orthogonal_rotation_mat="0.988815, 0.149151, -0.000000, -0.014914, 0.098873, 0.994988, 0.143299, -0.950017, 0.277368" scale="0.968, 1.626, 0.993"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_dry">
+						<mesh name="tree_root_b_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_dry" old_prefab_name="">
+				<transform position="3.568, -0.644, 2.519" non_orthogonal_rotation_mat="0.988815, 0.149151, -0.000000, -0.017391, 0.115294, 0.993179, 0.141330, -0.936963, 0.319571" scale="0.968, 1.620, 1.002"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_dry">
+						<mesh name="tree_root_b_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_dry" old_prefab_name="">
+				<transform position="-3.707, 0.285, 2.800" non_orthogonal_rotation_mat="0.988814, 0.149151, -0.000000, 0.055225, -0.366121, 0.928927, 0.098110, -0.650432, -0.753202" scale="0.968, 1.464, 1.219"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_dry">
+						<mesh name="tree_root_b_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_dry" old_prefab_name="">
+				<transform position="3.689, 0.081, 2.658" non_orthogonal_rotation_mat="0.998025, 0.062812, 0.000000, 0.023069, -0.366543, 0.930115, 0.041537, -0.659986, -0.750129" scale="0.968, 1.466, 1.217"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_dry">
+						<mesh name="tree_root_b_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_a_dry" old_prefab_name="">
+				<transform position="3.930, -0.120, 3.084" non_orthogonal_rotation_mat="0.042235, 0.999108, -0.000001, -0.411815, 0.017409, 0.911101, 0.609276, -0.025756, 0.792540" scale="1.117, 1.649, 1.453"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_dry">
+						<mesh name="tree_root_a_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_a_dry" old_prefab_name="">
+				<transform position="-3.860, 0.116, 3.514" non_orthogonal_rotation_mat="-0.270828, -0.951515, -0.145842, 0.256329, -0.124104, 0.958589, -0.747107, 0.178485, 0.640293" scale="1.125, 1.764, 1.305"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_dry">
+						<mesh name="tree_root_a_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="elven_well" old_prefab_name="">
+				<tags>
+					<tag name="pb_craft:well"/>
+				</tags>
+				<transform position="0.023, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.426" scale="1.003, 1.003, 1.700"/>
+				<physics shape="bo_aserai_courtyard_fountain_a"/>
+				<components>
+					<meta_mesh_component name="aserai_courtyard_fountain_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_dry" old_prefab_name="">
+				<transform position="-3.634, -0.162, 19.445" non_orthogonal_rotation_mat="-0.312300, 0.054567, -0.948415, 0.724687, -0.019812, -0.688793, -0.062003, -0.992496, -0.105390" scale="2.494, 1.930, 1.610"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_dry">
+						<mesh name="tree_root_b_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_dry" old_prefab_name="">
+				<transform position="3.692, -0.059, 19.535" non_orthogonal_rotation_mat="0.272057, 0.018567, -0.962102, -0.776157, 0.070416, -0.626595, 0.060731, 0.992683, 0.104367" scale="2.547, 1.860, 1.610"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_dry">
+						<mesh name="tree_root_b_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_a_dry" old_prefab_name="">
+				<transform position="3.698, -0.840, 2.387" non_orthogonal_rotation_mat="0.551499, -0.250047, -0.795817, 0.560342, 0.567506, 0.603286, 0.194521, -0.503562, 0.841776" scale="1.457, 1.279, 1.522"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_dry">
+						<mesh name="tree_root_a_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_a_dry" old_prefab_name="">
+				<transform position="-3.385, -0.288, 1.564" non_orthogonal_rotation_mat="0.930677, -0.185433, 0.315365, 0.087562, 0.794904, 0.600384, -0.159830, -0.234502, 0.958886" scale="1.155, 1.277, 1.764"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_dry">
+						<mesh name="tree_root_a_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_a_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_dry" old_prefab_name="">
+				<transform position="3.689, 0.779, 1.828" non_orthogonal_rotation_mat="0.769367, -0.291791, -0.568271, 0.014389, -0.534813, 0.844848, -0.379385, -0.453641, -0.806397" scale="1.090, 1.324, 1.275"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_dry">
+						<mesh name="tree_root_b_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_dry" old_prefab_name="">
+				<transform position="-3.487, 0.405, 1.744" non_orthogonal_rotation_mat="0.528625, 0.245345, 0.812626, -0.047471, -0.708980, 0.703629, 0.555412, -0.304519, -0.773812" scale="1.283, 1.176, 1.240"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_dry">
+						<mesh name="tree_root_b_dry.lod2" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod3" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry.lod4" material="empire_column_a"/>
+						<mesh name="tree_root_b_dry" material="empire_column_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_gondor_kitchen" old_prefab_name="">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<tags>
+			<tag name="pb_craft:kitchen"/>
+			<tag name="pb_town:0"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_shop_prop_merchantbakery_a"/>
+		<components>
+			<meta_mesh_component name="shop_prop_merchantbakery_a">
+				<mesh name="shop_prop_merchantbakery_a.8" material="empire_marble_floor_a"/>
+				<mesh name="shop_prop_merchantbakery_a.9" material="waterfall_dust"/>
+				<mesh name="shop_prop_merchantbakery_a.lod2.8" material="empire_marble_floor_a"/>
+				<mesh name="shop_prop_merchantbakery_a.lod2.9" material="waterfall_dust"/>
+				<mesh name="shop_prop_merchantbakery_a.lod3.8" material="empire_marble_floor_a"/>
+				<mesh name="shop_prop_merchantbakery_a.lod3.9" material="waterfall_dust"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="burned_wood_b" old_prefab_name="">
+				<transform position="1.393, 0.167, 0.200"/>
+				<components>
+					<meta_mesh_component name="burned_wood_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="prt_torch_fire" old_prefab_name="">
+				<transform position="1.398, -0.025, 0.123" rotation_euler="0.000, 0.000, 0.669"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect base_effect="{39CDECB3-046B-4A8B-8E71-533BB7F6C882}">
+							<emitter_overrides>
+								<emitter guid="{91DE7F64-8F4D-4105-A197-22047F264CE8}">
+									<flags>
+										<flag name="loop_sprite" value="true"/>
+										<flag name="uses_sprite_animation" value="true"/>
+										<flag name="order_by_distance" value="false"/>
+									</flags>
+									<parameters>
+										<parameter name="skew_with_particle_velocity_coef" value="0.000"/>
+										<parameter name="emit_box_size" value="0.000, 0.000, 0.000"/>
+										<parameter name="quad_scale" value="0.235, 0.235"/>
+										<parameter name="texture_sprite_frame_rate" value="25.000"/>
+										<parameter name="fadeout_distance" value="0.005"/>
+										<parameter name="diffuse_multiplier" value="250.000"/>
+										<parameter name="particle_size_curve_op" value="add"/>
+										<parameter name="emission_rate" base="10.000" bias="0.000"/>
+										<parameter name="cone_emit_velocity" base="1.000" bias="0.000"/>
+										<parameter name="emit_velocity_z" base="0.000" bias="0.000"/>
+										<parameter name="emit_rotation_speed" base="0.000" bias="57.296"/>
+										<parameter name="wind_effect" base="1.000" bias="0.000"/>
+										<parameter name="particle_size" base="0.000" bias="0.000">
+											<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.600">
+												<keys>
+													<key time="0.000" value="1.000" tangent="0.007, 0.000"/>
+													<key time="0.000" value="0.500" tangent="-0.007, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="material_guid" value="{E9D0AFB2-E3B2-4FBA-A017-D747B6C256F1}"/>
+										<parameter name="particle_color">
+											<color>
+												<keys>
+													<key time="0.500" value="0.341, 0.235, 0.173"/>
+													<key time="0.900" value="0.573, 0.573, 0.573"/>
+												</keys>
+											</color>
+											<alpha>
+												<keys>
+													<key time="0.000" value="0.000"/>
+													<key time="0.500" value="1.000"/>
+													<key time="0.900" value="1.000"/>
+													<key time="1.000" value="0.000"/>
+												</keys>
+											</alpha>
+										</parameter>
+									</parameters>
+								</emitter>
+							</emitter_overrides>
+						</effect>
+					</particle_system_instanced_component>
+				</components>
+				<children>
+					<game_entity name="torch_fire_sparks" old_prefab_name="">
+						<transform position="0.000, 0.000, 0.062"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect base_effect="{39CDECB3-046B-4A8B-8E71-533BB7F6C882}">
+									<emitter_overrides>
+										<emitter guid="{91DE7F64-8F4D-4105-A197-22047F264CE8}">
+											<flags>
+												<flag name="local_emit_dir" value="false"/>
+												<flag name="skew_with_respect_to_particle_velocity" value="true"/>
+												<flag name="order_by_distance" value="false"/>
+											</flags>
+											<parameters>
+												<parameter name="skew_with_particle_velocity_coef" value="0.067"/>
+												<parameter name="emit_box_size" value="0.050, 0.050, 0.200"/>
+												<parameter name="gravity" value="0.000, 0.000, 0.500"/>
+												<parameter name="quad_scale" value="0.005, 0.005"/>
+												<parameter name="texture_sprite_count" value="1, 1"/>
+												<parameter name="texture_sprite_frame_count" value="1"/>
+												<parameter name="texture_sprite_frame_rate" value="1.000"/>
+												<parameter name="fadeout_distance" value="0.005"/>
+												<parameter name="diffuse_multiplier" value="1.000"/>
+												<parameter name="particle_size_curve_op" value="add"/>
+												<parameter name="billboard_type" value="turn_to_velocity_side"/>
+												<parameter name="initial_rotation" base="0.000" bias="0.000"/>
+												<parameter name="damping" base="0.713" bias="0.000"/>
+												<parameter name="angular_damping" base="0.000" bias="0.000"/>
+												<parameter name="cone_emit_velocity" base="1.000" bias="0.000"/>
+												<parameter name="emit_velocity_x" base="0.000" bias="0.500"/>
+												<parameter name="emit_velocity_y" base="0.000" bias="0.500"/>
+												<parameter name="emit_velocity_z" base="1.000" bias="0.500"/>
+												<parameter name="wind_effect" base="1.000" bias="0.000"/>
+												<parameter name="particle_size" base="0.000" bias="0.000">
+													<curve name="particle_life" version="1" default="1.000" curve_multiplier="1.000">
+														<keys>
+															<key time="0.000" value="1.000" tangent="0.007, 0.000"/>
+															<key time="0.000" value="0.300" tangent="-0.007, 0.000"/>
+														</keys>
+													</curve>
+												</parameter>
+												<parameter name="material_guid" value="{C783D465-AF3A-4652-BDD3-C171857CBBC0}"/>
+												<parameter name="particle_color">
+													<color>
+														<keys>
+															<key time="0.500" value="0.694, 0.259, 0.122"/>
+															<key time="0.900" value="0.765, 0.357, 0.122"/>
+														</keys>
+													</color>
+													<alpha>
+														<keys>
+															<key time="0.000" value="0.000"/>
+															<key time="0.500" value="1.000"/>
+															<key time="0.900" value="0.196"/>
+															<key time="1.000" value="0.000"/>
+														</keys>
+													</alpha>
+												</parameter>
+											</parameters>
+										</emitter>
+									</emitter_overrides>
+								</effect>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="ashes_a" old_prefab_name="">
+				<transform position="1.351, -0.055, 0.216" rotation_euler="0.000, 0.000, 0.000" scale="0.575, 0.575, 0.546"/>
+				<components>
+					<meta_mesh_component name="ashes_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="burned_wood_f" old_prefab_name="">
+				<transform position="1.369, -0.197, 0.215" rotation_euler="0.000, 0.000, 1.224"/>
+				<components>
+					<meta_mesh_component name="burned_wood_f"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_gondor_import_export_seeds" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="crate_b_empty" old_prefab_name="">
+				<transform position="-0.555, -0.542, -0.034" rotation_euler="0.000, 0.000, -2.062" scale="1.309, 1.309, 0.842"/>
+				<physics shape="bo_crate_a"/>
+				<components>
+					<meta_mesh_component name="crate_b_empty"/>
+				</components>
+				<children>
+					<game_entity name="bd_sack_b" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_seed_wheat"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="-0.226, -0.115, 0.027" non_orthogonal_rotation_mat="-0.851911, 0.523687, -0.000000, -0.503785, -0.819535, -0.273061, -0.061114, -0.099418, 0.993167" scale="0.487, 0.498, 0.750"/>
+						<physics shape="bo_bd_sack_b" override_material="straw"/>
+						<components>
+							<meta_mesh_component name="bd_sack_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_sack_b" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_seed_leek"/>
+						</tags>
+						<transform position="0.035, 0.100, 0.105" non_orthogonal_rotation_mat="-0.871866, -0.442023, -0.210869, 0.275442, -0.677899, 0.681604, -0.239179, 0.288687, 0.927067" scale="0.427, 0.494, 0.598"/>
+						<physics shape="bo_bd_sack_b" override_material="straw"/>
+						<components>
+							<meta_mesh_component name="bd_sack_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_sack_b" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_seed_flax"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="0.207, -0.036, 0.087" non_orthogonal_rotation_mat="-0.911921, -0.410366, -0.000000, 0.334269, -0.742819, -0.580073, 0.116036, -0.257858, 0.959190" scale="0.487, 0.544, 0.718"/>
+						<physics shape="bo_bd_sack_b" override_material="straw"/>
+						<components>
+							<meta_mesh_component name="bd_sack_b"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="crate_b_empty" old_prefab_name="">
+				<transform position="0.606, 0.558, -0.034" rotation_euler="0.000, 0.000, -2.629" scale="1.309, 1.309, 0.842"/>
+				<physics shape="bo_crate_a"/>
+				<components>
+					<meta_mesh_component name="crate_b_empty"/>
+				</components>
+				<children>
+					<game_entity name="bd_sack_b" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_seed_melon"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="-0.181, 0.151, 0.027" non_orthogonal_rotation_mat="-0.952496, -0.304550, 0.000000, 0.288623, -0.902684, 0.319152, -0.042050, 0.131514, 0.990422" scale="0.422, 0.435, 0.647"/>
+						<physics shape="bo_bd_sack_b" override_material="straw"/>
+						<components>
+							<meta_mesh_component name="bd_sack_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_sack_b" old_prefab_name="">
+						<tags>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+							<tag name="pb_item:pb_seed_potato"/>
+						</tags>
+						<transform position="0.263, 0.124, 0.027" non_orthogonal_rotation_mat="-0.999557, -0.002562, -0.029664, -0.004560, -0.837800, 0.545958, -0.012528, 0.260495, 0.965394" scale="0.422, 0.464, 0.626"/>
+						<physics shape="bo_bd_sack_b" override_material="straw"/>
+						<components>
+							<meta_mesh_component name="bd_sack_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_sack_b" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_seed_cabbage"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="0.203, -0.162, 0.027" non_orthogonal_rotation_mat="-0.978096, 0.068012, -0.196732, -0.034258, -0.930216, -0.365411, -0.092756, -0.156485, 0.983315" scale="0.426, 0.439, 0.640"/>
+						<physics shape="bo_bd_sack_b" override_material="straw"/>
+						<components>
+							<meta_mesh_component name="bd_sack_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="bd_sack_b" old_prefab_name="">
+						<tags>
+							<tag name="pb_item:pb_seed_garlic"/>
+							<tag name="pb_market"/>
+							<tag name="pb_import_export"/>
+						</tags>
+						<transform position="-0.239, -0.142, 0.036" non_orthogonal_rotation_mat="-0.692604, 0.721318, 0.000000, -0.647330, -0.621562, -0.441163, -0.143839, -0.138113, 0.979916" scale="0.422, 0.448, 0.638"/>
+						<physics shape="bo_bd_sack_b" override_material="straw"/>
+						<components>
+							<meta_mesh_component name="bd_sack_b"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_gondor_wheat_and_seed_market" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+				<transform position="0.159, 0.811, 0.052" rotation_euler="0.000, 0.000, -0.047" scale="0.426, 0.426, 0.426"/>
+				<physics shape="bo_wooden_platform_2_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+				</components>
+				<children>
+					<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+						<transform position="0.000, -3.478, 0.000"/>
+						<physics shape="bo_wooden_platform_2_plank_f_column"/>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+						<transform position="-0.190, 0.087, 2.570" rotation_euler="1.571, 0.000, 0.000" scale="1.020, 1.020, 0.741"/>
+						<physics shape="bo_wooden_platform_2_plank_f_column"/>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+						</components>
+					</game_entity>
+					<game_entity name="wooden_platform_2_plank_f_column" old_prefab_name="">
+						<transform position="-0.190, 0.087, 4.153" rotation_euler="1.571, 0.000, 0.000" scale="1.020, 1.020, 0.741"/>
+						<physics shape="bo_wooden_platform_2_plank_f_column"/>
+						<components>
+							<meta_mesh_component name="wooden_platform_2_plank_f_column"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="pb_seed_wheat_market" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_seed_wheat"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:0"/>
+				</tags>
+				<transform position="0.042, 0.138, 1.860" rotation_euler="0.000, 0.000, -1.513"/>
+				<components>
+					<meta_mesh_component name="shop_prop_merchantflour_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="pb_seed_flax_market" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_seed_flax"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:0"/>
+				</tags>
+				<transform position="0.026, -0.378, 1.836" rotation_euler="0.000, 0.000, -1.643"/>
+				<components>
+					<meta_mesh_component name="shop_prop_merchantflour_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="pb_seed_cabbage_market" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_seed_cabbage"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:0"/>
+				</tags>
+				<transform position="0.068, 0.508, 1.174" rotation_euler="0.000, 0.000, -1.665"/>
+				<components>
+					<meta_mesh_component name="shop_prop_merchantflour_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="pb_seed_leek_market" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_seed_leek"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:0"/>
+				</tags>
+				<transform position="0.044, 0.060, 1.158" rotation_euler="0.000, 0.000, -1.485"/>
+				<components>
+					<meta_mesh_component name="shop_prop_merchantflour_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="pb_seed_garlic_market" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_seed_garlic"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:0"/>
+				</tags>
+				<transform position="0.027, -0.443, 1.134" rotation_euler="0.000, 0.000, -1.680"/>
+				<components>
+					<meta_mesh_component name="shop_prop_merchantflour_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="pb_barrel_wheat_market" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_wheat"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:0"/>
+				</tags>
+				<transform position="-0.346, -1.494, -0.010" rotation_euler="0.000, 0.000, 0.560"/>
+				<physics shape="bo_bd_barrel_b" override_material="wood"/>
+				<components>
+					<meta_mesh_component name="bd_barrel_b"/>
+				</components>
+				<children>
+					<game_entity name="pb_wheat_market" old_prefab_name="">
+						<transform position="0.016, 0.091, 0.853" rotation_euler="-0.597, -0.394, 2.836"/>
+						<components>
+							<meta_mesh_component name="merchandise_flax">
+								<mesh name="merchandise_flax.10" material="wheats_a" argument2="0.500, 0.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="pb_wheat_market" old_prefab_name="">
+						<transform position="0.008, -0.072, 0.806" rotation_euler="-0.240, 0.196, 0.403"/>
+						<components>
+							<meta_mesh_component name="merchandise_flax">
+								<mesh name="merchandise_flax.10" material="wheats_a" argument2="0.500, 0.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="pb_wheat_market" old_prefab_name="">
+						<transform position="-0.099, -0.159, 0.834" rotation_euler="-0.577, 0.038, -1.038"/>
+						<components>
+							<meta_mesh_component name="merchandise_flax">
+								<mesh name="merchandise_flax.10" material="wheats_a" argument2="0.500, 0.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="pb_wheat_market" old_prefab_name="">
+						<transform position="-0.106, -0.112, 0.782" rotation_euler="-0.117, -0.371, 0.304"/>
+						<components>
+							<meta_mesh_component name="merchandise_flax">
+								<mesh name="merchandise_flax.10" material="wheats_a" argument2="0.500, 0.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="pb_wheat_market" old_prefab_name="">
+						<transform position="0.133, -0.053, 0.713" rotation_euler="0.163, -0.360, -0.347"/>
+						<components>
+							<meta_mesh_component name="merchandise_flax">
+								<mesh name="merchandise_flax.10" material="wheats_a" argument2="0.500, 0.000, 0.000, 0.000"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="pb_seed_potato_market" old_prefab_name="">
+				<tags>
+					<tag name="pb_item:pb_seed_potato"/>
+					<tag name="pb_market"/>
+					<tag name="pb_town:0"/>
+				</tags>
+				<transform position="0.068, 0.567, 1.862" rotation_euler="0.000, 0.000, -1.744"/>
+				<components>
+					<meta_mesh_component name="shop_prop_merchantflour_e"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_mordor_smelter" old_prefab_name="">
+		<tags>
+			<tag name="pb_craft:smelter"/>
+			<tag name="pb_town:0"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 1.120" scale="0.573, 1.000, 0.654"/>
+		<physics override_material="stone"/>
+		<components>
+			<meta_mesh_component name="nord_fire_place"/>
+		</components>
+		<children>
+			<game_entity name="burning_campfire" old_prefab_name="">
+				<transform position="-0.207, 0.045, 0.667" non_orthogonal_rotation_mat="0.370967, -0.928646, 0.000000, 0.991508, 0.130044, 0.000000, 0.000000, 0.000000, 1.000000" scale="2.115, 3.454, 1.529"/>
+				<physics shape="bo_burned_wood_a"/>
+				<components>
+					<meta_mesh_component name="burned_wood_a"/>
+				</components>
+				<children>
+					<game_entity name="smoked_fire_with_light" old_prefab_name="">
+						<transform position="0.300, -0.099, 0.019" rotation_euler="0.000, 0.000, 2.755"/>
+						<children>
+							<game_entity name="campfire" old_prefab_name="">
+								<transform position="0.329, -0.088, 0.194" rotation_euler="0.000, 0.000, -1.426" scale="1.085, 3.930, 1.000"/>
+								<components>
+									<particle_system_instanced_component>
+										<effect base_effect="{022BD5E3-7A5A-4371-92C7-94E3E33A84C9}">
+											<emitter_overrides>
+												<emitter guid="{BC205D4E-2845-4F89-9D92-3BE302E8AAAC}">
+													<parameters>
+														<parameter name="emission_rate" base="1.000" bias="0.500"/>
+													</parameters>
+												</emitter>
+											</emitter_overrides>
+										</effect>
+									</particle_system_instanced_component>
+								</components>
+							</game_entity>
+							<game_entity name="campfire_light" old_prefab_name="">
+								<transform position="0.326, 0.010, 1.006" rotation_euler="0.000, 0.000, -0.947" scale="0.762, 0.762, 0.762"/>
+								<components>
+									<light_component color="1.000, 0.408, 0.063" intensity="1000.000" radius="9.000" flicker_interval="0.700" flicker_magnitude="0.700" local_frame_rot="9.000000, 0.000000, 0.000000, 0.000000, 9.000000, 0.000000, 0.000000, 0.000000, 9.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow_size_multiplier="1" shadow_radius="3.000"/>
+								</components>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="burning_campfire" old_prefab_name="">
+				<transform position="-0.213, 1.328, 0.851" non_orthogonal_rotation_mat="0.936006, -0.351983, 0.000000, 0.753284, 0.657696, 0.000000, 0.000000, 0.000000, 1.000000" scale="2.140, 1.743, 1.028"/>
+				<physics shape="bo_burned_wood_a"/>
+				<components>
+					<meta_mesh_component name="burned_wood_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="burning_campfire" old_prefab_name="">
+				<transform position="0.224, -1.319, 0.824" non_orthogonal_rotation_mat="-0.962644, 0.270769, 0.000000, -0.650593, -0.759426, 0.000000, 0.000000, 0.000000, 1.000000" scale="2.585, 1.876, 0.850"/>
+				<physics shape="bo_burned_wood_a"/>
+				<components>
+					<meta_mesh_component name="burned_wood_a"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="minas_morgul_bastion_small" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="1.571, 1.335, -2.940" scale="0.490, 0.686, 0.928"/>
+		<physics shape="bo_module_european_house_end_attick_a" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_attick_a">
+				<mesh name="module_european_house_end_attick_a.0" material="empire_marble_floor_a"/>
+				<mesh name="module_european_house_end_attick_a.1" material="empire_marble_floor_a"/>
+				<mesh name="module_european_house_end_attick_a.2" material="mainmap_decal_moss" argument="12.000, 1.000, 1.000, 1.500" argument2="0.930, 0.460, 1.000, 0.000"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="empire_road_floor_a" old_prefab_name="">
+				<transform position="-3.353, -10.130, 0.771" non_orthogonal_rotation_mat="-0.000000, -1.000000, 0.000000, 0.609008, -0.000000, 0.793164, -0.999100, 0.000000, 0.042414" scale="1.000, 0.518, 1.749"/>
+				<physics shape="bo_empire_road_floor_a" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_road_floor_a">
+						<mesh name="empire_road_floor_a" material="empire_marble_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_road_floor_a" old_prefab_name="">
+				<transform position="3.532, -10.130, 0.765" non_orthogonal_rotation_mat="-0.000000, -1.000000, 0.000000, 0.621520, -0.000000, -0.783398, 0.999039, -0.000000, 0.043822" scale="1.000, 0.524, 1.747"/>
+				<physics shape="bo_empire_road_floor_a" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_road_floor_a">
+						<mesh name="empire_road_floor_a" material="empire_marble_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_big_wall_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_big_wall_b">
+				<transform position="0.110, -17.032, -3.307" rotation_euler="-1.567, -1.571, -1.571" scale="1.596, 0.571, 0.654"/>
+				<physics shape="bo_sturgia_grandbazaar_big_wall_b"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_big_wall_b">
+						<mesh name="sturgia_grandbazaar_big_wall_b" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod1" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod2" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod3" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod4" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod5" material="empire_marble_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_big_wall_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_big_wall_b">
+				<transform position="0.110, -6.932, -3.307" rotation_euler="-1.567, -1.571, -1.571" scale="1.596, 0.418, 0.810"/>
+				<physics shape="bo_sturgia_grandbazaar_big_wall_b"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_big_wall_b">
+						<mesh name="sturgia_grandbazaar_big_wall_b" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod1" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod2" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod3" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod4" material="empire_marble_floor_a"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod5" material="empire_marble_floor_a"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_d" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_d">
+				<transform position="3.008, 0.509, 1.272" non_orthogonal_rotation_mat="0.975815, 0.000124, 0.218597, 0.626353, 0.000139, -0.779539, -0.000277, 1.000000, 0.000035" scale="0.963, 1.273, 0.729"/>
+				<physics shape="bo_empire_keep_a_wall_d"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_d">
+						<mesh name="empire_keep_a_wall_d.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_d" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_d">
+				<transform position="-2.878, 0.508, 1.228" non_orthogonal_rotation_mat="0.978324, 0.000152, -0.207080, -0.604681, -0.000034, -0.796468, -0.000277, 1.000000, 0.000035" scale="0.968, 1.256, 0.729"/>
+				<physics shape="bo_empire_keep_a_wall_d"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_d">
+						<mesh name="empire_keep_a_wall_d.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_d.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_elven_mirror" old_prefab_name="">
+		<tags>
+			<tag name="pb_bed"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.217" scale="0.071, 0.071, 0.071"/>
+		<physics shape="bo_roman_column_b" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="roman_column_b"/>
+		</components>
+		<children>
+			<game_entity name="bd_battania_pot" old_prefab_name="">
+				<transform position="0.074, 0.018, 15.699" rotation_euler="0.000, 0.000, 1.548" scale="8.815, 8.815, 8.815"/>
+				<components>
+					<meta_mesh_component name="bd_battania_pot"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_carpet_khuzait_round_a" old_prefab_name="">
+				<transform position="0.147, 0.037, 18.182" rotation_euler="0.000, 0.000, -0.217" scale="1.204, 1.204, 1.204"/>
+				<physics shape="bo_bd_carpet_khuzait_round_a"/>
+				<components>
+					<meta_mesh_component name="bd_carpet_khuzait_round_a">
+						<mesh name="bd_carpet_khuzait_round_a.18" material="washtub_water" factor="4289374890" factor2="4289835441" argument="1.000, 0.500, 1.000, 10.000" argument2="1.000, 0.500, 1.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="gargoyle" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, -0.721" scale="0.612, 1.000, 1.000"/>
+		<physics shape="bo_aquila" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="aquila">
+				<mesh name="aquila" material="terrain_rock_cliff_b" factor="4284513932"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="empty_object" old_prefab_name="">
+				<transform position="-0.034, -0.551, 0.763" non_orthogonal_rotation_mat="-0.999475, 0.032407, 0.000000, -0.086301, -0.996269, 0.000000, 0.000000, 0.000000, 1.000000" scale="3.367, 2.067, 2.062"/>
+				<components>
+					<meta_mesh_component name="boar_head">
+						<mesh name="boar_head" material="terrain_rock_cliff_b" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bd_sturgia_goat_horn" old_prefab_name="">
+				<transform position="-0.558, -0.443, 1.312" non_orthogonal_rotation_mat="-0.518213, 0.360498, 0.775562, 0.974931, 0.115734, 0.190041, -0.059745, 0.899408, -0.433008" scale="1.096, 1.571, 1.001"/>
+				<physics shape="bo_bd_sturgia_goat_horn"/>
+				<components>
+					<meta_mesh_component name="bd_sturgia_goat_horn">
+						<mesh name="bd_sturgia_goat_horn.10" factor="4284513932"/>
+						<mesh name="bd_sturgia_goat_horn.lod2.10" factor="4284513932"/>
+						<mesh name="bd_sturgia_goat_horn.lod3.10" factor="4284513932"/>
+						<mesh name="bd_sturgia_goat_horn.lod4.10" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="bd_sturgia_goat_horn" old_prefab_name="">
+				<transform position="0.561, -0.474, 1.318" non_orthogonal_rotation_mat="0.609839, 0.455469, 0.648571, -0.960424, 0.185645, 0.207657, 0.073971, 0.803687, -0.590436" scale="-1.142, 1.538, 1.002"/>
+				<physics shape="bo_bd_sturgia_goat_horn"/>
+				<components>
+					<meta_mesh_component name="bd_sturgia_goat_horn">
+						<mesh name="bd_sturgia_goat_horn.10" factor="4284513932"/>
+						<mesh name="bd_sturgia_goat_horn.lod2.10" factor="4284513932"/>
+						<mesh name="bd_sturgia_goat_horn.lod3.10" factor="4284513932"/>
+						<mesh name="bd_sturgia_goat_horn.lod4.10" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_statue_plinth_e" old_prefab_name="">
+				<transform position="0.048, 0.585, -2.631" non_orthogonal_rotation_mat="0.998149, -0.060818, 0.000000, 0.160666, 0.987009, 0.000000, 0.000000, 0.000000, 1.000000" scale="0.641, 0.397, 0.394"/>
+				<physics shape="bo_empire_statue_plinth_e"/>
+				<components>
+					<meta_mesh_component name="empire_statue_plinth_e">
+						<mesh name="empire_statue_plinth_e.9" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.12" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.18" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.19" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.22" material="roman_aqueduct_bricks_b" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.25" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod5.9" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod5.18" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod5.19" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod5.22" material="roman_aqueduct_bricks_b" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod4.9" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod4.12" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod4.18" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod4.19" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod4.22" material="roman_aqueduct_bricks_b" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod4.25" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod5" factor="4284513932"/>
+						<mesh name="empire_statue_plinth_e.lod4" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="0.017, -0.178, 1.418" non_orthogonal_rotation_mat="-0.005667, -0.927363, -0.374119, -0.999962, -0.001193, 0.008628, -0.022563, 0.374075, -0.927124" scale="3.178, 0.748, 4.223"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod2" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod1" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod3" material="rock_cliff_b" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="0.030, 0.103, 1.418" non_orthogonal_rotation_mat="-0.059562, -0.959692, 0.274670, -0.999719, 0.023661, 0.001525, -0.021283, -0.274640, -0.961312" scale="3.000, 0.705, 3.983"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod2" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod1" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod3" material="rock_cliff_b" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="0.040, 0.244, 1.199" non_orthogonal_rotation_mat="-0.048169, -0.800318, 0.597638, -0.999719, 0.023661, 0.001525, -0.041028, -0.597235, -0.801016" scale="2.786, 0.655, 3.701"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod2" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod1" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod3" material="rock_cliff_b" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="0.019, 0.244, 0.917" non_orthogonal_rotation_mat="-0.048169, -0.800318, 0.597638, -0.999719, 0.023661, 0.001525, -0.041028, -0.597235, -0.801016" scale="3.246, 0.764, 4.313"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod2" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod1" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod3" material="rock_cliff_b" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="0.010, 0.418, 0.706" non_orthogonal_rotation_mat="-0.030712, -0.539927, 0.841151, -0.999719, 0.023661, 0.001525, -0.055308, -0.839916, -0.539890" scale="2.604, 0.613, 3.463"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod2" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod1" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod3" material="rock_cliff_b" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="0.051, 0.582, 0.407" non_orthogonal_rotation_mat="-0.009200, -0.208533, 0.977972, -0.999719, 0.023661, 0.001525, -0.062566, -0.976052, -0.208344" scale="2.135, 0.502, 2.840"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod2" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod1" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod3" material="rock_cliff_b" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="0.035, 0.758, -0.006" non_orthogonal_rotation_mat="-0.009200, -0.208533, 0.977972, -0.999719, 0.023661, 0.001525, -0.062566, -0.976052, -0.208344" scale="1.840, 0.433, 2.448"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod2" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod1" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod3" material="rock_cliff_b" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="0.035, 0.790, -0.278" non_orthogonal_rotation_mat="-0.009200, -0.208533, 0.977972, -0.999719, 0.023661, 0.001525, -0.062566, -0.976052, -0.208344" scale="1.629, 0.383, 2.167"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod2" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod1" material="rock_cliff_b" factor="4284513932"/>
+						<mesh name="kitchen_horn.lod3" material="rock_cliff_b" factor="4284513932"/>
 					</meta_mesh_component>
 				</components>
 			</game_entity>
