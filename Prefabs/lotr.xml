@@ -12932,30 +12932,6 @@
 					</meta_mesh_component>
 				</components>
 			</game_entity>
-			<game_entity name="bd_sturgia_goat_horn" old_prefab_name="">
-				<transform position="-0.558, -0.443, 1.312" non_orthogonal_rotation_mat="-0.518213, 0.360498, 0.775562, 0.974931, 0.115734, 0.190041, -0.059745, 0.899408, -0.433008" scale="1.096, 1.571, 1.001"/>
-				<physics shape="bo_bd_sturgia_goat_horn"/>
-				<components>
-					<meta_mesh_component name="bd_sturgia_goat_horn">
-						<mesh name="bd_sturgia_goat_horn.10" factor="4284513932"/>
-						<mesh name="bd_sturgia_goat_horn.lod2.10" factor="4284513932"/>
-						<mesh name="bd_sturgia_goat_horn.lod3.10" factor="4284513932"/>
-						<mesh name="bd_sturgia_goat_horn.lod4.10" factor="4284513932"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="bd_sturgia_goat_horn" old_prefab_name="">
-				<transform position="0.561, -0.474, 1.318" non_orthogonal_rotation_mat="0.609839, 0.455469, 0.648571, -0.960424, 0.185645, 0.207657, 0.073971, 0.803687, -0.590436" scale="-1.142, 1.538, 1.002"/>
-				<physics shape="bo_bd_sturgia_goat_horn"/>
-				<components>
-					<meta_mesh_component name="bd_sturgia_goat_horn">
-						<mesh name="bd_sturgia_goat_horn.10" factor="4284513932"/>
-						<mesh name="bd_sturgia_goat_horn.lod2.10" factor="4284513932"/>
-						<mesh name="bd_sturgia_goat_horn.lod3.10" factor="4284513932"/>
-						<mesh name="bd_sturgia_goat_horn.lod4.10" factor="4284513932"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
 			<game_entity name="empire_statue_plinth_e" old_prefab_name="">
 				<transform position="0.048, 0.585, -2.631" non_orthogonal_rotation_mat="0.998149, -0.060818, 0.000000, 0.160666, 0.987009, 0.000000, 0.000000, 0.000000, 1.000000" scale="0.641, 0.397, 0.394"/>
 				<physics shape="bo_empire_statue_plinth_e"/>
@@ -13068,6 +13044,28 @@
 						<mesh name="kitchen_horn.lod2" material="rock_cliff_b" factor="4284513932"/>
 						<mesh name="kitchen_horn.lod1" material="rock_cliff_b" factor="4284513932"/>
 						<mesh name="kitchen_horn.lod3" material="rock_cliff_b" factor="4284513932"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="-0.300, -0.652, 1.221" non_orthogonal_rotation_mat="0.536488, 0.822329, 0.189620, 0.329716, -0.287893, 0.899114, 0.962458, -0.190623, -0.193230" scale="1.757, 1.648, 2.453"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="terrain_rock_cliff_b" factor="4286095534"/>
+						<mesh name="kitchen_horn.lod2" material="terrain_rock_cliff_b" factor="4286095534"/>
+						<mesh name="kitchen_horn.lod1" material="terrain_rock_cliff_b" factor="4286095534"/>
+						<mesh name="kitchen_horn.lod3" material="terrain_rock_cliff_b" factor="4286095534"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="kitchen_horn" old_prefab_name="">
+				<transform position="0.208, -0.660, 1.214" non_orthogonal_rotation_mat="-0.663388, 0.262783, 0.700614, 0.413134, 0.891113, -0.187720, -0.928575, 0.085142, -0.361248" scale="1.869, 1.684, 2.344"/>
+				<components>
+					<meta_mesh_component name="kitchen_horn">
+						<mesh name="kitchen_horn" material="terrain_rock_cliff_b" factor="4286095534"/>
+						<mesh name="kitchen_horn.lod2" material="terrain_rock_cliff_b" factor="4286095534"/>
+						<mesh name="kitchen_horn.lod1" material="terrain_rock_cliff_b" factor="4286095534"/>
+						<mesh name="kitchen_horn.lod3" material="terrain_rock_cliff_b" factor="4286095534"/>
 					</meta_mesh_component>
 				</components>
 			</game_entity>
