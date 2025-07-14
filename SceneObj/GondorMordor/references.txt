@@ -1,4 +1,4 @@
-1273
+1329
 mesh agriculture_chickpeas
 mesh agriculture_leek
 mesh animation_stand_arrow_blue
@@ -10,7 +10,10 @@ mesh arabian_ground_new_a
 mesh arabian_house_new_a
 mesh arabian_house_new_b
 mesh arabian_house_new_d
+mesh arabian_house_new_detail_window_b
 mesh arabian_house_new_e
+mesh arabian_ladder_wood_a
+mesh arabian_ladder_wood_c
 mesh arabian_platform_wooden_c
 mesh arabian_tower_tent_a
 mesh arabian_waterwell_a
@@ -142,7 +145,14 @@ mesh bandit_saddle_highland_rein
 mesh barn_fence_d
 mesh barn_fence_e
 mesh barrier
+mesh barrier_spawner_ghost
 mesh battania_arena_main_building
+mesh battania_castle_corner_a_l1
+mesh battania_castle_corner_a_l1_01
+mesh battania_castle_corner_a_l1_02
+mesh battania_castle_corner_a_l1_03
+mesh battania_castle_corner_a_l1_04
+mesh battania_castle_corner_a_l1_05
 mesh battania_castle_corner_c_l1
 mesh battania_castle_corner_c_l1_01
 mesh battania_castle_corner_c_l1_02
@@ -235,6 +245,7 @@ mesh battania_stone_b
 mesh battania_stone_c
 mesh battania_street_tent_a
 mesh battania_watermill_mill
+mesh batteringram_a_spawner_ghost
 mesh bd_anvil
 mesh bd_aserai_plate_cupper
 mesh bd_aserai_pot_cupper_a
@@ -277,6 +288,7 @@ mesh bd_cloth_hanging_rope
 mesh bd_cloth_on_table_a
 mesh bd_cloth_on_table_b
 mesh bd_cloth_stick_10m
+mesh bd_cupboard_a
 mesh bd_hammer
 mesh bd_hammer_a
 mesh bd_hay_cart_a
@@ -305,6 +317,7 @@ mesh bd_straw_c
 mesh bd_straw_d
 mesh bd_straw_g
 mesh bd_straw_h
+mesh bd_sturgia_wall_decoration_horn_b
 mesh bd_sturgia_wall_decoration_horn_c
 mesh bd_table_c
 mesh bd_table_d
@@ -328,6 +341,8 @@ mesh beards_d_s_b
 mesh bed_convolute_e
 mesh bed_lord_a
 mesh bed_straw_a
+mesh bed_straw_b
+mesh bed_straw_d
 mesh bed_tavern_e
 mesh blacksmith_hammer_handle
 mesh blacksmith_hammer_tip
@@ -667,6 +682,8 @@ mesh fence_d
 mesh fence_f
 mesh fence_h
 mesh fence_old_a1
+mesh fence_old_a2
+mesh fence_old_a3
 mesh fence_old_a4
 mesh fence_old_a5
 mesh fence_old_a6
@@ -689,9 +706,12 @@ mesh flag_b_kat
 mesh flag_pole_big
 mesh flag_stand
 mesh flagpole_b
+mesh flora_green_g
 mesh flora_green_h
 mesh flora_green_j
 mesh flora_plant_d
+mesh flora_plant_g
+mesh flora_plant_l
 mesh flour_pile
 mesh flour_sack
 mesh foods_apple_a
@@ -725,6 +745,12 @@ mesh horse_harness_imperial_a_clotest
 mesh horse_harness_imperial_a_rein
 mesh horse_harness_imperial_b
 mesh horse_harness_imperial_c
+mesh horse_harness_khuzait_a_clotest
+mesh horse_harness_khuzait_a_rein
+mesh horse_harness_khuzait_b_clotest
+mesh horse_harness_khuzait_b_rein
+mesh horse_harness_khuzait_c
+mesh horse_harness_khuzait_d
 mesh horse_harness_roman_b_new_rein
 mesh horse_harness_saxon_new
 mesh horse_harness_saxon_new_rein
@@ -736,11 +762,15 @@ mesh house_c
 mesh house_d
 mesh house_f
 mesh house_g
+mesh hung_fur_a
+mesh hung_fur_c
+mesh hung_fur_d
 mesh hut_a
 mesh hut_b
 mesh hut_c
 mesh hut_d
 mesh icon_man
+mesh icon_man_spawner_ghost
 mesh intro_scene
 mesh iron_a
 mesh khuzait_arena_fence_door_a_open
@@ -797,7 +827,11 @@ mesh khuzait_village_house_b
 mesh khuzait_village_house_c
 mesh khuzait_village_house_g
 mesh khuzait_village_house_h
+mesh kitchen_basket_a
 mesh kitchen_basket_b
+mesh kitchen_bottle_a
+mesh kitchen_bottle_b
+mesh kitchen_bottle_c
 mesh kitchen_bowl_b
 mesh kitchen_bowl_c
 mesh kitchen_bowl_fish
@@ -818,21 +852,30 @@ mesh kitchen_horn
 mesh kitchen_knife
 mesh kitchen_mug_a
 mesh kitchen_mug_b
+mesh kitchen_mug_c
+mesh kitchen_pan_a
 mesh kitchen_pie
 mesh kitchen_pitcher_a
 mesh kitchen_pitcher_b
 mesh kitchen_pitcher_c
+mesh kitchen_pitcher_e
 mesh kitchen_plate_a
 mesh kitchen_plate_b
 mesh kitchen_plate_grape
+mesh kitchen_pot_c
 mesh kitchen_sausage_b
 mesh kite_shield_a
+mesh ladder_6m_spawner_ghost
+mesh ladder_7m_spawner_ghost
+mesh ladder_8m_spawner_ghost
+mesh ladder_usage_points_ghost
 mesh lib_book_closed_a
 mesh lib_book_open_a
 mesh lib_quill_pen
 mesh lib_scroll_a
 mesh lib_scroll_d
 mesh log_bench_beech_c
+mesh log_bench_default_c
 mesh log_bench_default_d
 mesh log_pine_a
 mesh log_pine_j
@@ -865,6 +908,7 @@ mesh map_mountain_rock_d_snw
 mesh map_rock_new_c
 mesh map_rock_new_d
 mesh map_rock_new_e
+mesh mat_carpet_i
 mesh mat_fur_a
 mesh mat_fur_b
 mesh mead_cup_metal_b
@@ -964,6 +1008,8 @@ mesh pict_houses_e_burned
 mesh pict_houses_m_burned
 mesh pict_houses_storage
 mesh plant_cabbage
+mesh pushdistance_spawner_ghost
+mesh pushfork_spawner_ghost
 mesh ribs
 mesh rock_001
 mesh rock_cliff_a
@@ -975,6 +1021,8 @@ mesh rock_floor_a
 mesh roman_column_b
 mesh roman_column_d
 mesh roman_house_big_a
+mesh roman_houses_b
+mesh roman_houses_b_stairs
 mesh ruinous_battania_castle_tower_a
 mesh ruinous_castle_building_a
 mesh ruinous_castle_dungeon_a
@@ -1031,6 +1079,10 @@ mesh siege_barricade_a_state_5
 mesh siege_barricade_c
 mesh siege_barricade_d
 mesh siege_barricade_e
+mesh siege_tower_12m_door_spawner_ghost
+mesh siege_tower_12m_spawner_ghost
+mesh siege_tower_9m_door_spawner_ghost
+mesh siege_tower_9m_spawner_ghost
 mesh soft_border_column
 mesh sp_cube
 mesh spear_blade_1
@@ -1064,6 +1116,7 @@ mesh stand_straw_b
 mesh steel
 mesh stone_bridge
 mesh stone_bridge_end
+mesh stone_bridge_wide
 mesh stone_pile_wall_green_a
 mesh sturgia_arena_wall_b
 mesh sturgia_castle_balcony_a
@@ -1124,6 +1177,7 @@ mesh sturgia_plate_boot
 mesh sturgia_shield_a
 mesh sturgia_town_house_f_shed
 mesh sturgia_town_house_g_shed_a
+mesh sturgia_village_house_b
 mesh sturgia_village_house_part_a
 mesh sturgia_village_tent_a
 mesh sturgia_village_tent_b
@@ -1135,6 +1189,7 @@ mesh sturgian_grip_33
 mesh sturgian_guard_1
 mesh sturgian_lord_helmet_a
 mesh sturgian_pommel_7
+mesh sword_arabian_e
 mesh table_empire_d
 mesh tavern_sturgia_table_a
 mesh tavern_vlandia_table_b
@@ -1163,6 +1218,7 @@ mesh torch_flame_base
 mesh torch_g
 mesh torch_table_b
 mesh tree_acacia_spring
+mesh tree_forest_beech_young_c
 mesh tree_high_o_pine
 mesh tree_high_q_pine
 mesh tree_high_r_pine

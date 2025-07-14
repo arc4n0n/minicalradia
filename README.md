@@ -1,57 +1,48 @@
-# minicalradia
+# Gondor Mordor
 
-![Alt text](/minicalradia.png?raw=true "PB Calradia Map")
+![Alt text](/lotr.png?raw=true "LOTR Map")
 
 ## Commoner
 
-0. Poros 
+0. Cair Andros 
 
 ## Outlaws
 
-1. Outlaw Bay
+1. Amon Lhaw
 
 ## Castles
 
-2. Zeonica
-3. Saneopa
-4. Dunglanys
-5. Sanala
-6. Chaikand
-7. Tyal
-8. Galend
+2. Minas Tirith
+3. Pelargir
+4. Nardol (Rohan Camp)
+5. Minas Morgul
+6. Cirith Ungol
+7. Barad Dur
+8. Dol Khamul (Rhun Camp)
 
 ## Manors
 
-9. Vostrum
-10. Epicrotea
-11. Marunath
-12. Hubyar
-13. Odohk
-14. Balgard
-15. Ostican
+9. Entwash
+10. Swamp Fort
+11. Durthang
+12. Barad Duath
+13. Ranger Camp
+14. Cirith Duath
 
 ## Villages
 
-16. Lageta
-17. Danustica
-18. Diathma
-19. Myzea
-20. Pen Cannoc
-21. Seonon
-22. Quyaz
-23. Razih
-24. Ortongard
-25. Akkalat
-26. Revyl
-27. Sibir
-28. Pravend
-29. Charas
+15. Osgiliath
+16. Kelos
+17. Erui
+18. Poros
+19. Gorgoroth
+20. Nurn
+21. Khand Camp
 
 ## Town Watch
 
-30. Oristocorys
+22. Cair Andros Tower
 
 ## Player Shop
 
-31. The Retreat
-
+23. Dwarf Cave
