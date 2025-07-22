@@ -1,4 +1,4 @@
-1453
+1498
 mesh agriculture_chickpeas
 mesh agriculture_leek
 mesh animation_stand_arrow_blue
@@ -89,6 +89,7 @@ mesh aserai_castle_tower_round_a_l1_14
 mesh aserai_castle_tower_round_a_l1_15
 mesh aserai_castle_tower_round_a_l1_16
 mesh aserai_castle_tower_round_a_l1_stairs
+mesh aserai_cavalry_armor_slim
 mesh aserai_civil_f_cape
 mesh aserai_courtyard_a_top
 mesh aserai_courtyard_floor_a
@@ -149,6 +150,8 @@ mesh bandit_saddle_desert
 mesh bandit_saddle_desert_rein
 mesh bandit_saddle_highland
 mesh bandit_saddle_highland_rein
+mesh barn_fence_a
+mesh barn_fence_b
 mesh barn_fence_c
 mesh barn_fence_d
 mesh barn_fence_e
@@ -293,6 +296,8 @@ mesh bd_cartbroken_b
 mesh bd_cartbroken_c
 mesh bd_cartbroken_d
 mesh bd_chains_sturgia
+mesh bd_chair_b
+mesh bd_chair_c
 mesh bd_chair_d
 mesh bd_chair_king_b
 mesh bd_chair_sturgia_lord
@@ -313,6 +318,7 @@ mesh bd_hay_cart_a
 mesh bd_khuzait_throne_b
 mesh bd_kitchen_stove__grill
 mesh bd_kitchen_stove_empire
+mesh bd_ladder_a
 mesh bd_log_and_axe
 mesh bd_manure_a
 mesh bd_mortar_and_pestle
@@ -332,8 +338,10 @@ mesh bd_sack_c
 mesh bd_shelf_a
 mesh bd_shelf_b
 mesh bd_skull_antilope_a
+mesh bd_skull_antilope_b
 mesh bd_skull_ram
 mesh bd_stacked_wood
+mesh bd_stand_c
 mesh bd_stone_mill
 mesh bd_straw_a
 mesh bd_straw_b
@@ -343,6 +351,7 @@ mesh bd_straw_g
 mesh bd_straw_h
 mesh bd_sturgia_wall_decoration_horn_b
 mesh bd_sturgia_wall_decoration_horn_c
+mesh bd_sturgian_chair_a
 mesh bd_table_c
 mesh bd_table_d
 mesh bd_table_e
@@ -471,8 +480,10 @@ mesh dry_tree_b
 mesh dry_tree_c
 mesh dry_tree_d
 mesh dry_tree_e
+mesh editor_cylinder
 mesh editor_plane_high
 mesh editor_sphere_uv
+mesh editor_torus
 mesh emp_bridge_g
 mesh empire_bedcurtain_a
 mesh empire_blade_1
@@ -772,14 +783,18 @@ mesh foods_basket_b
 mesh foods_basket_c
 mesh foods_basket_cabbage
 mesh foods_basket_d
+mesh foods_basket_e
 mesh foods_basket_olive_a
 mesh foods_leek_basket
 mesh foods_melon_a
+mesh forest_ruinous_pine_b
+mesh forest_ruinous_pine_c
+mesh forest_ruinous_tree_beech__cutted_a
 mesh forest_ruinous_tree_c
 mesh forest_ruinous_tree_palm_a
 mesh forest_ruinous_tree_palm_b
 mesh gold
-mesh grass_terrain_a
+mesh grass_terrain_b
 mesh hammer_wooden
 mesh hands_male_a
 mesh head_male_a
@@ -824,8 +839,15 @@ mesh hut_c
 mesh hut_d
 mesh icon_man
 mesh icon_man_spawner_ghost
+mesh imperial_boots
 mesh intro_scene
 mesh iron_a
+mesh ivy_european_01
+mesh ivy_european_02
+mesh ivy_european_03
+mesh ivy_european_04
+mesh ivy_european_05
+mesh ivy_european_06
 mesh khuzait_arena_fence_a
 mesh khuzait_arena_fence_b
 mesh khuzait_arena_fence_door_a_open
@@ -968,15 +990,21 @@ mesh mail_chausses_b
 mesh mail_hauberk
 mesh mail_mitten_c
 mesh map_mountain_rock_d_snw
+mesh map_mountain_rock_e
+mesh map_mountain_rock_e_snw
 mesh map_rock_new_c
 mesh map_rock_new_d
 mesh map_rock_new_e
 mesh mat_carpet_i
 mesh mat_fur_a
 mesh mat_fur_b
+mesh mead_cup_metal_a
+mesh mead_cup_metal_a_foam
 mesh mead_cup_metal_b
 mesh mead_cup_metal_b_foam
 mesh mead_cup_metal_b_lid
+mesh mead_cup_metal_c
+mesh mead_cup_metal_c_foam
 mesh mead_cup_wooden_a
 mesh mead_cup_wooden_a_foam
 mesh mead_cup_wooden_b
@@ -1011,6 +1039,10 @@ mesh merchandise_stones
 mesh merchandise_velvet
 mesh merchandise_wooden_stick
 mesh merchandise_wool
+mesh mi_ship_1
+mesh mi_ship_2
+mesh mi_spice_a
+mesh mi_spice_b
 mesh module_european_floor_a
 mesh module_european_floor_b
 mesh module_european_floor_c
@@ -1325,9 +1357,20 @@ mesh torch_flame_base
 mesh torch_g
 mesh torch_table_b
 mesh torch_wall_c
+mesh torture_tool_chain_d
+mesh torture_tools_a
+mesh torture_tools_b
+mesh torture_tools_e
 mesh tree_acacia_a
 mesh tree_acacia_spring
 mesh tree_forest_beech_young_c
+mesh tree_high_a
+mesh tree_high_b
+mesh tree_high_c
+mesh tree_high_d
+mesh tree_high_e_aspen
+mesh tree_high_f_aspen
+mesh tree_high_g_aspen
 mesh tree_high_o_pine
 mesh tree_high_q_pine
 mesh tree_high_r_pine
@@ -1342,6 +1385,7 @@ mesh tree_root_a_pine
 mesh tree_root_b_acacia
 mesh tree_root_b_aspen
 mesh tree_root_b_dry
+mesh tree_root_b_pine
 mesh valley_mountain_a
 mesh valley_mountain_b
 mesh valley_mountain_c
@@ -1356,6 +1400,7 @@ mesh vineyard_b3
 mesh vineyard_end
 mesh vlandia_arena_grandstand_roof_b
 mesh vlandia_arena_grandstand_roof_cloth_a4
+mesh vlandia_arena_main_building_lords_platform
 mesh vlandia_arena_tower
 mesh vlandia_bench_a
 mesh vlandia_chest_c
