@@ -7,7 +7,7 @@
 		<value name="humidity" value="0.000"/>
 		<value name="color_grade_name" value="cg_50c_5b"/>
 		<value name="time_of_day" value="6.000"/>
-		<value name="fall_density" value="0.000"/>
+		<value name="fall_density" value="0.110"/>
 		<value name="snow_density" value="0.000"/>
 		<value name="is_indoor" value="true"/>
 		<value name="global_envmap_multiplier" value="7.000"/>
@@ -19,7 +19,7 @@
 		<value name="lens_flare_dirt_texture_name" value="lens_dirt"/>
 		<value name="lens_flare_star_texture_name" value="lens_star"/>
 		<value name="skybox_panaroma_type" value="0"/>
-		<value name="season" value="summer"/>
+		<value name="season" value="winter"/>
 	</values>
 	<global_ambient fog_ambient_color="1.000, 1.000, 1.000"/>
 	<fog>
