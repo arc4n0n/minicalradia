@@ -19,7 +19,7 @@
 		<value name="lens_flare_dirt_texture_name" value="lens_dirt"/>
 		<value name="lens_flare_star_texture_name" value="lens_star"/>
 		<value name="skybox_panaroma_type" value="0"/>
-		<value name="season" value="winter"/>
+		<value name="season" value="summer"/>
 	</values>
 	<global_ambient fog_ambient_color="1.000, 1.000, 1.000"/>
 	<fog>

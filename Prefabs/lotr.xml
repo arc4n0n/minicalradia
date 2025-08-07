@@ -1,6 +1,6 @@
 <prefabs>
 	<game_entity name="mordor_tower" old_prefab_name="">
-		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 1.927" scale="0.600, 0.600, 1.550"/>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
 		<children>
 			<game_entity name="sound" old_prefab_name="">
 				<children>
@@ -42,6 +42,10 @@
 				</children>
 			</game_entity>
 			<game_entity name="sturgia_castle_tower_round_a_l1" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_tower_round_a_l1">
+				<flags>
+					<flag name="lod" value="3"/>
+				</flags>
+				<transform position="0.000, 0.000, 37.296"/>
 				<physics shape="bo_sturgia_castle_tower_round_a_l1"/>
 				<occlusion_body_flags>
 					<occlusion_body_flag name="two_sided"/>
@@ -111,13 +115,284 @@
 							</body_flags>
 						</physics>
 						<components>
-							<meta_mesh_component name="sturgia_castle_tower_stair_l1"/>
+							<meta_mesh_component name="sturgia_castle_tower_stair_l1">
+								<mesh name="sturgia_castle_tower_stair_l1.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod6" factor="4282609284"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sturgia_castle_tower_round_a_l1" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_tower_round_a_l1">
+				<flags>
+					<flag name="lod" value="3"/>
+				</flags>
+				<transform position="0.000, 0.000, 19.520" rotation_euler="0.000, 0.000, 0.000" scale="1.050, 1.050, 1.000"/>
+				<physics shape="bo_sturgia_castle_tower_round_a_l1"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_castle_tower_round_a_l1">
+						<mesh name="sturgia_castle_tower_round_a_l1.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.3" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="_properGroundOutsideNavmeshID" value="-1"/>
+							<variable name="_properGroundInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_overDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_onSolidWallGenericNavmeshID" value="-1"/>
+							<variable name="SideTag" value=""/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="sturgia_castle_tower_stair_l1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_stair_l1">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_stair_l1">
+								<mesh name="sturgia_castle_tower_stair_l1.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod6" factor="4282609284"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sturgia_castle_tower_round_a_l1" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_tower_round_a_l1">
+				<flags>
+					<flag name="lod" value="4"/>
+				</flags>
+				<transform position="0.000, 0.000, 2.042" rotation_euler="0.000, 0.000, 0.000" scale="1.100, 1.100, 1.000"/>
+				<physics shape="bo_sturgia_castle_tower_round_a_l1"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_castle_tower_round_a_l1">
+						<mesh name="sturgia_castle_tower_round_a_l1.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.3" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="_properGroundOutsideNavmeshID" value="-1"/>
+							<variable name="_properGroundInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_overDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_onSolidWallGenericNavmeshID" value="-1"/>
+							<variable name="SideTag" value=""/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="sturgia_castle_tower_stair_l1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_stair_l1">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_stair_l1">
+								<mesh name="sturgia_castle_tower_stair_l1.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod6" factor="4282609284"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_stone_fence_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_stone_fence_c">
+				<transform position="7.464, 0.142, 28.709" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_sturgia_grandbazaar_stone_fence_c"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_stone_fence_c">
+						<mesh name="sturgia_grandbazaar_stone_fence_c" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod3" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod4" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod5" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_stone_fence_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_stone_fence_c">
+				<transform position="-7.464, 0.142, 28.709" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_sturgia_grandbazaar_stone_fence_c"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_stone_fence_c">
+						<mesh name="sturgia_grandbazaar_stone_fence_c" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod3" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod4" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod5" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-0.440, 10.750, 56.753" rotation_euler="0.000, 0.000, -0.758" scale="0.723, 0.723, 1.762"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
 						</components>
 					</game_entity>
 				</children>
 			</game_entity>
 			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-9.158, -0.293, 15.175" rotation_euler="0.000, 0.000, 0.818" scale="0.522, 0.522, 0.497"/>
+				<transform position="0.382, -10.429, 56.753" rotation_euler="0.000, 0.000, 2.383" scale="0.723, 0.723, 1.762"/>
 				<physics shape="bo_module_european_house_end_attick_d"/>
 				<components>
 					<meta_mesh_component name="module_european_house_end_attick_d">
@@ -126,9 +401,44 @@
 						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
 					</meta_mesh_component>
 				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
 			</game_entity>
 			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-9.321, 0.123, 15.175" rotation_euler="0.000, 0.000, -0.757" scale="0.522, 0.522, 0.497"/>
+				<transform position="-9.413, 5.084, 56.753" rotation_euler="0.000, 0.000, 0.291" scale="0.723, 0.723, 1.762"/>
 				<physics shape="bo_module_european_house_end_attick_d"/>
 				<components>
 					<meta_mesh_component name="module_european_house_end_attick_d">
@@ -137,9 +447,44 @@
 						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
 					</meta_mesh_component>
 				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
 			</game_entity>
 			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="9.276, 0.293, 15.175" rotation_euler="0.000, 0.000, -2.326" scale="0.522, 0.522, 0.497"/>
+				<transform position="9.356, -4.763, 56.753" rotation_euler="0.000, 0.000, -2.851" scale="0.723, 0.723, 1.762"/>
 				<physics shape="bo_module_european_house_end_attick_d"/>
 				<components>
 					<meta_mesh_component name="module_european_house_end_attick_d">
@@ -148,9 +493,44 @@
 						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
 					</meta_mesh_component>
 				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
 			</game_entity>
 			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="9.439, -0.124, 15.175" rotation_euler="0.000, 0.000, 2.382" scale="0.522, 0.522, 0.497"/>
+				<transform position="8.917, 5.844, 56.753" rotation_euler="0.000, 0.000, -1.802" scale="0.723, 0.723, 1.762"/>
 				<physics shape="bo_module_european_house_end_attick_d"/>
 				<components>
 					<meta_mesh_component name="module_european_house_end_attick_d">
@@ -159,9 +539,44 @@
 						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
 					</meta_mesh_component>
 				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
 			</game_entity>
 			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="4.661, 8.348, 15.175" rotation_euler="0.000, 0.000, -1.293" scale="0.522, 0.522, 0.497"/>
+				<transform position="-8.974, -5.523, 56.753" rotation_euler="0.000, 0.000, 1.340" scale="0.723, 0.723, 1.762"/>
 				<physics shape="bo_module_european_house_end_attick_d"/>
 				<components>
 					<meta_mesh_component name="module_european_house_end_attick_d">
@@ -170,215 +585,41 @@
 						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
 					</meta_mesh_component>
 				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="5.102, 8.275, 15.175" rotation_euler="0.000, 0.000, -2.868" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-5.225, 8.208, 15.169" rotation_euler="0.000, 0.000, -0.229" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-4.947, 8.558, 15.169" rotation_euler="0.000, 0.000, -1.804" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-5.396, -8.275, 15.175" rotation_euler="0.000, 0.000, 0.291" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-4.954, -8.341, 15.175" rotation_euler="0.000, 0.000, 1.866" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="4.265, -8.698, 15.175" rotation_euler="0.000, 0.000, 1.337" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="4.544, -8.348, 15.175" rotation_euler="0.000, 0.000, 2.912" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-9.214, 0.157, 12.260" rotation_euler="0.000, -3.141, 2.329" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-9.375, -0.260, 12.260" rotation_euler="0.000, 3.141, -2.379" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-4.935, -8.331, 12.269" rotation_euler="0.000, 3.141, -1.333" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-5.076, 8.566, 12.258" rotation_euler="0.000, -3.141, 1.281" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-5.518, 8.499, 12.258" rotation_euler="0.000, -3.141, 2.856" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="-5.214, -7.983, 12.268" rotation_euler="0.000, -3.142, -2.908" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="5.011, -8.339, 12.263" rotation_euler="0.000, 3.141, -0.269" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="4.570, -8.415, 12.263" rotation_euler="0.000, 3.141, -1.844" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="9.384, 0.082, 12.262" rotation_euler="0.000, -3.141, 0.765" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="9.223, -0.336, 12.262" rotation_euler="0.000, 3.141, -0.810" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="4.902, 8.402, 12.259" rotation_euler="0.000, -3.141, 1.810" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
-			</game_entity>
-			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
-				<transform position="5.183, 8.054, 12.259" rotation_euler="0.000, 3.142, 0.235" scale="0.522, 0.522, 0.497"/>
-				<physics shape="bo_module_european_house_end_attick_d"/>
-				<components>
-					<meta_mesh_component name="module_european_house_end_attick_d">
-						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
-						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
-					</meta_mesh_component>
-				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
 			</game_entity>
 		</children>
 	</game_entity>
@@ -13943,6 +14184,2522 @@
 				</components>
 			</game_entity>
 		</children>
+	</game_entity>
+	<game_entity name="mordor_bastion" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_a">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.563, 1.000, 1.530"/>
+		<physics shape="bo_module_european_house_end_attick_a" override_material="stone"/>
+		<components>
+			<meta_mesh_component name="module_european_house_end_attick_a">
+				<mesh name="module_european_house_end_attick_a.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+				<mesh name="module_european_house_end_attick_a.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+				<mesh name="module_european_house_end_attick_a.2" material="mainmap_decal_moss" factor="4282740364" argument="12.000, 1.000, 1.000, 1.500" argument2="0.930, 0.460, 1.000, 0.000"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="empire_road_floor_a" old_prefab_name="">
+				<transform position="-3.353, -10.130, 0.771" non_orthogonal_rotation_mat="-0.000000, -1.000000, 0.000000, 0.609008, -0.000000, 0.793164, -0.999100, 0.000000, 0.042414" scale="1.000, 0.518, 1.749"/>
+				<physics shape="bo_empire_road_floor_a" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_road_floor_a">
+						<mesh name="empire_road_floor_a" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_road_floor_a" old_prefab_name="">
+				<transform position="3.532, -10.130, 0.765" non_orthogonal_rotation_mat="-0.000000, -1.000000, 0.000000, 0.621520, -0.000000, -0.783398, 0.999039, -0.000000, 0.043822" scale="1.000, 0.524, 1.747"/>
+				<physics shape="bo_empire_road_floor_a" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_road_floor_a">
+						<mesh name="empire_road_floor_a" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_big_wall_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_big_wall_b">
+				<transform position="0.110, -17.032, -3.307" rotation_euler="-1.567, -1.571, -1.571" scale="1.596, 0.571, 0.654"/>
+				<physics shape="bo_sturgia_grandbazaar_big_wall_b"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_big_wall_b">
+						<mesh name="sturgia_grandbazaar_big_wall_b" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod3" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod4" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod5" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_big_wall_b" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_big_wall_b">
+				<transform position="0.110, -6.932, -3.307" rotation_euler="-1.567, -1.571, -1.571" scale="1.596, 0.418, 0.810"/>
+				<physics shape="bo_sturgia_grandbazaar_big_wall_b"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_big_wall_b">
+						<mesh name="sturgia_grandbazaar_big_wall_b" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod3" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod4" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_big_wall_b.lod5" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="0.423, 2.863, 5.283" non_orthogonal_rotation_mat="-0.971000, 0.000000, -0.239080, -0.975703, 0.000000, 0.219096, 0.000000, 1.000000, 0.000000" scale="0.395, 0.412, 0.771"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_e" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_e">
+				<transform position="-1.372, 0.519, 3.287" non_orthogonal_rotation_mat="0.999127, -0.000076, -0.041766, -0.603301, 0.000298, -0.797514, 0.000282, 1.000000, 0.000053" scale="0.875, 0.515, 0.500"/>
+				<physics shape="bo_empire_keep_a_wall_e"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_e">
+						<mesh name="empire_keep_a_wall_e.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_e" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_e">
+				<transform position="1.478, 0.519, 3.257" non_orthogonal_rotation_mat="0.999065, -0.000102, 0.043237, 0.616581, 0.000186, -0.787291, 0.000282, 1.000000, 0.000053" scale="0.874, 0.522, 0.500"/>
+				<physics shape="bo_empire_keep_a_wall_e"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_e">
+						<mesh name="empire_keep_a_wall_e.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_e" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_e">
+				<transform position="-4.608, 0.521, -0.983" non_orthogonal_rotation_mat="0.999102, -0.000076, -0.042371, -0.608825, 0.000297, -0.793305, 0.000282, 1.000000, 0.000053" scale="0.875, 0.688, 0.500"/>
+				<physics shape="bo_empire_keep_a_wall_e"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_e">
+						<mesh name="empire_keep_a_wall_e.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_a_wall_e" old_prefab_name="" occlusion_body_name="bo_empire_keep_a_wall_e">
+				<transform position="4.852, 0.520, -0.969" non_orthogonal_rotation_mat="0.998984, -0.000103, 0.045057, 0.632318, 0.000181, -0.774709, 0.000282, 1.000000, 0.000053" scale="0.873, 0.699, 0.500"/>
+				<physics shape="bo_empire_keep_a_wall_e"/>
+				<components>
+					<meta_mesh_component name="empire_keep_a_wall_e">
+						<mesh name="empire_keep_a_wall_e.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.3" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod4.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.0" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.1" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.2" factor="4286763007"/>
+						<mesh name="empire_keep_a_wall_e.lod1.3" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-2.933, 1.290, 3.273" non_orthogonal_rotation_mat="0.939774, 0.000019, -0.341796, -0.988654, -0.000121, -0.150213, -0.000268, 1.000000, -0.000090" scale="0.123, 0.181, 0.224"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="3.150, 1.598, 4.071" non_orthogonal_rotation_mat="-0.987688, -0.000060, 0.156436, 0.944184, 0.000153, 0.329417, -0.000268, 1.000000, -0.000090" scale="0.252, 0.178, 0.317"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-2.855, 1.597, 4.112" non_orthogonal_rotation_mat="0.939774, 0.000019, -0.341796, -0.988654, -0.000121, -0.150213, -0.000268, 1.000000, -0.000090" scale="0.173, 0.255, 0.317"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="3.090, 1.329, 3.260" non_orthogonal_rotation_mat="-0.987688, -0.000060, 0.156436, 0.944185, 0.000153, 0.329416, -0.000268, 1.000000, -0.000090" scale="0.178, 0.126, 0.224"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-3.197, 1.028, 2.625" non_orthogonal_rotation_mat="0.939774, 0.000019, -0.341796, -0.988654, -0.000121, -0.150213, -0.000268, 1.000000, -0.000090" scale="0.084, 0.123, 0.153"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="3.224, 1.067, 2.616" non_orthogonal_rotation_mat="-0.987688, -0.000060, 0.156436, 0.944185, 0.000153, 0.329416, -0.000268, 1.000000, -0.000090" scale="0.120, 0.084, 0.150"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-7.080, 1.178, -3.555" non_orthogonal_rotation_mat="0.999878, -0.000085, -0.015653, -0.272578, 0.000318, -0.962134, 0.000282, 1.000000, 0.000053" scale="0.142, 0.035, 0.198"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="7.118, 1.172, -3.573" non_orthogonal_rotation_mat="0.266077, -0.000318, 0.963952, 0.999884, -0.000085, -0.015251, 0.000282, 1.000000, 0.000053" scale="0.035, 0.142, 0.198"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_mordor_castle_gate_outer_l1" old_prefab_name="" mobility="1">
+		<flags>
+			<flag name="record_to_scene_replay" value="true"/>
+		</flags>
+		<tags>
+			<tag name="outer_gate"/>
+			<tag name="pb_town:7"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="DestructableComponent">
+				<variables>
+					<variable name="DestructionStates" value="state1, state2, state3, state4"/>
+					<variable name="DestroyedByStoneOnly" value="false"/>
+					<variable name="CanBeDestroyedInitially" value="false"/>
+					<variable name="MaxHitPoint" value="12000.000"/>
+					<variable name="DestroyOnAnyHit" value="false"/>
+					<variable name="PassHitOnToParent" value="false"/>
+					<variable name="ReferenceEntityTag" value="reference"/>
+					<variable name="HeavyHitParticlesTag" value="light_hit"/>
+					<variable name="HeavyHitParticlesThreshold" value="20.000"/>
+					<variable name="ParticleEffectOnDestroy" value=""/>
+					<variable name="SoundEffectOnDestroy" value="event:/mission/siege/door/break"/>
+					<variable name="SoundAndParticleEffectHeightOffset" value="0.000"/>
+					<variable name="SoundAndParticleEffectForwardOffset" value="0.000"/>
+					<variable name="BattleSide" value="None"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="PBCastleGate">
+				<variables>
+					<variable name="OwningTeam" value="Defenders"/>
+					<variable name="OpeningAnimationName" value="khuzait_castle_gate_outer_l1_opening"/>
+					<variable name="ClosingAnimationName" value="khuzait_castle_gate_outer_l1_closing"/>
+					<variable name="HitAnimationName" value="khuzait_castle_gate_outer_l1_hit"/>
+					<variable name="PlankHitAnimationName" value="khuzait_castle_gate_outer_l1_plank_hit"/>
+					<variable name="HitMeleeAnimationName" value="aserai_castle_gate_outer_l1_hit_melee"/>
+					<variable name="DestroyAnimationName" value="khuzait_castle_gate_outer_l1_break"/>
+					<variable name="NavigationMeshId" value="555"/>
+					<variable name="NavigationMeshIdToDisableOnOpen" value="-1"/>
+					<variable name="LeftDoorBoneName" value="bn_middle_l"/>
+					<variable name="RightDoorBoneName" value="bn_middle_r"/>
+					<variable name="ExtraCollisionObjectTagRight" value="extra_collider_r"/>
+					<variable name="ExtraCollisionObjectTagLeft" value="extra_collider_l"/>
+					<variable name="ActivateExtraColliders" value="true"/>
+					<variable name="SideTag" value="middle"/>
+					<variable name="AutoOpen" value="false"/>
+					<variable name="PilotStandingPointTag" value="Pilot"/>
+					<variable name="AmmoPickUpTag" value="ammopickup"/>
+					<variable name="WaitStandingPointTag" value="Wait"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+			<script name="PBRepairableComponent">
+				<variables>
+					<variable name="RequiredResourceType" value="pb_board"/>
+					<variable name="RequiredHitsToRepair" value="10"/>
+					<variable name="RequiredResourcesPerHit" value="4"/>
+					<variable name="RequiredEngineeringLevel" value="100"/>
+					<variable name="CombatCooldown" value="30.000"/>
+					<variable name="MinDamageToTriggerCooldown" value="5"/>
+					<variable name="IsDestroyedOnInit" value="false"/>
+					<variable name="NavMeshPrefabName" value=""/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="open_inside" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="open"/>
+				</tags>
+				<transform position="0.000, -1.500, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="PBStandingPointForGate">
+						<variables>
+							<variable name="UsableOnMount" value="true"/>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="collider_agent_l" old_prefab_name="" visible="false" mobility="1">
+				<tags>
+					<tag name="collider_agent_l"/>
+				</tags>
+				<physics shape="bo_khuzait_castle_gate_outer_l1_ab_l">
+					<body_flags>
+						<body_flag name="agent_only"/>
+					</body_flags>
+				</physics>
+			</game_entity>
+			<game_entity name="clean" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="operational"/>
+					<tag name="state_0"/>
+					<tag name="gate"/>
+					<tag name="reference"/>
+				</tags>
+				<skeleton skeleton_model="khuzait_castle_gate_outer_l1_skeleton">
+					<components>
+						<meta_mesh_component name="khuzait_castle_gate_outer_l1_state1">
+							<mesh name="khuzait_castle_gate_outer_l1_state1.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						</meta_mesh_component>
+					</components>
+				</skeleton>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="collider_l" old_prefab_name="" visible="false" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="collider_l"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_khuzait_castle_gate_outer_l1_state1_l" override_material="wood_nonstick"/>
+					</game_entity>
+					<game_entity name="collider_r" old_prefab_name="" visible="false" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="collider_r"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_khuzait_castle_gate_outer_l1_state1_r" override_material="wood_nonstick"/>
+					</game_entity>
+					<game_entity name="extra_collider_l" old_prefab_name="" visible="false" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="extra_collider_l"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_aserai_castle_gate_inner_l1_state1_l">
+							<body_flags>
+								<body_flag name="agent_only"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+					<game_entity name="extra_collider_r" old_prefab_name="" visible="false" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="extra_collider_r"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_aserai_castle_gate_inner_l1_state1_r">
+							<body_flags>
+								<body_flag name="agent_only"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="close_inside" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="close"/>
+					<tag name="outside"/>
+				</tags>
+				<transform position="0.000, -1.500, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="PBStandingPointForGate">
+						<variables>
+							<variable name="UsableOnMount" value="true"/>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="close_outside" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="close"/>
+					<tag name="outside"/>
+				</tags>
+				<transform position="0.000, 1.000, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="PBStandingPointForGate">
+						<variables>
+							<variable name="UsableOnMount" value="true"/>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="middle_position" old_prefab_name="" mobility="1">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="middle_pos"/>
+					<tag name="wait_pos"/>
+				</tags>
+				<transform position="0.000, -1.400, 0.000"/>
+				<components>
+					<meta_mesh_component name="debug_lod_mesh"/>
+				</components>
+				<scripts>
+					<script name="TacticalPosition">
+						<variables>
+							<variable name="_width" value="1.000"/>
+							<variable name="_slope" value="0.000"/>
+							<variable name="_isInsurmountable" value="false"/>
+							<variable name="_isOuterEdge" value="false"/>
+							<variable name="_tacticalPositionType" value="Regional"/>
+							<variable name="_tacticalRegionMembership" value="Forest"/>
+							<variable name="_tacticalPositionSide" value="BehaviorSideNotSet"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="gate_plank" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="plank"/>
+				</tags>
+				<skeleton skeleton_model="khuzait_castlegate_l1_outer_plank_skeleton">
+					<components>
+						<meta_mesh_component name="khuzait_castle_gate_l1_outer_plank">
+							<mesh name="khuzait_castle_gate_l1_outer_plank" factor="4281021751"/>
+						</meta_mesh_component>
+					</components>
+				</skeleton>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="battering_ram_rest_point" old_prefab_name="" mobility="1">
+				<transform position="0.000, 6.250, 0.000"/>
+			</game_entity>
+			<game_entity name="state1" old_prefab_name="" visible="false" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_1"/>
+					<tag name="gate"/>
+					<tag name="reference"/>
+				</tags>
+				<skeleton skeleton_model="khuzait_castle_gate_outer_l1_skeleton">
+					<components>
+						<meta_mesh_component name="khuzait_castle_gate_outer_l1_state2"/>
+					</components>
+				</skeleton>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="collider_l" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="collider_l"/>
+							<tag name="1"/>
+						</tags>
+						<physics shape="bo_khuzait_castle_gate_outer_l1_state2_l" override_material="wood_nonstick"/>
+					</game_entity>
+					<game_entity name="collider_r" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="collider_r"/>
+							<tag name="1"/>
+						</tags>
+						<physics shape="bo_khuzait_castle_gate_outer_l1_state2_r" override_material="wood_nonstick"/>
+					</game_entity>
+					<game_entity name="extra_collider_l" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="extra_collider_l"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_aserai_castle_gate_inner_l1_state1_l">
+							<body_flags>
+								<body_flag name="agent_only"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+					<game_entity name="extra_collider_r" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="extra_collider_r"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_aserai_castle_gate_inner_l1_state1_r">
+							<body_flags>
+								<body_flag name="agent_only"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+					<game_entity name="particles" old_prefab_name="" mobility="1">
+						<transform position="0.000, 0.000, 1.727"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{1C14B41A-97FA-41A8-B928-91C3EF356254}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="state2" old_prefab_name="" visible="false" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_2"/>
+					<tag name="gate"/>
+					<tag name="reference"/>
+				</tags>
+				<skeleton skeleton_model="khuzait_castle_gate_outer_l1_skeleton">
+					<components>
+						<meta_mesh_component name="khuzait_castle_gate_outer_l1_state3"/>
+					</components>
+				</skeleton>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="collider_l" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="collider_l"/>
+							<tag name="2"/>
+						</tags>
+						<physics shape="bo_khuzait_castle_gate_outer_l1_state3_l" override_material="wood_nonstick"/>
+					</game_entity>
+					<game_entity name="collider_r" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="collider_r"/>
+							<tag name="2"/>
+						</tags>
+						<physics shape="bo_khuzait_castle_gate_outer_l1_state3_r" override_material="wood_nonstick"/>
+					</game_entity>
+					<game_entity name="extra_collider_l" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="extra_collider_l"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_aserai_castle_gate_inner_l1_state1_l">
+							<body_flags>
+								<body_flag name="agent_only"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+					<game_entity name="extra_collider_r" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="extra_collider_r"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_aserai_castle_gate_inner_l1_state1_r">
+							<body_flags>
+								<body_flag name="agent_only"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+					<game_entity name="particles" old_prefab_name="" mobility="1">
+						<transform position="0.000, 0.000, 1.727"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{1C14B41A-97FA-41A8-B928-91C3EF356254}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="state3" old_prefab_name="" visible="false" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="state_3"/>
+					<tag name="gate"/>
+					<tag name="reference"/>
+				</tags>
+				<skeleton skeleton_model="khuzait_castle_gate_outer_l1_skeleton">
+					<components>
+						<meta_mesh_component name="khuzait_castle_gate_outer_l1_state4"/>
+					</components>
+				</skeleton>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="collider_l" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="collider_l"/>
+							<tag name="3"/>
+						</tags>
+						<physics shape="bo_khuzait_castle_gate_outer_l1_state4_l" override_material="wood_nonstick"/>
+					</game_entity>
+					<game_entity name="collider_r" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="collider_r"/>
+							<tag name="3"/>
+						</tags>
+						<physics shape="bo_khuzait_castle_gate_outer_l1_state4_r" override_material="wood_nonstick"/>
+					</game_entity>
+					<game_entity name="extra_collider_r" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="extra_collider_r"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_aserai_castle_gate_inner_l1_state1_r">
+							<body_flags>
+								<body_flag name="agent_only"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+					<game_entity name="extra_collider_l" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="record_to_scene_replay" value="true"/>
+						</flags>
+						<tags>
+							<tag name="extra_collider_l"/>
+							<tag name="0"/>
+						</tags>
+						<physics shape="bo_aserai_castle_gate_inner_l1_state1_l">
+							<body_flags>
+								<body_flag name="agent_only"/>
+							</body_flags>
+						</physics>
+					</game_entity>
+					<game_entity name="particles" old_prefab_name="" mobility="1">
+						<transform position="0.000, 0.000, 1.727"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{1C14B41A-97FA-41A8-B928-91C3EF356254}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="state4" old_prefab_name="" visible="false" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<tags>
+					<tag name="gate"/>
+					<tag name="state_4"/>
+					<tag name="reference"/>
+				</tags>
+				<physics shape="bo_khuzait_castle_gate_outer_l1_state5" override_material="wood_nonstick"/>
+				<components>
+					<meta_mesh_component name="khuzait_castle_gate_outer_l1_state5"/>
+				</components>
+				<scripts>
+					<script name="SynchedMissionObject">
+						<variables>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="particles" old_prefab_name="" mobility="1">
+						<transform position="0.000, 0.000, 1.727"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{1C14B41A-97FA-41A8-B928-91C3EF356254}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="collider_agent_r" old_prefab_name="" visible="false" mobility="1">
+				<tags>
+					<tag name="collider_agent_r"/>
+				</tags>
+				<physics shape="bo_khuzait_castle_gate_outer_l1_ab_r">
+					<body_flags>
+						<body_flag name="agent_only"/>
+					</body_flags>
+				</physics>
+			</game_entity>
+			<game_entity name="open_outside" old_prefab_name="" mobility="1">
+				<flags>
+					<flag name="record_to_scene_replay" value="true"/>
+				</flags>
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="outside"/>
+					<tag name="open"/>
+				</tags>
+				<transform position="0.000, 1.000, 0.000"/>
+				<components>
+					<meta_mesh_component name="icon_man"/>
+				</components>
+				<scripts>
+					<script name="PBStandingPointForGate">
+						<variables>
+							<variable name="UsableOnMount" value="true"/>
+							<variable name="AutoSheathWeapons" value="false"/>
+							<variable name="AutoEquipWeaponsOnUseStopped" value="false"/>
+							<variable name="AutoWieldWeapons" value="false"/>
+							<variable name="TranslateUser" value="true"/>
+							<variable name="HasRecentlyBeenRechecked" value="false"/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="fall_storm" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="rain_mid" old_prefab_name="" season_mask="242">
+				<transform position="0.000, 0.000, 20.000"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect base_effect="{73ED2FCC-9B74-4AFA-8F2C-1DE074A51BA0}">
+							<emitter_overrides>
+								<emitter guid="{4D0F8C8F-F6BD-493D-B628-668CFEE624B8}">
+									<parameters>
+										<parameter name="emit_disc_radius" value="60.000"/>
+									</parameters>
+								</emitter>
+							</emitter_overrides>
+						</effect>
+					</particle_system_instanced_component>
+				</components>
+			</game_entity>
+			<game_entity name="psys_game_rain" old_prefab_name="" season_mask="242">
+				<transform position="0.000, 0.000, 20.000"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect base_effect="{E0343853-0902-4ED8-9DD6-A68745C4A702}">
+							<emitter_overrides>
+								<emitter guid="{941C39A8-4894-4A36-A16A-4B7705655180}">
+									<parameters>
+										<parameter name="skew_with_particle_velocity_limit" value="0.005"/>
+										<parameter name="emit_disc_radius" value="60.000"/>
+									</parameters>
+								</emitter>
+							</emitter_overrides>
+						</effect>
+					</particle_system_instanced_component>
+				</components>
+			</game_entity>
+			<game_entity name="psys_game_rain_splash" old_prefab_name="" season_mask="242">
+				<transform position="0.000, 0.000, 0.100"/>
+				<components>
+					<particle_system_instanced_component>
+						<effect base_effect="{2751A01F-16C9-49FF-85E2-12AB333EEA27}">
+							<emitter_overrides>
+								<emitter guid="{0739B1F2-E0BC-40C7-88B7-79364C36E24A}">
+									<flags>
+										<flag name="skew_with_respect_to_particle_velocity" value="false"/>
+									</flags>
+									<parameters>
+										<parameter name="emit_box_size" value="120.000, 120.000, 0.000"/>
+										<parameter name="emit_disc_radius" value="60.000"/>
+										<parameter name="gravity" value="0.000, 0.000, -5.000"/>
+										<parameter name="fadeout_distance" value="0.300"/>
+										<parameter name="fadeout_coef" value="0.000"/>
+										<parameter name="backlight_multiplier" value="0.250"/>
+										<parameter name="particle_size_curve_op" value="multiply"/>
+										<parameter name="emit_volume_type" value="disc"/>
+										<parameter name="particle_life" base="0.270" bias="0.070"/>
+										<parameter name="emit_velocity_z" base="2.000" bias="0.000"/>
+										<parameter name="particle_size" base="1.000" bias="0.030">
+											<curve name="particle_life" version="1" default="1.000" curve_multiplier="0.060">
+												<keys>
+													<key time="0.000" value="0.000" tangent="0.000, 0.000"/>
+													<key time="0.069" value="1.032" tangent="-0.048, -0.048"/>
+													<key time="0.069" value="1.032" tangent="0.123, 0.123"/>
+													<key time="0.552" value="0.219" tangent="-0.256, 0.199"/>
+													<key time="0.552" value="0.219" tangent="0.256, -0.199"/>
+													<key time="1.000" value="0.051" tangent="0.000, 0.000"/>
+												</keys>
+											</curve>
+										</parameter>
+										<parameter name="particle_color">
+											<color>
+												<keys>
+													<key time="0.000" value="1.000, 1.000, 1.000"/>
+													<key time="1.000" value="1.000, 1.000, 1.000"/>
+												</keys>
+											</color>
+											<alpha>
+												<keys>
+													<key time="0.000" value="0.000"/>
+													<key time="0.120" value="0.537"/>
+													<key time="1.000" value="0.000"/>
+												</keys>
+											</alpha>
+										</parameter>
+									</parameters>
+								</emitter>
+							</emitter_overrides>
+						</effect>
+					</particle_system_instanced_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="mallorn_tree" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="3.228, 3.228, 1.420"/>
+		<physics shape="bo_tree_high_e_aspen" override_material="wood"/>
+		<components>
+			<meta_mesh_component name="tree_high_e_aspen">
+				<mesh name="tree_high_e_aspen.3" material="new_tree_a2_fall" argument="0.000, 0.000, 0.000, 0.000"/>
+				<mesh name="tree_high_e_aspen.lod3.3" material="new_tree_a_fall" argument="0.000, 0.000, 0.000, 0.000"/>
+				<mesh name="tree_high_e_aspen.lod5.3" material="new_tree_a_fall" argument="0.000, 0.000, 0.000, 0.000"/>
+				<mesh name="tree_high_e_aspen.lod6.3" material="new_tree_a_fall" argument="0.000, 0.000, 0.000, 0.000"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="tree_root_a_aspen" old_prefab_name="">
+				<transform position="0.561, -0.329, 0.763" non_orthogonal_rotation_mat="-0.659590, -0.723435, 0.203917, 0.694672, -0.612809, 0.376691, -0.031379, 0.082965, 0.996058" scale="0.757, 0.790, 1.663"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_aspen"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_aspen" old_prefab_name="">
+				<transform position="-0.119, -0.252, 0.595" non_orthogonal_rotation_mat="0.920206, 0.347253, 0.180658, -0.293954, 0.827200, -0.478886, -0.070367, 0.086376, 0.993774" scale="0.594, 0.649, 1.299"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_aspen"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_aspen" old_prefab_name="">
+				<transform position="0.196, 0.253, 2.468" non_orthogonal_rotation_mat="-0.629858, 0.774346, 0.060558, -0.183358, -0.163820, 0.969300, 0.477054, 0.376011, 0.794377" scale="0.469, 0.951, 0.668"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_aspen"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_b_aspen" old_prefab_name="">
+				<transform position="-0.248, -0.167, 2.623" non_orthogonal_rotation_mat="0.667940, -0.741533, -0.063125, 0.208578, 0.172011, 0.962760, -0.415466, -0.387794, 0.822802" scale="0.469, 0.931, 0.695"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_b_aspen"/>
+				</components>
+			</game_entity>
+			<game_entity name="tree_root_a_aspen" old_prefab_name="">
+				<transform position="-0.096, 0.152, 3.002" non_orthogonal_rotation_mat="-0.750060, -0.420874, -0.510171, 0.054432, -0.319050, 0.946174, -0.346967, 0.421759, 0.837695" scale="0.636, 1.072, 0.858"/>
+				<physics shape="bo_tree_root_a_acacia"/>
+				<components>
+					<meta_mesh_component name="tree_root_a_aspen"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="barad_dur_tower" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.514, 0.514, 0.514"/>
+		<children>
+			<game_entity name="sound" old_prefab_name="">
+				<children>
+					<game_entity name="sound_reverb" old_prefab_name="">
+						<transform position="0.000, 0.000, 6.000" rotation_euler="0.000, 0.000, 0.000" scale="7.500, 1.000, 1.000"/>
+						<scripts>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/area/interior/generic"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Is Static" value="false"/>
+									<variable name="Override Sound" value="false"/>
+									<variable name="Overrided Max Distance" value="20.000000"/>
+									<variable name="Overrided Min Distance" value="1.000000"/>
+									<variable name="Sound Preset" value="Speakers"/>
+									<variable name="Is Master Sound" value="false"/>
+									<variable name="Is Master Supressor" value="false"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Sphere"/>
+								</variables>
+							</script>
+							<script name="AmbientSoundEmitter">
+								<variables>
+									<variable name="Event Path" value="event:/mission/ambient/reverb/wood_interior"/>
+									<variable name="Play On Startup" value="true"/>
+									<variable name="Is Static" value="false"/>
+									<variable name="Override Sound" value="false"/>
+									<variable name="Overrided Max Distance" value="20.000000"/>
+									<variable name="Overrided Min Distance" value="1.000000"/>
+									<variable name="Sound Preset" value="Speakers"/>
+									<variable name="Is Master Sound" value="false"/>
+									<variable name="Is Master Supressor" value="false"/>
+									<variable name="Is Triggered" value="true"/>
+									<variable name="Trigger Shape" value="Sphere"/>
+								</variables>
+							</script>
+						</scripts>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sturgia_castle_tower_round_a_l1" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_tower_round_a_l1">
+				<flags>
+					<flag name="lod" value="3"/>
+				</flags>
+				<transform position="0.000, 0.000, 37.296"/>
+				<physics shape="bo_sturgia_castle_tower_round_a_l1"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_castle_tower_round_a_l1">
+						<mesh name="sturgia_castle_tower_round_a_l1.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.3" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="_properGroundOutsideNavmeshID" value="-1"/>
+							<variable name="_properGroundInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_overDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_onSolidWallGenericNavmeshID" value="-1"/>
+							<variable name="SideTag" value=""/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="sturgia_castle_tower_stair_l1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_stair_l1">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_stair_l1">
+								<mesh name="sturgia_castle_tower_stair_l1.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod6" factor="4282609284"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sturgia_castle_tower_round_a_l1" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_tower_round_a_l1">
+				<flags>
+					<flag name="lod" value="3"/>
+				</flags>
+				<transform position="0.000, 0.000, 19.520" rotation_euler="0.000, 0.000, 0.000" scale="1.050, 1.050, 1.000"/>
+				<physics shape="bo_sturgia_castle_tower_round_a_l1"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_castle_tower_round_a_l1">
+						<mesh name="sturgia_castle_tower_round_a_l1.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.3" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="_properGroundOutsideNavmeshID" value="-1"/>
+							<variable name="_properGroundInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_overDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_onSolidWallGenericNavmeshID" value="-1"/>
+							<variable name="SideTag" value=""/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="sturgia_castle_tower_stair_l1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_stair_l1">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_stair_l1">
+								<mesh name="sturgia_castle_tower_stair_l1.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod6" factor="4282609284"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sturgia_castle_tower_round_a_l1" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_castle_tower_round_a_l1">
+				<flags>
+					<flag name="lod" value="4"/>
+				</flags>
+				<transform position="0.000, 0.000, 2.042" rotation_euler="0.000, 0.000, 0.000" scale="1.100, 1.100, 1.000"/>
+				<physics shape="bo_sturgia_castle_tower_round_a_l1"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_castle_tower_round_a_l1">
+						<mesh name="sturgia_castle_tower_round_a_l1.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.6" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod2.7" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod3.5" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod4.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.3" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod5.4" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.0" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_castle_tower_round_a_l1.lod6.3" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+				<scripts>
+					<script name="WallSegment">
+						<variables>
+							<variable name="_properGroundOutsideNavmeshID" value="-1"/>
+							<variable name="_properGroundInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisOutsideNavmeshID" value="-1"/>
+							<variable name="_overDebrisInsideNavmeshID" value="-1"/>
+							<variable name="_underDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_overDebrisGenericNavmeshID" value="-1"/>
+							<variable name="_onSolidWallGenericNavmeshID" value="-1"/>
+							<variable name="SideTag" value=""/>
+							<variable name="NavMeshPrefabName" value=""/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="sturgia_castle_tower_stair_l1" old_prefab_name="">
+						<physics shape="bo_sturgia_castle_tower_stair_l1">
+							<body_flags>
+								<body_flag name="has_steps"/>
+							</body_flags>
+						</physics>
+						<components>
+							<meta_mesh_component name="sturgia_castle_tower_stair_l1">
+								<mesh name="sturgia_castle_tower_stair_l1.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod2.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.0" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.1" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod3.2" factor="4282609284"/>
+								<mesh name="sturgia_castle_tower_stair_l1.lod6" factor="4282609284"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_stone_fence_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_stone_fence_c">
+				<transform position="7.464, 0.142, 28.709" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_sturgia_grandbazaar_stone_fence_c"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_stone_fence_c">
+						<mesh name="sturgia_grandbazaar_stone_fence_c" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod3" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod4" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod5" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_grandbazaar_stone_fence_c" old_prefab_name="" occlusion_body_name="bo_occ_sturgia_grandbazaar_stone_fence_c">
+				<transform position="-7.464, 0.142, 28.709" rotation_euler="0.000, 0.000, 1.571"/>
+				<physics shape="bo_sturgia_grandbazaar_stone_fence_c"/>
+				<occlusion_body_flags>
+					<occlusion_body_flag name="two_sided"/>
+				</occlusion_body_flags>
+				<components>
+					<meta_mesh_component name="sturgia_grandbazaar_stone_fence_c">
+						<mesh name="sturgia_grandbazaar_stone_fence_c" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod1" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod2" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod3" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod4" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+						<mesh name="sturgia_grandbazaar_stone_fence_c.lod5" material="roman_aqueduct_bricks_b" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-0.440, 10.750, 56.753" rotation_euler="0.000, 0.000, -0.758" scale="0.723, 0.723, 1.762"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="0.382, -10.429, 56.753" rotation_euler="0.000, 0.000, 2.383" scale="0.723, 0.723, 1.762"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-9.413, 5.084, 56.753" rotation_euler="0.000, 0.000, 0.291" scale="0.723, 0.723, 1.762"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="9.356, -4.763, 56.753" rotation_euler="0.000, 0.000, -2.851" scale="0.723, 0.723, 1.762"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="8.917, 5.844, 56.753" rotation_euler="0.000, 0.000, -1.802" scale="0.723, 0.723, 1.762"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+				<transform position="-8.974, -5.523, 56.753" rotation_euler="0.000, 0.000, 1.340" scale="0.723, 0.723, 1.762"/>
+				<physics shape="bo_module_european_house_end_attick_d"/>
+				<components>
+					<meta_mesh_component name="module_european_house_end_attick_d">
+						<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+						<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.293, 0.489, -6.943" rotation_euler="0.000, -3.141, 3.129"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="1.105, 0.825, -6.943" rotation_euler="0.000, 3.141, 1.554"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="mordor_merlon" old_prefab_name="" occlusion_body_name="bo_occ_module_european_house_end_attick_d">
+						<transform position="0.349, 0.806, 0.000" rotation_euler="0.000, 0.000, -1.575"/>
+						<physics shape="bo_module_european_house_end_attick_d"/>
+						<components>
+							<meta_mesh_component name="module_european_house_end_attick_d">
+								<mesh name="module_european_house_end_attick_d.0" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.1" factor="4286763007"/>
+								<mesh name="module_european_house_end_attick_d.2" material="roman_aqueduct_bricks_b" factor="4286763007"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="0.071, 8.530, 20.827" rotation_euler="0.000, 0.000, 1.549" scale="0.266, 0.195, 2.602"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="-3.131, 7.935, 32.058" non_orthogonal_rotation_mat="-0.361881, 0.927315, 0.095544, 0.931520, 0.363685, -0.001915, -0.030388, 0.073474, -0.996834" scale="0.273, 0.188, 1.718"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="-0.188, -8.177, 20.827" rotation_euler="0.000, 0.000, -1.599" scale="0.266, 0.195, 2.602"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="3.080, -7.577, 32.058" non_orthogonal_rotation_mat="0.361071, -0.927631, 0.095544, -0.931837, -0.362872, -0.001915, 0.030324, -0.073500, -0.996834" scale="0.273, 0.188, 1.718"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="-3.345, -7.493, 32.058" non_orthogonal_rotation_mat="-0.404273, -0.909634, 0.095544, -0.913875, 0.405990, -0.001915, -0.030825, -0.073292, -0.996834" scale="0.273, 0.188, 1.718"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="6.009, 5.953, 20.827" rotation_euler="0.000, 0.000, 0.754" scale="0.266, 0.195, 2.602"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="-6.070, -5.593, 20.827" rotation_euler="0.000, 0.000, -2.388" scale="0.266, 0.195, 2.602"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="3.293, 7.841, 32.058" non_orthogonal_rotation_mat="0.403479, 0.909987, 0.095544, 0.914229, -0.405193, -0.001915, 0.030761, 0.073318, -0.996834" scale="0.273, 0.188, 1.718"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="7.739, 3.246, 32.058" non_orthogonal_rotation_mat="0.928698, 0.358317, 0.095544, 0.360106, -0.932909, -0.001915, 0.073590, 0.030106, -0.996834" scale="0.273, 0.188, 1.718"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="-7.797, -2.904, 32.058" non_orthogonal_rotation_mat="-0.929073, -0.357345, 0.095544, -0.359129, 0.933286, -0.001915, -0.073621, -0.030029, -0.996834" scale="0.273, 0.188, 1.718"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="8.326, -0.006, 20.827" rotation_euler="0.000, 0.000, -0.031" scale="0.266, 0.195, 2.602"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="-8.379, 0.370, 20.827" rotation_euler="0.000, 0.000, 3.110" scale="0.266, 0.195, 2.602"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="5.745, -5.866, 20.827" rotation_euler="0.000, 0.000, -0.818" scale="0.266, 0.195, 2.602"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="-5.788, 6.226, 20.827" rotation_euler="0.000, 0.000, 2.323" scale="0.266, 0.195, 2.602"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="-7.698, 3.498, 32.058" non_orthogonal_rotation_mat="-0.909211, 0.405225, 0.095544, 0.406947, 0.913450, -0.001915, -0.073259, 0.030901, -0.996834" scale="0.273, 0.188, 1.718"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_bridge_c_part_c" old_prefab_name="">
+				<transform position="7.630, -3.156, 32.058" non_orthogonal_rotation_mat="0.909564, -0.404431, 0.095544, -0.406150, -0.913804, -0.001915, 0.073286, -0.030837, -0.996834" scale="0.273, 0.188, 1.718"/>
+				<physics shape="bo_empire_bridge_a_part_c"/>
+				<components>
+					<meta_mesh_component name="empire_bridge_c_part_c">
+						<mesh name="empire_bridge_c_part_c.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod5.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod1.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod2.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.1" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod3.2" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.0" factor="4282740364"/>
+						<mesh name="empire_bridge_c_part_c.lod7.1" factor="4282740364"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="stargate" old_prefab_name="">
+		<tags>
+			<tag name="pb_tp_door:a"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.187, 1.568, -0.575"/>
+		<children>
+			<game_entity name="empire_keep_b_arch_a" old_prefab_name="">
+				<transform position="-0.056, 2.429, 0.004" rotation_euler="-1.571, -3.142, 3.142"/>
+				<physics shape="bo_empire_keep_b_arch_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_b_arch_a">
+						<mesh name="empire_keep_b_arch_a" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod1" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod2" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod3" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod4" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod5" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod6" material="stone_wall_13"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="water circle" old_prefab_name="">
+				<transform position="-0.038, 0.021, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.829, 0.829, 3.604"/>
+				<components>
+					<meta_mesh_component name="circle_plane">
+						<mesh name="circle_plane" material="river_01" argument="5.000, 1.000, 10.000, 0.100" argument2="10.000, 10.000, 0.750, 0.000"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="empire_keep_b_arch_a" old_prefab_name="">
+				<transform position="-0.059, -2.420, 0.004" rotation_euler="-1.571, 0.000, -3.142"/>
+				<physics shape="bo_empire_keep_b_arch_a"/>
+				<components>
+					<meta_mesh_component name="empire_keep_b_arch_a">
+						<mesh name="empire_keep_b_arch_a" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod1" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod2" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod3" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod4" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod5" material="stone_wall_13"/>
+						<mesh name="empire_keep_b_arch_a.lod6" material="stone_wall_13"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="highlight_glow_persistent" old_prefab_name="">
+				<transform position="-0.079, 0.064, 0.011"/>
+				<components>
+					<light_component color="0.737, 0.859, 1.000" intensity="20000.000" radius="4.000" flicker_interval="0.350" flicker_magnitude="1.000" local_frame_rot="4.000000, 0.000000, 0.000000, 0.000000, 4.000000, 0.000000, 0.000000, 0.000000, 4.000000" hotspot_angle="3.000" falloff_angle="30.000" shadow_size_multiplier="1" shadow_radius="3.000"/>
+					<particle_system_instanced_component _index_="1">
+						<effect base_effect="{C121FD4F-211B-46AA-950B-B19546DCDC1D}">
+							<emitter_overrides>
+								<emitter guid="{4D9D7823-AA9D-4023-98CA-3A400FFA2CBE}">
+									<parameters>
+										<parameter name="emit_disc_radius" value="2.200"/>
+										<parameter name="emit_volume_type" value="disc"/>
+										<parameter name="particle_color">
+											<color>
+												<keys>
+													<key time="0.000" value="0.511, 0.715, 1.000"/>
+													<key time="0.735" value="0.015, 0.251, 1.000"/>
+													<key time="1.000" value="1.000, 1.000, 1.000"/>
+												</keys>
+											</color>
+											<alpha>
+												<keys>
+													<key time="0.500" value="1.000"/>
+													<key time="1.000" value="0.000"/>
+												</keys>
+											</alpha>
+										</parameter>
+									</parameters>
+								</emitter>
+								<emitter guid="{A6396429-137E-4CCD-AFC4-C33A8FBECDBB}">
+									<parameters>
+										<parameter name="emit_disc_radius" value="1.850"/>
+										<parameter name="gravity" value="0.000, 0.000, 0.000"/>
+										<parameter name="quad_scale" value="1.000, 1.000"/>
+										<parameter name="emit_volume_type" value="disc"/>
+										<parameter name="billboard_type" value="3d"/>
+										<parameter name="particle_life" base="10.000" bias="0.000"/>
+										<parameter name="emission_rate" base="5.000" bias="1.000"/>
+										<parameter name="emit_velocity_z" base="0.000" bias="1.000"/>
+										<parameter name="particle_color">
+											<color>
+												<keys>
+													<key time="0.000" value="0.511, 0.715, 1.000"/>
+												</keys>
+											</color>
+											<alpha>
+												<keys>
+													<key time="0.000" value="0.000"/>
+													<key time="0.394" value="0.078"/>
+													<key time="1.000" value="0.000"/>
+												</keys>
+											</alpha>
+										</parameter>
+									</parameters>
+								</emitter>
+							</emitter_overrides>
+						</effect>
+					</particle_system_instanced_component>
+				</components>
+			</game_entity>
+			<game_entity name="battania_stone_a" old_prefab_name="">
+				<transform position="-0.108, 2.676, 0.003" rotation_euler="1.571, -3.142, -3.142" scale="0.196, 0.996, 0.196"/>
+				<physics shape="bo_battania_stone_a"/>
+				<components>
+					<meta_mesh_component name="battania_stone_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="battania_stone_a" old_prefab_name="">
+				<transform position="-1.809, 2.019, 0.003" rotation_euler="1.571, 3.142, -2.442" scale="0.196, 0.996, 0.196"/>
+				<physics shape="bo_battania_stone_a"/>
+				<components>
+					<meta_mesh_component name="battania_stone_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="battania_stone_a" old_prefab_name="">
+				<transform position="-2.689, 0.448, 0.003" rotation_euler="1.571, 3.142, -1.744" scale="0.196, 0.996, 0.196"/>
+				<physics shape="bo_battania_stone_a"/>
+				<components>
+					<meta_mesh_component name="battania_stone_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="battania_stone_a" old_prefab_name="">
+				<transform position="-2.369, -1.314, 0.003" rotation_euler="1.571, 3.142, -1.045" scale="0.196, 0.996, 0.196"/>
+				<physics shape="bo_battania_stone_a"/>
+				<components>
+					<meta_mesh_component name="battania_stone_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="battania_stone_a" old_prefab_name="">
+				<transform position="-1.003, -2.491, 0.003" rotation_euler="1.571, 3.142, -0.345" scale="0.196, 0.996, 0.196"/>
+				<physics shape="bo_battania_stone_a"/>
+				<components>
+					<meta_mesh_component name="battania_stone_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="battania_stone_a" old_prefab_name="">
+				<transform position="1.633, 2.067, 0.003" rotation_euler="1.571, 3.142, 2.442" scale="0.196, 0.996, 0.196"/>
+				<physics shape="bo_battania_stone_a"/>
+				<components>
+					<meta_mesh_component name="battania_stone_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="battania_stone_a" old_prefab_name="">
+				<transform position="2.575, 0.463, 0.003" rotation_euler="1.571, 3.142, 1.743" scale="0.196, 0.996, 0.196"/>
+				<physics shape="bo_battania_stone_a"/>
+				<components>
+					<meta_mesh_component name="battania_stone_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="battania_stone_a" old_prefab_name="">
+				<transform position="2.232, -1.363, 0.003" rotation_euler="1.571, 3.142, 1.044" scale="0.196, 0.996, 0.196"/>
+				<physics shape="bo_battania_stone_a"/>
+				<components>
+					<meta_mesh_component name="battania_stone_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="battania_stone_a" old_prefab_name="">
+				<transform position="0.791, -2.523, 0.003" rotation_euler="1.571, 3.142, 0.343" scale="0.196, 0.996, 0.196"/>
+				<physics shape="bo_battania_stone_a"/>
+				<components>
+					<meta_mesh_component name="battania_stone_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="pb_tp_point" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="pb_tp_point"/>
+				</tags>
+				<transform position="1.000, -0.250, 0.110" rotation_euler="1.537, 1.489, 3.036"/>
+				<components>
+					<meta_mesh_component name="arrow_new_icon"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="pb_mallorn_1" old_prefab_name="">
+		<tags>
+			<tag name="pb_tree"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.705, 1.705, 1.066"/>
+		<physics shape="bo_tree_high_e_aspen" override_material="wood"/>
+		<components>
+			<meta_mesh_component name="tree_high_e_aspen">
+				<mesh name="tree_high_e_aspen.3" material="new_tree_a2_fall" argument="0.000, 0.000, 0.000, 0.000"/>
+				<mesh name="tree_high_e_aspen.lod3.3" material="new_tree_a2_fall"/>
+				<mesh name="tree_high_e_aspen.lod5.3" material="new_tree_a2_fall"/>
+				<mesh name="tree_high_e_aspen.lod6.3" material="new_tree_a2_fall"/>
+			</meta_mesh_component>
+		</components>
+	</game_entity>
+	<game_entity name="pb_mallorn_2" old_prefab_name="">
+		<tags>
+			<tag name="pb_tree"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.911, 1.911, 1.000"/>
+		<physics shape="bo_tree_high_j_poplar_forest" override_material="wood"/>
+		<components>
+			<meta_mesh_component name="tree_high_j_poplar_forest">
+				<mesh name="tree_high_j_poplar_forest.6" material="new_tree_b2_fall" argument="0.000, 0.000, 0.000, 0.000"/>
+				<mesh name="tree_high_j_poplar_forest.lod3.6" material="new_tree_b2_fall"/>
+				<mesh name="tree_high_j_poplar_forest.lod5.6" material="new_tree_b2_fall"/>
+			</meta_mesh_component>
+		</components>
 	</game_entity>
 </prefabs>
 
