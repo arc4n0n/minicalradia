@@ -10,39 +10,44 @@
 
 1. Amon Lhaw
 
-## Castles
-
-2. Minas Tirith
-3. Pelargir
-4. Nardol (Rohan Camp)
-5. Minas Morgul
-6. Cirith Ungol
-7. Barad Dur
-8. Dol Khamul (Rhun Camp)
-
-## Manors
-
-9. Entwash
-10. Swamp Fort
-11. Durthang
-12. Barad Duath
-13. Ranger Camp
-14. Cirith Duath
-
-## Villages
-
-15. Osgiliath
-16. Kelos
-17. Erui
-18. Poros
-19. Gorgoroth
-20. Nurn
-21. Khand Camp
-
 ## Town Watch
 
-22. Cair Andros Tower
+2. Cair Andros Tower
 
 ## Player Shop
 
-23. Dwarf Cave
+3. Dwarf Cave
+
+## Castles
+
+4. Minas Tirith
+5. Pelargir
+6. Nardol (Rohan Camp)
+7. Minas Morgul
+8. Cirith Ungol
+9. Barad Dur
+10. Dol Khamul (Rhun Camp)
+
+## Manors
+
+11. Entwash
+12. Nindalf
+13. Durthang
+14. Gothang
+15. Ranger Camp
+16. Cirith Variag
+
+## Villages
+
+17. Osgiliath
+18. Kelos
+19. Erui
+20. Poros
+21. Gorgoroth
+22. Nurn
+23. Khand Camp
+24. Anorien
+25. Wetwang
+26. Orc Camp
+27. River Town
+28. Harlond
