@@ -48,6 +48,6 @@
 23. Khand Camp
 24. Anorien
 25. Wetwang
-26. Orc Camp
+26. Uruk Camp
 27. River Town
 28. Harlond

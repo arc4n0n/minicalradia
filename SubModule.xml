@@ -1,0 +1,55 @@
+<Module>
+	<Name value="Persistent Bannerlord Mapping"/>
+	<Id value="PersistentBannerlordMapping"/>
+	<Version value="v1.0.9"/>
+	<MultiplayerModule value="true"/>
+	<ModuleCategory value="Singleplayer" />
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.2.9" Optional="false"/>
+	</DependedModules>
+	<ModulesToLoadAfterThis>
+		<Module Id="PersistentBannerlordArmory"/>
+	</ModulesToLoadAfterThis>
+	<SubModules>
+		<SubModule>
+			<Name value="PersistentBannerlord"/>
+			<DLLName value="PersistentBannerlordClient.dll"/>
+			<SubModuleClassType value="PersistentBannerlordClient.PersistentBannerlordSubModule"/>
+		</SubModule>
+		<SubModule>
+			<Name value="PersistentBannerlord"/>
+			<DLLName value="PersistentBannerlordCommon.dll"/>
+			<SubModuleClassType value="PersistentBannerlordCommon.PersistentBannerlordSubModule" />
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="GameText" path="multiplayer_strings"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="MPCharacters" path="pb_heroes"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="MPClassDivisions" path="pb_classes"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="CraftingPieces" path="pb_crafting_pieces"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="CraftingTemplates" path="pb_crafting_template"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="WeaponDescriptions" path="pb_weapon_descriptions"/>
+		</XmlNode>
+
+		<!-- PB Items -->
+		<XmlNode>
+			<XmlName id="Items" path="Items"/>
+		</XmlNode>
+
+		<!-- PB Animals -->
+		<XmlNode>
+			<XmlName id="Items" path="Animals"/>
+		</XmlNode>
+	</Xmls>
+</Module>
