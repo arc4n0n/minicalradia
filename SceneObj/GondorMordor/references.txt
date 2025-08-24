@@ -1,8 +1,9 @@
-1606
+1641
 mesh agriculture_chickpeas
 mesh agriculture_leek
 mesh animation_stand_arrow_blue
 mesh aquila
+mesh arab_awning_b3
 mesh arabian_building_detail_a
 mesh arabian_castle_barn_b
 mesh arabian_fountain_a
@@ -64,6 +65,9 @@ mesh aserai_castle_corner_e_l1_05
 mesh aserai_castle_corner_e_l1_06
 mesh aserai_castle_corner_e_l1_07
 mesh aserai_castle_corner_e_l1_08
+mesh aserai_castle_corner_roof_1
+mesh aserai_castle_corner_roof_2
+mesh aserai_castle_corner_roof_3
 mesh aserai_castle_corner_stairs_l1
 mesh aserai_castle_gate_inner_l1_plank
 mesh aserai_castle_gate_inner_l1_state1
@@ -71,6 +75,7 @@ mesh aserai_castle_gate_inner_l1_state2
 mesh aserai_castle_gate_inner_l1_state3
 mesh aserai_castle_gate_inner_l1_state4
 mesh aserai_castle_gate_inner_l1_state5
+mesh aserai_castle_keep_a_l3_interior_column_a
 mesh aserai_castle_keep_a_l3_interior_top_floor_top
 mesh aserai_castle_stairs_a_l1
 mesh aserai_castle_stairs_b_l1
@@ -105,6 +110,7 @@ mesh aserai_female_costume_shoe
 mesh aserai_grandbazaar_corner_shop_door
 mesh aserai_grandbazaar_corridor_a
 mesh aserai_grandbazaar_entry
+mesh aserai_grandbazaar_floor_a
 mesh aserai_grandbazaar_floor_b
 mesh aserai_grandbazaar_gate_door_b
 mesh aserai_grandbazaar_shop_b
@@ -304,6 +310,7 @@ mesh bd_chair_c
 mesh bd_chair_d
 mesh bd_chair_king_b
 mesh bd_chair_sturgia_lord
+mesh bd_chair_vlandia_lord
 mesh bd_chest_b
 mesh bd_chest_c
 mesh bd_chest_d
@@ -319,6 +326,7 @@ mesh bd_floor_stone_a
 mesh bd_hammer
 mesh bd_hammer_a
 mesh bd_hay_cart_a
+mesh bd_hay_cart_b
 mesh bd_khuzait_throne_b
 mesh bd_kitchen_stove__grill
 mesh bd_kitchen_stove_empire
@@ -366,6 +374,8 @@ mesh bd_tapestry_vlandia
 mesh bd_target_board
 mesh bd_throne_sturgia_b
 mesh bd_trough_a
+mesh bd_urn_a
+mesh bd_urn_b
 mesh bd_wall_bucket
 mesh bd_wall_pouches
 mesh bd_wall_scales
@@ -437,11 +447,13 @@ mesh cave_rock_wall_b
 mesh cave_rock_wall_c
 mesh cave_rock_wall_d
 mesh cave_rock_wall_e
+mesh cave_wall_a
 mesh chest_empire_a
 mesh chest_empire_b
 mesh chicken_raw
 mesh circle_plane
 mesh civilian_ladder_4m
+mesh civilian_ladder_5m
 mesh civilian_ladder_6m
 mesh clay_pot_stew
 mesh cleaver_blade_4
@@ -916,6 +928,14 @@ mesh khuzait_castle_corner_c_l1_06
 mesh khuzait_castle_corner_c_l1_07
 mesh khuzait_castle_corner_c_l1_08
 mesh khuzait_castle_corner_c_l1_stair
+mesh khuzait_castle_corner_d_l1
+mesh khuzait_castle_corner_d_l1_01
+mesh khuzait_castle_corner_d_l1_02
+mesh khuzait_castle_corner_d_l1_03
+mesh khuzait_castle_corner_d_l1_04
+mesh khuzait_castle_corner_d_l1_05
+mesh khuzait_castle_corner_d_l1_06
+mesh khuzait_castle_corner_d_l1_07
 mesh khuzait_castle_gate_l1_outer_plank
 mesh khuzait_castle_gate_outer_l1_state1
 mesh khuzait_castle_gate_outer_l1_state2
@@ -923,6 +943,7 @@ mesh khuzait_castle_gate_outer_l1_state3
 mesh khuzait_castle_gate_outer_l1_state4
 mesh khuzait_castle_gate_outer_l1_state5
 mesh khuzait_castle_keep_l3_interior_throne_platform
+mesh khuzait_castle_stairs_a_l2
 mesh khuzait_castle_tower_round_a_l1
 mesh khuzait_castle_tower_round_a_l1_01
 mesh khuzait_castle_tower_round_a_l1_02
@@ -943,6 +964,14 @@ mesh khuzait_castle_tower_round_a_l1_stairs1
 mesh khuzait_castle_tower_round_a_l1_stairs2
 mesh khuzait_castle_tower_round_a_l1_stairs3
 mesh khuzait_castle_tower_round_a_l1_stairs4
+mesh khuzait_castle_wall_a_l1
+mesh khuzait_castle_wall_a_l1_01
+mesh khuzait_castle_wall_a_l1_02
+mesh khuzait_castle_wall_a_l1_03
+mesh khuzait_castle_wall_a_l1_04
+mesh khuzait_castle_wall_a_l1_05
+mesh khuzait_castle_wall_a_l1_06
+mesh khuzait_castle_wall_a_l1_07
 mesh khuzait_dagger_guard_6
 mesh khuzait_grandbazaar_big_wall_b
 mesh khuzait_grandbazaar_ground_b
@@ -979,6 +1008,7 @@ mesh kitchen_bowl_c
 mesh kitchen_bowl_fish
 mesh kitchen_bowl_stew_a
 mesh kitchen_chopping_board_b
+mesh kitchen_cover_a
 mesh kitchen_cutting_food_bread
 mesh kitchen_cutting_food_meat
 mesh kitchen_cutting_food_meat_b
@@ -1027,6 +1057,9 @@ mesh log_bench_default_c
 mesh log_bench_default_d
 mesh log_pine_a
 mesh log_pine_group_a
+mesh log_pine_group_i
+mesh log_pine_group_l
+mesh log_pine_h
 mesh log_pine_i
 mesh log_pine_j
 mesh log_pine_m
@@ -1192,6 +1225,7 @@ mesh plant_dry_grass_a
 mesh pot_break_a
 mesh pot_break_b
 mesh pot_break_c
+mesh pottery_c5
 mesh pushdistance_spawner_ghost
 mesh pushfork_spawner_ghost
 mesh ribs
@@ -1396,6 +1430,7 @@ mesh sturgia_grandbazaar_stone_fence_c
 mesh sturgia_old_shield_b
 mesh sturgia_old_shield_c
 mesh sturgia_shield_a
+mesh sturgia_stone_b
 mesh sturgia_town_house_f_shed
 mesh sturgia_town_house_g_shed_a
 mesh sturgia_town_house_part_storage_b
